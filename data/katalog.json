@@ -1,0 +1,4848 @@
+{
+ "stand": "2026-09-30",
+ "quelle": "Airtable-Snapshot",
+ "geraete": [
+  {
+   "id": "recUp80KbqMvKrk1X",
+   "name": "Barista 200 ES 5",
+   "typ": "Kaffeeversorgung",
+   "hersteller": "Evoca",
+   "kauf": 3300,
+   "m36": 106.25,
+   "m48": 83.59,
+   "m60": 70.62,
+   "zubehoer": [
+    "recU7MCXmXARfg8aH",
+    "rec2LmSRO9T7NtTU5",
+    "recZ9IrKRPCj5NuMH",
+    "rec2nKm62yBdCXCmr",
+    "recWsC2BQb3wQNYCz",
+    "recOkUKX6bBHAAiUY",
+    "recWP4xjn3DlTpIuJ",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recYPvUlQlbvQlNyt",
+    "recqhj7kb1bU7wuqa",
+    "recGuDwA6Ojy9D6la",
+    "recaUHNp5QegpNYME",
+    "recVd8SmqxPOf3O4I",
+    "recE6kyHZgzVZKvPT",
+    "rechp0o6Ye3iHDW37",
+    "recGt3yvESJPTNeag",
+    "recj6Np7uXY6FXhzF",
+    "recJqaWvqbYzvgbmp",
+    "recjyXwpSXk5UUjAq",
+    "recHiIfEPYGwW5w3V",
+    "recXTkYjLnSUS1lLT"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recDOASqMO5z3ikBo",
+   "name": "Barista 500 One Black Touch ES",
+   "typ": "Kaffeeversorgung",
+   "hersteller": "Evoca",
+   "kauf": 5700,
+   "m36": 183.52,
+   "m48": 144.38,
+   "m60": 121.98,
+   "zubehoer": [
+    "recWP4xjn3DlTpIuJ",
+    "recZ9IrKRPCj5NuMH",
+    "recRZbePs0spW8QuL",
+    "recaUHNp5QegpNYME",
+    "recVd8SmqxPOf3O4I",
+    "recGt3yvESJPTNeag",
+    "recAyC9s1DBgjgNmP",
+    "recJqaWvqbYzvgbmp",
+    "recfeEVObZN8C2kgw"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recNjeO7LKQnmdIUo",
+   "name": "Barista 500 Pro Touch ES 7",
+   "typ": "Kaffeeversorgung",
+   "hersteller": "Evoca",
+   "kauf": 8625,
+   "m36": 277.7,
+   "m48": 218.47,
+   "m60": 184.58,
+   "zubehoer": [
+    "recWP4xjn3DlTpIuJ",
+    "recZ9IrKRPCj5NuMH",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recaUHNp5QegpNYME",
+    "recVd8SmqxPOf3O4I",
+    "recGt3yvESJPTNeag"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "rec1tuTEqcEuVy41y",
+   "name": "G100 2ES 3RM",
+   "typ": "Kaffeeversorgung",
+   "hersteller": "Saeco",
+   "kauf": 6180,
+   "m36": 198.98,
+   "m48": 156.54,
+   "m60": 132.25,
+   "zubehoer": [
+    "recWP4xjn3DlTpIuJ",
+    "recU7MCXmXARfg8aH",
+    "rec2LmSRO9T7NtTU5",
+    "recjyXwpSXk5UUjAq",
+    "reczSUkvto6tDkSDB",
+    "reciRlhWRs073FhtG",
+    "recpHAgd1kdCKsW4T",
+    "recZ9IrKRPCj5NuMH",
+    "rec2nKm62yBdCXCmr",
+    "recWsC2BQb3wQNYCz",
+    "recOkUKX6bBHAAiUY",
+    "recydQjE9FkC2MERm",
+    "recEIpMonMDM5Nrax",
+    "recxlZX7NYxAOyfzE",
+    "recHj5xwwv1PxFr0y",
+    "recOz45iDlGe4iKdA",
+    "recqwpdmvOsENVaSr",
+    "recdH5gwhsQeto5wT",
+    "rec5OlofWAcYQZtlJ",
+    "rec49Nq2agMgrxjW7",
+    "recGt3yvESJPTNeag",
+    "recLqYswCjf2XqEs0",
+    "recS87zQXflUGO01o",
+    "rectEyQw6xX4vkEqs",
+    "recP9tVnowcXou9tf",
+    "recJhddcPHHC2F8T4",
+    "recEiY0CTvFP22kU0",
+    "recZJQ2TmIhmyeuZ8",
+    "reczUqArAeHkOR171",
+    "recqjZCEDoRnR0bPI",
+    "rec9C85AMtFrsdErC",
+    "recXlInQcbAiG5ULA",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recE6kyHZgzVZKvPT",
+    "recj6Np7uXY6FXhzF",
+    "rec9MBhC3Fhp4deHg",
+    "recXTkYjLnSUS1lLT"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recLaXBngTYYRQTwp",
+   "name": "G100 ES 2R",
+   "typ": "Kaffeeversorgung",
+   "hersteller": "Evoca",
+   "kauf": 4020,
+   "m36": 129.43,
+   "m48": 101.83,
+   "m60": 86.03,
+   "zubehoer": [
+    "recU7MCXmXARfg8aH",
+    "rec2LmSRO9T7NtTU5",
+    "recjyXwpSXk5UUjAq",
+    "reczSUkvto6tDkSDB",
+    "reciRlhWRs073FhtG",
+    "recpHAgd1kdCKsW4T",
+    "recZ9IrKRPCj5NuMH",
+    "rec2nKm62yBdCXCmr",
+    "recWsC2BQb3wQNYCz",
+    "recOkUKX6bBHAAiUY",
+    "recydQjE9FkC2MERm",
+    "recEIpMonMDM5Nrax",
+    "recxlZX7NYxAOyfzE",
+    "recHj5xwwv1PxFr0y",
+    "recOz45iDlGe4iKdA",
+    "recqwpdmvOsENVaSr",
+    "recdH5gwhsQeto5wT",
+    "rec5OlofWAcYQZtlJ",
+    "rec49Nq2agMgrxjW7",
+    "recGt3yvESJPTNeag",
+    "recLqYswCjf2XqEs0",
+    "recS87zQXflUGO01o",
+    "rectEyQw6xX4vkEqs",
+    "recP9tVnowcXou9tf",
+    "recJhddcPHHC2F8T4",
+    "recWP4xjn3DlTpIuJ",
+    "recXlInQcbAiG5ULA",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recE6kyHZgzVZKvPT",
+    "recj6Np7uXY6FXhzF",
+    "rec9MBhC3Fhp4deHg",
+    "recqjZCEDoRnR0bPI",
+    "recXTkYjLnSUS1lLT"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recE8pUfEpbtLJBJP",
+   "name": "G100 ES 2RM",
+   "typ": "Kaffeeversorgung",
+   "hersteller": "Evoca",
+   "kauf": 5450,
+   "m36": 175.47,
+   "m48": 138.05,
+   "m60": 116.63,
+   "zubehoer": [
+    "recU7MCXmXARfg8aH",
+    "rec2LmSRO9T7NtTU5",
+    "recjyXwpSXk5UUjAq",
+    "reczSUkvto6tDkSDB",
+    "reciRlhWRs073FhtG",
+    "recpHAgd1kdCKsW4T",
+    "recZ9IrKRPCj5NuMH",
+    "rec2nKm62yBdCXCmr",
+    "recWsC2BQb3wQNYCz",
+    "recOkUKX6bBHAAiUY",
+    "recydQjE9FkC2MERm",
+    "recEIpMonMDM5Nrax",
+    "recxlZX7NYxAOyfzE",
+    "recHj5xwwv1PxFr0y",
+    "recOz45iDlGe4iKdA",
+    "recqwpdmvOsENVaSr",
+    "recdH5gwhsQeto5wT",
+    "rec5OlofWAcYQZtlJ",
+    "rec49Nq2agMgrxjW7",
+    "recGt3yvESJPTNeag",
+    "recLqYswCjf2XqEs0",
+    "recS87zQXflUGO01o",
+    "rectEyQw6xX4vkEqs",
+    "recP9tVnowcXou9tf",
+    "recJhddcPHHC2F8T4",
+    "recEiY0CTvFP22kU0",
+    "recZJQ2TmIhmyeuZ8",
+    "reczUqArAeHkOR171",
+    "recqjZCEDoRnR0bPI",
+    "rec9C85AMtFrsdErC",
+    "recWP4xjn3DlTpIuJ",
+    "recXlInQcbAiG5ULA",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recE6kyHZgzVZKvPT",
+    "recj6Np7uXY6FXhzF",
+    "rec9MBhC3Fhp4deHg",
+    "recXTkYjLnSUS1lLT"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "reci8OoGr1P9ESdKj",
+   "name": "G100 ES 3R",
+   "typ": "Kaffeeversorgung",
+   "hersteller": "Evoca",
+   "kauf": 4510,
+   "m36": 145.21,
+   "m48": 114.24,
+   "m60": 96.51,
+   "zubehoer": [
+    "recU7MCXmXARfg8aH",
+    "rec2LmSRO9T7NtTU5",
+    "recjyXwpSXk5UUjAq",
+    "reczSUkvto6tDkSDB",
+    "reciRlhWRs073FhtG",
+    "recpHAgd1kdCKsW4T",
+    "recZ9IrKRPCj5NuMH",
+    "rec2nKm62yBdCXCmr",
+    "recWsC2BQb3wQNYCz",
+    "recOkUKX6bBHAAiUY",
+    "recydQjE9FkC2MERm",
+    "recEIpMonMDM5Nrax",
+    "recxlZX7NYxAOyfzE",
+    "recHj5xwwv1PxFr0y",
+    "recOz45iDlGe4iKdA",
+    "recqwpdmvOsENVaSr",
+    "recdH5gwhsQeto5wT",
+    "rec5OlofWAcYQZtlJ",
+    "rec49Nq2agMgrxjW7",
+    "recGt3yvESJPTNeag",
+    "recLqYswCjf2XqEs0",
+    "recS87zQXflUGO01o",
+    "rectEyQw6xX4vkEqs",
+    "recP9tVnowcXou9tf",
+    "recJhddcPHHC2F8T4",
+    "recWP4xjn3DlTpIuJ",
+    "recXlInQcbAiG5ULA",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recE6kyHZgzVZKvPT",
+    "recj6Np7uXY6FXhzF",
+    "rec9MBhC3Fhp4deHg",
+    "recqjZCEDoRnR0bPI",
+    "recXTkYjLnSUS1lLT"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recW5mz8B3cBHHhZd",
+   "name": "G100 ES 3RM",
+   "typ": "Kaffeeversorgung",
+   "hersteller": "Evoca",
+   "kauf": 5940,
+   "m36": 191.25,
+   "m48": 150.46,
+   "m60": 127.12,
+   "zubehoer": [
+    "recU7MCXmXARfg8aH",
+    "rec2LmSRO9T7NtTU5",
+    "recjyXwpSXk5UUjAq",
+    "reczSUkvto6tDkSDB",
+    "reciRlhWRs073FhtG",
+    "recpHAgd1kdCKsW4T",
+    "recZ9IrKRPCj5NuMH",
+    "rec2nKm62yBdCXCmr",
+    "recWsC2BQb3wQNYCz",
+    "recOkUKX6bBHAAiUY",
+    "recydQjE9FkC2MERm",
+    "recEIpMonMDM5Nrax",
+    "recxlZX7NYxAOyfzE",
+    "recHj5xwwv1PxFr0y",
+    "recOz45iDlGe4iKdA",
+    "recqwpdmvOsENVaSr",
+    "recdH5gwhsQeto5wT",
+    "rec5OlofWAcYQZtlJ",
+    "rec49Nq2agMgrxjW7",
+    "recGt3yvESJPTNeag",
+    "recLqYswCjf2XqEs0",
+    "recS87zQXflUGO01o",
+    "rectEyQw6xX4vkEqs",
+    "recP9tVnowcXou9tf",
+    "recJhddcPHHC2F8T4",
+    "recEiY0CTvFP22kU0",
+    "recZJQ2TmIhmyeuZ8",
+    "reczUqArAeHkOR171",
+    "recqjZCEDoRnR0bPI",
+    "rec9C85AMtFrsdErC",
+    "recWP4xjn3DlTpIuJ",
+    "recXlInQcbAiG5ULA",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recE6kyHZgzVZKvPT",
+    "recj6Np7uXY6FXhzF",
+    "rec9MBhC3Fhp4deHg",
+    "recXTkYjLnSUS1lLT"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recagMSYHgKaEF1LI",
+   "name": "G300 Krea ES4R",
+   "typ": "Kaffeeversorgung",
+   "hersteller": "Evoca",
+   "kauf": 5840,
+   "m36": 188.03,
+   "m48": 147.93,
+   "m60": 124.98,
+   "zubehoer": [
+    "recU7MCXmXARfg8aH",
+    "rec2LmSRO9T7NtTU5",
+    "recjyXwpSXk5UUjAq",
+    "reczSUkvto6tDkSDB",
+    "reciRlhWRs073FhtG",
+    "recpHAgd1kdCKsW4T",
+    "recZ9IrKRPCj5NuMH",
+    "rec2nKm62yBdCXCmr",
+    "recWsC2BQb3wQNYCz",
+    "recOkUKX6bBHAAiUY",
+    "recydQjE9FkC2MERm",
+    "recEIpMonMDM5Nrax",
+    "recOz45iDlGe4iKdA",
+    "recqwpdmvOsENVaSr",
+    "recZNNIJtMtOeDKlR",
+    "recl3QCQLUJ6aUWY3",
+    "recslRbCh8aXwVto4",
+    "recXTuDJNyti0WXOh",
+    "recOfAeBPklLz3fir",
+    "reco84guouUh5Jssn",
+    "recWP4xjn3DlTpIuJ",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recE6kyHZgzVZKvPT",
+    "recGt3yvESJPTNeag",
+    "recj6Np7uXY6FXhzF",
+    "recbOzZC8nNuUm6GM",
+    "recXTkYjLnSUS1lLT"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recj57vFAYnUTqvlT",
+   "name": "G50 ES+2IN FW",
+   "typ": "Kaffeeversorgung",
+   "hersteller": "Evoca",
+   "kauf": 3050,
+   "m36": 98.2,
+   "m48": 77.26,
+   "m60": 65.27,
+   "zubehoer": [
+    "rec2nKm62yBdCXCmr"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recT3ifph5B8LieZg",
+   "name": "G500 Kalea 2ES3R7M",
+   "typ": "Kaffeeversorgung",
+   "hersteller": "Evoca",
+   "kauf": 11440,
+   "m36": 368.34,
+   "m48": 289.78,
+   "m60": 244.82,
+   "zubehoer": [
+    "recEIpMonMDM5Nrax",
+    "recOz45iDlGe4iKdA",
+    "recqwpdmvOsENVaSr",
+    "recFKwdfHqKsB8uyW",
+    "recEiY0CTvFP22kU0",
+    "recZJQ2TmIhmyeuZ8",
+    "reczUqArAeHkOR171",
+    "recqjZCEDoRnR0bPI",
+    "rec9C85AMtFrsdErC",
+    "recTTW3pBio8xWjTA",
+    "recnWnlOGZ9XvGUQl",
+    "rec6YKf0APQ6Ki3Vl",
+    "recpZA3Q6p5FrKSBO",
+    "recU7MCXmXARfg8aH",
+    "recjyXwpSXk5UUjAq",
+    "reczSUkvto6tDkSDB",
+    "reciRlhWRs073FhtG",
+    "rec2LmSRO9T7NtTU5",
+    "recWP4xjn3DlTpIuJ",
+    "recZ9IrKRPCj5NuMH",
+    "recWsC2BQb3wQNYCz",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recGt3yvESJPTNeag",
+    "recj6Np7uXY6FXhzF",
+    "recXTkYjLnSUS1lLT",
+    "rec2nKm62yBdCXCmr"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "rec52S9sDTiJ4Qm7g",
+   "name": "G500 Kalea ES3R7M",
+   "typ": "Kaffeeversorgung",
+   "hersteller": "Evoca",
+   "kauf": 11020,
+   "m36": 354.81,
+   "m48": 279.14,
+   "m60": 235.83,
+   "zubehoer": [
+    "recU7MCXmXARfg8aH",
+    "rec2LmSRO9T7NtTU5",
+    "recjyXwpSXk5UUjAq",
+    "reczSUkvto6tDkSDB",
+    "reciRlhWRs073FhtG",
+    "recpHAgd1kdCKsW4T",
+    "recZ9IrKRPCj5NuMH",
+    "rec2nKm62yBdCXCmr",
+    "recWsC2BQb3wQNYCz",
+    "recOkUKX6bBHAAiUY",
+    "recydQjE9FkC2MERm",
+    "recEIpMonMDM5Nrax",
+    "recOz45iDlGe4iKdA",
+    "recqwpdmvOsENVaSr",
+    "recFKwdfHqKsB8uyW",
+    "recEiY0CTvFP22kU0",
+    "recZJQ2TmIhmyeuZ8",
+    "reczUqArAeHkOR171",
+    "recqjZCEDoRnR0bPI",
+    "rec9C85AMtFrsdErC",
+    "recTTW3pBio8xWjTA",
+    "recnWnlOGZ9XvGUQl",
+    "rec6YKf0APQ6Ki3Vl",
+    "recpZA3Q6p5FrKSBO",
+    "recWP4xjn3DlTpIuJ",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recGt3yvESJPTNeag",
+    "recj6Np7uXY6FXhzF",
+    "recXTkYjLnSUS1lLT"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "rec39tZqqUCgzg0u7",
+   "name": "G700 2ES3RM (9P0705)",
+   "typ": "Kaffeeversorgung",
+   "hersteller": "Evoca",
+   "kauf": 14220,
+   "m36": 457.84,
+   "m48": 360.19,
+   "m60": 304.31,
+   "zubehoer": [
+    "recydQjE9FkC2MERm",
+    "recEIpMonMDM5Nrax",
+    "recOz45iDlGe4iKdA",
+    "recqwpdmvOsENVaSr",
+    "recRK8rI8zkrXR0C6",
+    "recqBCpGzrUG3afBR",
+    "recjH1Q8D9D0f7Orq",
+    "recptZMM2CGLYGfVx",
+    "recTTW3pBio8xWjTA",
+    "recnWnlOGZ9XvGUQl",
+    "rec6YKf0APQ6Ki3Vl",
+    "recpZA3Q6p5FrKSBO",
+    "recU7MCXmXARfg8aH",
+    "recjyXwpSXk5UUjAq",
+    "reczSUkvto6tDkSDB",
+    "reciRlhWRs073FhtG",
+    "rec2LmSRO9T7NtTU5",
+    "recWP4xjn3DlTpIuJ",
+    "recZ9IrKRPCj5NuMH",
+    "recWsC2BQb3wQNYCz",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recCUVTFqLulpyjRG",
+    "recGt3yvESJPTNeag",
+    "recj6Np7uXY6FXhzF",
+    "recXTkYjLnSUS1lLT",
+    "rec2nKm62yBdCXCmr"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recE8BY7ANEh9Zl8C",
+   "name": "G700 2ES3RM Dual Milk (9P0702)",
+   "typ": "Kaffeeversorgung",
+   "hersteller": "Evoca",
+   "kauf": 14990,
+   "m36": 482.64,
+   "m48": 379.7,
+   "m60": 320.79,
+   "zubehoer": [
+    "recU7MCXmXARfg8aH",
+    "rec2LmSRO9T7NtTU5",
+    "recjyXwpSXk5UUjAq",
+    "reczSUkvto6tDkSDB",
+    "reciRlhWRs073FhtG",
+    "recpHAgd1kdCKsW4T",
+    "recZ9IrKRPCj5NuMH",
+    "rec2nKm62yBdCXCmr",
+    "recWsC2BQb3wQNYCz",
+    "recOkUKX6bBHAAiUY",
+    "recydQjE9FkC2MERm",
+    "recEIpMonMDM5Nrax",
+    "recOz45iDlGe4iKdA",
+    "recqwpdmvOsENVaSr",
+    "recRK8rI8zkrXR0C6",
+    "recqBCpGzrUG3afBR",
+    "recjH1Q8D9D0f7Orq",
+    "recptZMM2CGLYGfVx",
+    "recTTW3pBio8xWjTA",
+    "recnWnlOGZ9XvGUQl",
+    "rec6YKf0APQ6Ki3Vl",
+    "recpZA3Q6p5FrKSBO",
+    "recWP4xjn3DlTpIuJ",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recCUVTFqLulpyjRG",
+    "recGt3yvESJPTNeag",
+    "recj6Np7uXY6FXhzF",
+    "recXTkYjLnSUS1lLT"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "rec0VcXOAKjQNlE6m",
+   "name": "GS MasterBrew 2B2C",
+   "typ": "Kaffeeversorgung",
+   "hersteller": "Evoca",
+   "kauf": 7760,
+   "m36": 249.85,
+   "m48": 196.56,
+   "m60": 166.06,
+   "zubehoer": [
+    "recU7MCXmXARfg8aH",
+    "recjyXwpSXk5UUjAq",
+    "reczSUkvto6tDkSDB",
+    "reciRlhWRs073FhtG",
+    "recpHAgd1kdCKsW4T",
+    "recZ9IrKRPCj5NuMH",
+    "rec2nKm62yBdCXCmr",
+    "recWsC2BQb3wQNYCz",
+    "recOkUKX6bBHAAiUY",
+    "recydQjE9FkC2MERm",
+    "recEIpMonMDM5Nrax",
+    "recOz45iDlGe4iKdA",
+    "recqwpdmvOsENVaSr",
+    "rec2Qcxz2rQUze6gh",
+    "recogwfxU2NZuecPg",
+    "recNi1JI6mn1lUjRe",
+    "recAIkreM8hZNInci",
+    "rechp0o6Ye3iHDW37",
+    "recY8SACbnoFI3roy",
+    "reclPYBoIJ2ucIxLw",
+    "reciF25DChprw0roT",
+    "rec2LmSRO9T7NtTU5",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recGt3yvESJPTNeag",
+    "recj6Np7uXY6FXhzF",
+    "recWP4xjn3DlTpIuJ",
+    "recXTkYjLnSUS1lLT"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recdbjJwsKJfwCtSw",
+   "name": "GS MasterBrew B2C",
+   "typ": "Kaffeeversorgung",
+   "hersteller": "Evoca",
+   "kauf": 7494,
+   "m36": 241.29,
+   "m48": 189.82,
+   "m60": 160.37,
+   "zubehoer": [
+    "recydQjE9FkC2MERm",
+    "recEIpMonMDM5Nrax",
+    "recOz45iDlGe4iKdA",
+    "recqwpdmvOsENVaSr",
+    "rec2Qcxz2rQUze6gh",
+    "recogwfxU2NZuecPg",
+    "recNi1JI6mn1lUjRe",
+    "recAIkreM8hZNInci",
+    "rechp0o6Ye3iHDW37",
+    "recY8SACbnoFI3roy",
+    "reclPYBoIJ2ucIxLw",
+    "reciF25DChprw0roT",
+    "reciRlhWRs073FhtG",
+    "rec2LmSRO9T7NtTU5",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recZ9IrKRPCj5NuMH",
+    "recGt3yvESJPTNeag",
+    "recj6Np7uXY6FXhzF",
+    "recWP4xjn3DlTpIuJ",
+    "recXTkYjLnSUS1lLT"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "rec9TFonziO2AKiI5",
+   "name": "Magic B2",
+   "typ": "Kaffeeversorgung",
+   "hersteller": "Saeco",
+   "kauf": 1889,
+   "m36": 60.82,
+   "m48": 47.85,
+   "m60": 40.42,
+   "zubehoer": [
+    "recWP4xjn3DlTpIuJ",
+    "rec2LmSRO9T7NtTU5",
+    "recjyXwpSXk5UUjAq",
+    "reczSUkvto6tDkSDB",
+    "reciRlhWRs073FhtG",
+    "recpHAgd1kdCKsW4T",
+    "recZ9IrKRPCj5NuMH",
+    "rec2nKm62yBdCXCmr",
+    "recWsC2BQb3wQNYCz",
+    "recOkUKX6bBHAAiUY",
+    "recydQjE9FkC2MERm",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recj6Np7uXY6FXhzF"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recKkIQ2MsielKe6Q",
+   "name": "Magic B2+",
+   "typ": "Kaffeeversorgung",
+   "hersteller": "Saeco",
+   "kauf": 2184,
+   "m36": 70.32,
+   "m48": 55.32,
+   "m60": 46.74,
+   "zubehoer": [
+    "recWP4xjn3DlTpIuJ",
+    "rec2LmSRO9T7NtTU5",
+    "recjyXwpSXk5UUjAq",
+    "reczSUkvto6tDkSDB",
+    "reciRlhWRs073FhtG",
+    "recpHAgd1kdCKsW4T",
+    "recZ9IrKRPCj5NuMH",
+    "rec2nKm62yBdCXCmr",
+    "recWsC2BQb3wQNYCz",
+    "recOkUKX6bBHAAiUY",
+    "recydQjE9FkC2MERm",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recj6Np7uXY6FXhzF"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "rectkYocKy0S0dzYe",
+   "name": "Magic M2",
+   "typ": "Kaffeeversorgung",
+   "hersteller": "Evoca",
+   "kauf": 2227,
+   "m36": 71.7,
+   "m48": 56.41,
+   "m60": 47.66,
+   "zubehoer": [
+    "rec2LmSRO9T7NtTU5",
+    "recjyXwpSXk5UUjAq",
+    "reczSUkvto6tDkSDB",
+    "reciRlhWRs073FhtG",
+    "recpHAgd1kdCKsW4T",
+    "recZ9IrKRPCj5NuMH",
+    "rec2nKm62yBdCXCmr",
+    "recWsC2BQb3wQNYCz",
+    "recOkUKX6bBHAAiUY",
+    "recydQjE9FkC2MERm",
+    "recEiY0CTvFP22kU0",
+    "recZJQ2TmIhmyeuZ8",
+    "reczUqArAeHkOR171",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recj6Np7uXY6FXhzF",
+    "recXrsQlMi5RbhVov"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "rec2ZNdarBUCRzpvh",
+   "name": "Magic M2+",
+   "typ": "Kaffeeversorgung",
+   "hersteller": "Saeco",
+   "kauf": 2520,
+   "m36": 81.14,
+   "m48": 63.83,
+   "m60": 53.93,
+   "zubehoer": [
+    "recWP4xjn3DlTpIuJ",
+    "rec2LmSRO9T7NtTU5",
+    "recjyXwpSXk5UUjAq",
+    "reczSUkvto6tDkSDB",
+    "reciRlhWRs073FhtG",
+    "recpHAgd1kdCKsW4T",
+    "recZ9IrKRPCj5NuMH",
+    "rec2nKm62yBdCXCmr",
+    "recWsC2BQb3wQNYCz",
+    "recOkUKX6bBHAAiUY",
+    "recydQjE9FkC2MERm",
+    "recOz45iDlGe4iKdA",
+    "recqwpdmvOsENVaSr",
+    "recEiY0CTvFP22kU0",
+    "recZJQ2TmIhmyeuZ8",
+    "reczUqArAeHkOR171",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recj6Np7uXY6FXhzF",
+    "recXrsQlMi5RbhVov"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "reccKMsEvbiI3w3GS",
+   "name": "Vitro S1 Classic V20 - FW",
+   "typ": "Kaffeeversorgung",
+   "hersteller": "Azkoyen",
+   "kauf": 2635,
+   "m36": 84.84,
+   "m48": 66.74,
+   "m60": 56.39,
+   "zubehoer": [
+    "recZdELhdk9Zkm8Mq",
+    "recU7MCXmXARfg8aH",
+    "recjyXwpSXk5UUjAq",
+    "reciRlhWRs073FhtG",
+    "reczSUkvto6tDkSDB",
+    "recpHAgd1kdCKsW4T",
+    "rec2LmSRO9T7NtTU5",
+    "recZ9IrKRPCj5NuMH",
+    "recj6Np7uXY6FXhzF",
+    "receZKE7YGNSMtiQf",
+    "recWlYOgeC3jhjgeB",
+    "recXTkYjLnSUS1lLT"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recljGAi66JW8Sspa",
+   "name": "Vitro S1 Classic V20 - Tank",
+   "typ": "Kaffeeversorgung",
+   "hersteller": "Azkoyen",
+   "kauf": 2625,
+   "m36": 84.52,
+   "m48": 66.49,
+   "m60": 56.18,
+   "zubehoer": [
+    "reccYucmhwENYx2tw",
+    "recydQjE9FkC2MERm",
+    "recEIpMonMDM5Nrax",
+    "recWsC2BQb3wQNYCz",
+    "recN4Jupr0BQznqN0",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recZdELhdk9Zkm8Mq",
+    "recU7MCXmXARfg8aH",
+    "recjyXwpSXk5UUjAq",
+    "reciRlhWRs073FhtG",
+    "reczSUkvto6tDkSDB",
+    "recpHAgd1kdCKsW4T",
+    "rec2LmSRO9T7NtTU5",
+    "recZ9IrKRPCj5NuMH",
+    "recj6Np7uXY6FXhzF",
+    "receZKE7YGNSMtiQf",
+    "recWlYOgeC3jhjgeB",
+    "recXTkYjLnSUS1lLT"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recSDOf1LexeX671Z",
+   "name": "Vitro S1 EVO V20 - FW",
+   "typ": "Kaffeeversorgung",
+   "hersteller": "Azkoyen",
+   "kauf": 2816,
+   "m36": 90.67,
+   "m48": 71.33,
+   "m60": 60.26,
+   "zubehoer": [
+    "recZdELhdk9Zkm8Mq",
+    "recU7MCXmXARfg8aH",
+    "recjyXwpSXk5UUjAq",
+    "reciRlhWRs073FhtG",
+    "reczSUkvto6tDkSDB",
+    "recpHAgd1kdCKsW4T",
+    "rec2LmSRO9T7NtTU5",
+    "recZ9IrKRPCj5NuMH",
+    "recE6kyHZgzVZKvPT",
+    "recfeEVObZN8C2kgw",
+    "recJqaWvqbYzvgbmp",
+    "recj6Np7uXY6FXhzF",
+    "reccYucmhwENYx2tw",
+    "receZKE7YGNSMtiQf",
+    "recWlYOgeC3jhjgeB",
+    "rec2nKm62yBdCXCmr",
+    "recXTkYjLnSUS1lLT"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recR4sKFVIL0xGHES",
+   "name": "Vitro S1 EVO V20 - Tank",
+   "typ": "Kaffeeversorgung",
+   "hersteller": "Azkoyen",
+   "kauf": 2780,
+   "m36": 89.51,
+   "m48": 70.42,
+   "m60": 59.49,
+   "zubehoer": [
+    "recZdELhdk9Zkm8Mq",
+    "recU7MCXmXARfg8aH",
+    "recjyXwpSXk5UUjAq",
+    "reciRlhWRs073FhtG",
+    "reczSUkvto6tDkSDB",
+    "recpHAgd1kdCKsW4T",
+    "rec2LmSRO9T7NtTU5",
+    "recZ9IrKRPCj5NuMH",
+    "recJqaWvqbYzvgbmp",
+    "recj6Np7uXY6FXhzF",
+    "recWlYOgeC3jhjgeB",
+    "rec2nKm62yBdCXCmr",
+    "recXTkYjLnSUS1lLT"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recRr0LESLIMgLPNh",
+   "name": "Animo (generalüberholt)",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 3000,
+   "m36": 96.59,
+   "m48": 75.99,
+   "m60": 64.2,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "recLaYjrZEbAMUC91",
+   "name": "B&C Design Flexstack CFX",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 5700,
+   "m36": 183.52,
+   "m48": 144.38,
+   "m60": 121.98,
+   "zubehoer": [
+    "recVd8SmqxPOf3O4I",
+    "recaUHNp5QegpNYME",
+    "recZ9IrKRPCj5NuMH",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recxeOIjLwkbEFHl0",
+   "name": "B&C Design Narrowstack 6 (XS-C36)",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 4240,
+   "m36": 136.52,
+   "m48": 107.4,
+   "m60": 90.74,
+   "zubehoer": [
+    "recVd8SmqxPOf3O4I",
+    "recaUHNp5QegpNYME",
+    "recZ9IrKRPCj5NuMH",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "rec56WrVneaGF2GKV",
+   "name": "B&C Design Narrowstack 7 (S-C37)",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 4500,
+   "m36": 144.89,
+   "m48": 113.99,
+   "m60": 96.3,
+   "zubehoer": [
+    "recVd8SmqxPOf3O4I",
+    "recaUHNp5QegpNYME",
+    "recZ9IrKRPCj5NuMH",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recRT92VxoMcPWTGx",
+   "name": "B&C Design Narrowstack 8 (M-C48)",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 4740,
+   "m36": 152.61,
+   "m48": 120.06,
+   "m60": 101.44,
+   "zubehoer": [
+    "recVd8SmqxPOf3O4I",
+    "recaUHNp5QegpNYME",
+    "recZ9IrKRPCj5NuMH",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recFD4P72h5LUGWvQ",
+   "name": "B&C Design Superstack C26",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 4750,
+   "m36": 152.94,
+   "m48": 120.32,
+   "m60": 101.65,
+   "zubehoer": [
+    "recVd8SmqxPOf3O4I",
+    "recaUHNp5QegpNYME",
+    "recZ9IrKRPCj5NuMH",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recCrzvgQH5GUuEaF",
+   "name": "Brain Master Terminal MMV",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 5245,
+   "m36": 168.87,
+   "m48": 132.86,
+   "m60": 112.24,
+   "zubehoer": [
+    "recVd8SmqxPOf3O4I",
+    "recWP4xjn3DlTpIuJ",
+    "recfeEVObZN8C2kgw",
+    "recRZbePs0spW8QuL",
+    "recaUHNp5QegpNYME"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recP1JscDHFQtlSrq",
+   "name": "G-Drink DM6 Metall Panel",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 6710,
+   "m36": 216.04,
+   "m48": 169.96,
+   "m60": 143.59,
+   "zubehoer": [
+    "recVd8SmqxPOf3O4I",
+    "recaUHNp5QegpNYME",
+    "recZ9IrKRPCj5NuMH",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recFAGA2rnf99NWVF",
+   "name": "G-Drink DM6 OD Metall Panel",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 8240,
+   "m36": 265.31,
+   "m48": 208.72,
+   "m60": 176.34,
+   "zubehoer": [
+    "recVd8SmqxPOf3O4I",
+    "recaUHNp5QegpNYME",
+    "recZ9IrKRPCj5NuMH",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recmlyOwlh9T5OpNw",
+   "name": "G-Drink DM9 Metall Panel",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 7165,
+   "m36": 230.69,
+   "m48": 181.49,
+   "m60": 153.33,
+   "zubehoer": [
+    "recVd8SmqxPOf3O4I",
+    "recaUHNp5QegpNYME",
+    "recZ9IrKRPCj5NuMH",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recqqcy455dhm2XB4",
+   "name": "G-Drink DM9 OD Metall Panel",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 8640,
+   "m36": 278.18,
+   "m48": 218.85,
+   "m60": 184.9,
+   "zubehoer": [
+    "recVd8SmqxPOf3O4I",
+    "recaUHNp5QegpNYME",
+    "recZ9IrKRPCj5NuMH",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "rec8fzPQ9K2e3gCfZ",
+   "name": "G-Drink DS 6 Slave",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 6450,
+   "m36": 207.67,
+   "m48": 163.38,
+   "m60": 138.03,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "reckqYwZDkD8EQpAN",
+   "name": "G-Drink DS 9 Slave",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 6900,
+   "m36": 222.16,
+   "m48": 174.78,
+   "m60": 147.66,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "recTjJrHj7tfKPVYH",
+   "name": "G-Drink DT 6 OD Touch",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 8840,
+   "m36": 284.62,
+   "m48": 223.92,
+   "m60": 189.18,
+   "zubehoer": [
+    "recVd8SmqxPOf3O4I",
+    "recWP4xjn3DlTpIuJ",
+    "recfeEVObZN8C2kgw",
+    "recRZbePs0spW8QuL",
+    "recaUHNp5QegpNYME"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recvHfh9uhgrqZvtJ",
+   "name": "G-Drink DT 9 Touch",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 7600,
+   "m36": 244.7,
+   "m48": 192.51,
+   "m60": 162.64,
+   "zubehoer": [
+    "recVd8SmqxPOf3O4I",
+    "recWP4xjn3DlTpIuJ",
+    "recRZbePs0spW8QuL",
+    "recaUHNp5QegpNYME",
+    "recfeEVObZN8C2kgw"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "reczITrbGatICTV4R",
+   "name": "G-Drink DT6 Touch",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 7125,
+   "m36": 229.41,
+   "m48": 180.48,
+   "m60": 152.48,
+   "zubehoer": [
+    "recVd8SmqxPOf3O4I",
+    "recWP4xjn3DlTpIuJ",
+    "recfeEVObZN8C2kgw",
+    "recRZbePs0spW8QuL",
+    "recaUHNp5QegpNYME"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recSVQ0iT7iL8npeZ",
+   "name": "G-Drink DT9 OD Touch",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 9240,
+   "m36": 297.5,
+   "m48": 234.05,
+   "m60": 197.74,
+   "zubehoer": [
+    "recVd8SmqxPOf3O4I",
+    "recWP4xjn3DlTpIuJ",
+    "recfeEVObZN8C2kgw",
+    "recRZbePs0spW8QuL",
+    "recaUHNp5QegpNYME"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recjgmlasn5OZ9A1C",
+   "name": "G-Snack Frozen FF8 Touch ohne Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 11840,
+   "m36": 381.22,
+   "m48": 299.91,
+   "m60": 253.38,
+   "zubehoer": [
+    "recZ9IrKRPCj5NuMH",
+    "recaUHNp5QegpNYME",
+    "recRZbePs0spW8QuL",
+    "recVd8SmqxPOf3O4I",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "reczgPwhlyo20ajO2",
+   "name": "G-Snack Frozen KF8 Slave",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 10950,
+   "m36": 352.56,
+   "m48": 277.36,
+   "m60": 234.33,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "recqEtvqPhG9UmBHM",
+   "name": "G-Snack KS 8 Slave mit Lift für Touch",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 6190,
+   "m36": 199.3,
+   "m48": 156.79,
+   "m60": 132.47,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "recZ215mIYsekPFti",
+   "name": "G-Snack KS 8 Slave ohne Lift für Touch",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 5860,
+   "m36": 188.68,
+   "m48": 148.43,
+   "m60": 125.4,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "recfcBuZQIGxADpAU",
+   "name": "G-Snack KS6 Slave mit Lift für Touch",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 5950,
+   "m36": 191.57,
+   "m48": 150.71,
+   "m60": 127.33,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "recudsBBXsZmntn9L",
+   "name": "G-Snack KS8 OD Slave für Touch mit Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 7950,
+   "m36": 255.97,
+   "m48": 201.37,
+   "m60": 170.13,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "recMcrYj4dR5SOSov",
+   "name": "G-Snack KS8 OD Slave für Touch ohne Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 7250,
+   "m36": 233.43,
+   "m48": 183.64,
+   "m60": 155.15,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "recv7B3CVJiGTWgVz",
+   "name": "G-Snack KSX 10 OD Slave für Touch mit Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 8450,
+   "m36": 272.07,
+   "m48": 214.04,
+   "m60": 180.83,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "rec4811pZZsjIjevh",
+   "name": "G-Snack KSX 10 OD Slave für Touch ohne Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 7750,
+   "m36": 249.53,
+   "m48": 196.31,
+   "m60": 165.85,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "rec6RnwLJA0k98XoN",
+   "name": "G-Snack KSX 10 Slave mit Lift für Touch",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 6690,
+   "m36": 215.4,
+   "m48": 169.46,
+   "m60": 143.17,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "recUm7FjUdn34cVLa",
+   "name": "G-Snack KSX 10 Slave ohne Lift für Touch",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 6195,
+   "m36": 199.46,
+   "m48": 156.92,
+   "m60": 132.57,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "recgiPH6LYSpuDDKa",
+   "name": "G-Snack Slave SSX 10 mit Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 6490,
+   "m36": 208.96,
+   "m48": 164.39,
+   "m60": 138.89,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "recYckn4HK0m5WWeu",
+   "name": "G-Snack Slave SSX 10 ohne Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 5850,
+   "m36": 188.35,
+   "m48": 148.18,
+   "m60": 125.19,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "reczzVSfdABxVkrYw",
+   "name": "G-Snack SLL 12 Metall Panel ohne Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 7840,
+   "m36": 252.43,
+   "m48": 198.59,
+   "m60": 167.78,
+   "zubehoer": [
+    "recVd8SmqxPOf3O4I",
+    "recaUHNp5QegpNYME",
+    "recZ9IrKRPCj5NuMH",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recOxKP5aAb47176S",
+   "name": "G-Snack SM6 Metall Panel mit Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 6500,
+   "m36": 209.28,
+   "m48": 164.65,
+   "m60": 139.1,
+   "zubehoer": [
+    "recVd8SmqxPOf3O4I",
+    "recaUHNp5QegpNYME",
+    "recZ9IrKRPCj5NuMH",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recUTmUh2YDqAZ51v",
+   "name": "G-Snack SM6 Metall Panel ohne Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 5800,
+   "m36": 186.74,
+   "m48": 146.91,
+   "m60": 124.12,
+   "zubehoer": [
+    "recVd8SmqxPOf3O4I",
+    "recaUHNp5QegpNYME",
+    "recZ9IrKRPCj5NuMH",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recdRoTQJ0ClKYGwa",
+   "name": "G-Snack SM6 OD Metall Panel mit Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 8000,
+   "m36": 257.58,
+   "m48": 202.64,
+   "m60": 171.2,
+   "zubehoer": [
+    "recVd8SmqxPOf3O4I",
+    "recaUHNp5QegpNYME",
+    "recZ9IrKRPCj5NuMH",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recwTDBbWLTBSX7oq",
+   "name": "G-Snack SM6 OD Metall Panel ohne Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 7240,
+   "m36": 233.11,
+   "m48": 183.39,
+   "m60": 154.94,
+   "zubehoer": [
+    "recVd8SmqxPOf3O4I",
+    "recaUHNp5QegpNYME",
+    "recZ9IrKRPCj5NuMH",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recrGI3UjZVzYqfeL",
+   "name": "G-Snack SM8 Metall Panel mit Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 6840,
+   "m36": 220.23,
+   "m48": 173.26,
+   "m60": 146.38,
+   "zubehoer": [
+    "recVd8SmqxPOf3O4I",
+    "recaUHNp5QegpNYME",
+    "recZ9IrKRPCj5NuMH",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ",
+    "recU3cC9aBHWxWnep"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recd4xNWO7uKoYAq4",
+   "name": "G-Snack SM8 Metall Panel ohne Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 6400,
+   "m36": 206.06,
+   "m48": 162.11,
+   "m60": 136.96,
+   "zubehoer": [
+    "recWP4xjn3DlTpIuJ",
+    "recZ9IrKRPCj5NuMH",
+    "recVd8SmqxPOf3O4I",
+    "recaUHNp5QegpNYME",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recU3cC9aBHWxWnep"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "rece6o1InwMogZ1s6",
+   "name": "G-Snack SM8 OD Metall Panel mit Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 8600,
+   "m36": 276.9,
+   "m48": 217.84,
+   "m60": 184.04,
+   "zubehoer": [
+    "recVd8SmqxPOf3O4I",
+    "recaUHNp5QegpNYME",
+    "recZ9IrKRPCj5NuMH",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ",
+    "recU3cC9aBHWxWnep"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recBhBDXc893tv6Ab",
+   "name": "G-Snack SM8 OD Metall Panel ohne Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 7990,
+   "m36": 257.26,
+   "m48": 202.39,
+   "m60": 170.99,
+   "zubehoer": [
+    "recVd8SmqxPOf3O4I",
+    "recaUHNp5QegpNYME",
+    "recZ9IrKRPCj5NuMH",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ",
+    "recU3cC9aBHWxWnep"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recz9bdeoEctzgcNa",
+   "name": "G-Snack SMX 10 Metall Panel mit Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 7440,
+   "m36": 239.55,
+   "m48": 188.46,
+   "m60": 159.22,
+   "zubehoer": [
+    "recVd8SmqxPOf3O4I",
+    "recaUHNp5QegpNYME",
+    "recZ9IrKRPCj5NuMH",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ",
+    "recU3cC9aBHWxWnep"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recmWIk7c9yFHUU1s",
+   "name": "G-Snack SMX 10 Metall Panell ohne Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 6700,
+   "m36": 215.72,
+   "m48": 169.71,
+   "m60": 143.38,
+   "zubehoer": [
+    "recVd8SmqxPOf3O4I",
+    "recaUHNp5QegpNYME",
+    "recZ9IrKRPCj5NuMH",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ",
+    "recU3cC9aBHWxWnep"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "reclDWaBVir3eCrRm",
+   "name": "G-Snack SMX 10 OD mit Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 8990,
+   "m36": 289.45,
+   "m48": 227.72,
+   "m60": 192.39,
+   "zubehoer": [
+    "recVd8SmqxPOf3O4I",
+    "recaUHNp5QegpNYME",
+    "recZ9IrKRPCj5NuMH",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ",
+    "recU3cC9aBHWxWnep"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recn2KXlHBwF04xv7",
+   "name": "G-Snack SMX 10 OD ohne Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 8100,
+   "m36": 260.8,
+   "m48": 205.17,
+   "m60": 173.34,
+   "zubehoer": [
+    "recVd8SmqxPOf3O4I",
+    "recaUHNp5QegpNYME",
+    "recZ9IrKRPCj5NuMH",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ",
+    "recU3cC9aBHWxWnep"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recqHqyAIDY7anb9S",
+   "name": "G-Snack SS 8 Slave mit Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 5890,
+   "m36": 189.64,
+   "m48": 149.19,
+   "m60": 126.05,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "recbIXeu9u8YF5pf4",
+   "name": "G-Snack SS6 Slave mit Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 5700,
+   "m36": 183.52,
+   "m48": 144.38,
+   "m60": 121.98,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "recWuqYZxM2KKieCj",
+   "name": "G-Snack SS6 Slave OD mit Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 7290,
+   "m36": 234.72,
+   "m48": 184.66,
+   "m60": 156.01,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "recIX6Xt5r8wjrCPX",
+   "name": "G-Snack SS6 Slave OD ohne Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 6590,
+   "m36": 212.18,
+   "m48": 166.92,
+   "m60": 141.03,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "recpQiGy1wVVie6Qt",
+   "name": "G-Snack SS6 Slave ohne Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 5000,
+   "m36": 160.99,
+   "m48": 126.65,
+   "m60": 107,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "rec4iXhXeVKlITA6q",
+   "name": "G-Snack SS8 OD Slave mit Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 7550,
+   "m36": 243.09,
+   "m48": 191.24,
+   "m60": 161.57,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "rechIEH4BQAzMsDDF",
+   "name": "G-Snack SS8 OD Slave ohne Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 6890,
+   "m36": 221.84,
+   "m48": 174.52,
+   "m60": 147.45,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "recDirpryA6L4j3mS",
+   "name": "G-Snack SS8 Slave ohne Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 5250,
+   "m36": 169.04,
+   "m48": 132.98,
+   "m60": 112.35,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "rec1Xi8CcTX0FPpC6",
+   "name": "G-Snack SSX 10 OD Slave mit Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 8050,
+   "m36": 259.19,
+   "m48": 203.91,
+   "m60": 172.27,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "recX7m6ECYf71Jpqi",
+   "name": "G-Snack SSX 10 OD Slave ohne Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 7390,
+   "m36": 237.94,
+   "m48": 187.19,
+   "m60": 158.15,
+   "zubehoer": [
+    "recfeEVObZN8C2kgw"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recTYfZx0WKXiZIrJ",
+   "name": "G-Snack ST 6 Touch mit Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 6900,
+   "m36": 222.16,
+   "m48": 174.78,
+   "m60": 147.66,
+   "zubehoer": [
+    "recZ9IrKRPCj5NuMH",
+    "recaUHNp5QegpNYME",
+    "recRZbePs0spW8QuL",
+    "recVd8SmqxPOf3O4I",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recLpsL4Nx31mXS1y",
+   "name": "G-Snack ST 6 Touch ohne Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 6300,
+   "m36": 202.84,
+   "m48": 159.58,
+   "m60": 134.82,
+   "zubehoer": [
+    "recZ9IrKRPCj5NuMH",
+    "recaUHNp5QegpNYME",
+    "recRZbePs0spW8QuL",
+    "recVd8SmqxPOf3O4I",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recSncamJXKIhLLg7",
+   "name": "G-Snack ST 8 OD Touch mit Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 9000,
+   "m36": 289.77,
+   "m48": 227.97,
+   "m60": 192.6,
+   "zubehoer": [
+    "recZ9IrKRPCj5NuMH",
+    "recaUHNp5QegpNYME",
+    "recRZbePs0spW8QuL",
+    "recVd8SmqxPOf3O4I",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "rec5vHbrVsknegtYs",
+   "name": "G-Snack ST 8 OD Touch ohne Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 8480,
+   "m36": 273.03,
+   "m48": 214.8,
+   "m60": 181.47,
+   "zubehoer": [
+    "recZ9IrKRPCj5NuMH",
+    "recaUHNp5QegpNYME",
+    "recRZbePs0spW8QuL",
+    "recVd8SmqxPOf3O4I",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recoYCptspu24d3nv",
+   "name": "G-Snack ST 8 Touch mit Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 7440,
+   "m36": 239.55,
+   "m48": 188.46,
+   "m60": 159.22,
+   "zubehoer": [
+    "recZ9IrKRPCj5NuMH",
+    "recaUHNp5QegpNYME",
+    "recRZbePs0spW8QuL",
+    "recVd8SmqxPOf3O4I",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recKLDqX039kPiBKY",
+   "name": "G-Snack ST 8 Touch ohne Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 6990,
+   "m36": 225.06,
+   "m48": 177.06,
+   "m60": 149.59,
+   "zubehoer": [
+    "recZ9IrKRPCj5NuMH",
+    "recaUHNp5QegpNYME",
+    "recRZbePs0spW8QuL",
+    "recVd8SmqxPOf3O4I",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "reci3r46nAONQm7h6",
+   "name": "G-Snack STX 10 OD Touch mit Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 9640,
+   "m36": 310.38,
+   "m48": 244.18,
+   "m60": 206.3,
+   "zubehoer": [
+    "recZ9IrKRPCj5NuMH",
+    "recaUHNp5QegpNYME",
+    "recRZbePs0spW8QuL",
+    "recVd8SmqxPOf3O4I",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recyL1bp835PQn3PL",
+   "name": "G-Snack STX 10 OD Touch ohne Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 9100,
+   "m36": 292.99,
+   "m48": 230.5,
+   "m60": 194.74,
+   "zubehoer": [
+    "recZ9IrKRPCj5NuMH",
+    "recaUHNp5QegpNYME",
+    "recRZbePs0spW8QuL",
+    "recVd8SmqxPOf3O4I",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recxHQ53VxCk0d7Eq",
+   "name": "G-Snack STX 10 Touch mit Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 7940,
+   "m36": 255.65,
+   "m48": 201.12,
+   "m60": 169.92,
+   "zubehoer": [
+    "recZ9IrKRPCj5NuMH",
+    "recaUHNp5QegpNYME",
+    "recRZbePs0spW8QuL",
+    "recVd8SmqxPOf3O4I",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recgr8R7TMx72FjCc",
+   "name": "G-Snack STX 10 Touch ohne Lift",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 7200,
+   "m36": 231.82,
+   "m48": 182.38,
+   "m60": 154.08,
+   "zubehoer": [
+    "recZ9IrKRPCj5NuMH",
+    "recaUHNp5QegpNYME",
+    "recRZbePs0spW8QuL",
+    "recVd8SmqxPOf3O4I",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recDScKUIw1UE8J2j",
+   "name": "Locker Indoor DLCK 18",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 5020,
+   "m36": 161.63,
+   "m48": 127.16,
+   "m60": 107.43,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "recEAoMg8iCpeIlX8",
+   "name": "Locker Indoor DLCK 20",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 4750,
+   "m36": 152.94,
+   "m48": 120.32,
+   "m60": 101.65,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "recyAcGOS7aPHs0Q2",
+   "name": "Locker Indoor DLCK 24",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 4600,
+   "m36": 148.11,
+   "m48": 116.52,
+   "m60": 98.44,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "recuKgMWZknAuzT2u",
+   "name": "Narrowstack L-C4X",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 5700,
+   "m36": 183.52,
+   "m48": 144.38,
+   "m60": 121.98,
+   "zubehoer": [
+    "recaUHNp5QegpNYME",
+    "recRZbePs0spW8QuL",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ",
+    "recVd8SmqxPOf3O4I"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recQeFkc3xSEdV0Sl",
+   "name": "Necta Swing (generalüberholt)",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 3500,
+   "m36": 112.69,
+   "m48": 88.66,
+   "m60": 74.9,
+   "zubehoer": [
+    "recWP4xjn3DlTpIuJ",
+    "recfeEVObZN8C2kgw"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recT8lGjwNNTd3ZdB",
+   "name": "Trommelautomat EASY 6000 Pro",
+   "typ": "Warenautomaten",
+   "hersteller": null,
+   "kauf": 9330,
+   "m36": 300.4,
+   "m48": 236.33,
+   "m60": 199.66,
+   "zubehoer": [
+    "recZ9IrKRPCj5NuMH",
+    "recfeEVObZN8C2kgw",
+    "recWP4xjn3DlTpIuJ",
+    "recVd8SmqxPOf3O4I",
+    "rec7VkrEQeNAsAu7Y"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "reca0q3poPlWF3Z5p",
+   "name": "Aquality C",
+   "typ": "Wasserversorgung",
+   "hersteller": "Cosmetal",
+   "kauf": 1399,
+   "m36": 45.04,
+   "m48": 35.44,
+   "m60": 29.94,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "reclk42eLZ1RMOsmd",
+   "name": "Bar G 45 Box",
+   "typ": "Wasserversorgung",
+   "hersteller": "Zerica",
+   "kauf": 1595,
+   "m36": 51.35,
+   "m48": 40.4,
+   "m60": 34.13,
+   "zubehoer": [
+    "rechrlZBXWO40wmnq",
+    "recDY3YqLpNbj9J9W",
+    "recI9oJPVdbHjapMp",
+    "rec78n8aSh37nMw1z",
+    "rectenstGyZRXAbw6",
+    "recfEnpjLxbUyztIW",
+    "reclO7PqPuCUUxCHY",
+    "recGG8jzp2wfd3pxZ",
+    "recUjhTB0BLm6ClIi",
+    "recHezXL7Ukwik2Tj"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "rec2ATgwwsMTeaIQl",
+   "name": "Blusoda 30",
+   "typ": "Wasserversorgung",
+   "hersteller": "Blupura",
+   "kauf": 1424,
+   "m36": 45.85,
+   "m48": 36.07,
+   "m60": 30.47,
+   "zubehoer": [
+    "recHWQTyHuhsFlTEp",
+    "rec6QdhrR7da6YkHA",
+    "recDY3YqLpNbj9J9W"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recsJGqWAYsVeGZC2",
+   "name": "Blusoda 30 Fizz",
+   "typ": "Wasserversorgung",
+   "hersteller": "Blupura",
+   "kauf": 2152,
+   "m36": 69.29,
+   "m48": 54.51,
+   "m60": 46.05,
+   "zubehoer": [
+    "recHWQTyHuhsFlTEp",
+    "rec6QdhrR7da6YkHA",
+    "rechrlZBXWO40wmnq",
+    "recDY3YqLpNbj9J9W"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recqPuffCaNTCaexY",
+   "name": "Blusoda 30 HOT Fizz",
+   "typ": "Wasserversorgung",
+   "hersteller": "Blupura",
+   "kauf": 2577,
+   "m36": 82.97,
+   "m48": 65.28,
+   "m60": 55.15,
+   "zubehoer": [
+    "recHWQTyHuhsFlTEp"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recDoQdso8u5oN42J",
+   "name": "Blusoda 45 Fizz",
+   "typ": "Wasserversorgung",
+   "hersteller": "Blupura",
+   "kauf": 2566,
+   "m36": 82.62,
+   "m48": 65,
+   "m60": 54.91,
+   "zubehoer": [
+    "recuK2AM91bgt2GZC",
+    "recDY3YqLpNbj9J9W",
+    "rec6QdhrR7da6YkHA"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recTkd0wlxlFGAF1M",
+   "name": "Blusoda Black 30 Fizz",
+   "typ": "Wasserversorgung",
+   "hersteller": "Blupura",
+   "kauf": 2328,
+   "m36": 74.96,
+   "m48": 58.97,
+   "m60": 49.82,
+   "zubehoer": [
+    "reczB0vvhtmTiQkbe"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recGpQsfL2Gb4YX4N",
+   "name": "Blusoda Box 30 FIZZ",
+   "typ": "Wasserversorgung",
+   "hersteller": "Blupura",
+   "kauf": 1782,
+   "m36": 57.38,
+   "m48": 45.14,
+   "m60": 38.13,
+   "zubehoer": [
+    "recwuMjFTCBcy01qu",
+    "recYoQc0ZIF98ROwB",
+    "rec1PdrK8GgpeJWqP",
+    "recVTF1lAiYBYxwoX"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "reckydfZTfsVeCq8P",
+   "name": "Blusoda Box Super Hot 30 FIZZ",
+   "typ": "Wasserversorgung",
+   "hersteller": "Blupura",
+   "kauf": 2711,
+   "m36": 87.29,
+   "m48": 68.67,
+   "m60": 58.02,
+   "zubehoer": [
+    "recN63przGvmAL59a",
+    "recR2BRh9Mf8GygAc",
+    "recVTF1lAiYBYxwoX"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recPtWInfl4f28dCj",
+   "name": "Cool 1 80 Fizz",
+   "typ": "Wasserversorgung",
+   "hersteller": "Blupura",
+   "kauf": 3343,
+   "m36": 107.64,
+   "m48": 84.68,
+   "m60": 71.54,
+   "zubehoer": [
+    "rechrlZBXWO40wmnq",
+    "recDY3YqLpNbj9J9W",
+    "rec6QdhrR7da6YkHA"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recFLcwZLKzDvcnkE",
+   "name": "F-Max CC",
+   "typ": "Wasserversorgung",
+   "hersteller": "Ebac",
+   "kauf": 370,
+   "m36": 11.91,
+   "m48": 9.37,
+   "m60": 7.92,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "recaW5E349JnByTm4",
+   "name": "F-Max HC",
+   "typ": "Wasserversorgung",
+   "hersteller": "Ebac",
+   "kauf": 470,
+   "m36": 15.13,
+   "m48": 11.91,
+   "m60": 10.06,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "recaF06JVsFOMKoM4",
+   "name": "IQ.BIG 2.0 6+3",
+   "typ": "Wasserversorgung",
+   "hersteller": null,
+   "kauf": 9595,
+   "m36": 308.93,
+   "m48": 243.04,
+   "m60": 205.33,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "rect6pOxnIEUE9oky",
+   "name": "M1 OF PRESTIGIO OFFICE",
+   "typ": "Wasserversorgung",
+   "hersteller": null,
+   "kauf": 1956,
+   "m36": 62.98,
+   "m48": 49.55,
+   "m60": 41.86,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "recVdvZRWrA6j0W8k",
+   "name": "M2 OF ELEGANTE OFFICE",
+   "typ": "Wasserversorgung",
+   "hersteller": null,
+   "kauf": 2272,
+   "m36": 73.15,
+   "m48": 57.55,
+   "m60": 48.62,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "recQZ9cXBQ1HbW0fC",
+   "name": "MF 10 UP PRESTIGIO",
+   "typ": "Wasserversorgung",
+   "hersteller": null,
+   "kauf": 1603,
+   "m36": 51.61,
+   "m48": 40.6,
+   "m60": 34.3,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "recu28W8NuSPQgWoe",
+   "name": "MF 20 UP ELEGANTE",
+   "typ": "Wasserversorgung",
+   "hersteller": null,
+   "kauf": 1930,
+   "m36": 62.14,
+   "m48": 48.89,
+   "m60": 41.3,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "recR9m3lqDdd1Qupn",
+   "name": "MF 20 UPH ELEGANTE HOT",
+   "typ": "Wasserversorgung",
+   "hersteller": null,
+   "kauf": 2040,
+   "m36": 65.68,
+   "m48": 51.67,
+   "m60": 43.66,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "recOk7SfJdUXbjXta",
+   "name": "Piccola (generalüberholt)",
+   "typ": "Wasserversorgung",
+   "hersteller": null,
+   "kauf": null,
+   "m36": 0,
+   "m48": 0,
+   "m60": 0,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "recvW1Z7Ymo15ZqTb",
+   "name": "Piccola BOx 15 FiZZ",
+   "typ": "Wasserversorgung",
+   "hersteller": "Blupura",
+   "kauf": 1430,
+   "m36": 46.04,
+   "m48": 36.22,
+   "m60": 30.6,
+   "zubehoer": [
+    "recwuMjFTCBcy01qu",
+    "recYoQc0ZIF98ROwB",
+    "rec1PdrK8GgpeJWqP",
+    "recVTF1lAiYBYxwoX"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recVHSAH4ck14MmK4",
+   "name": "Pureaqua Touch Osmoseanlage",
+   "typ": "Wasserversorgung",
+   "hersteller": null,
+   "kauf": 500,
+   "m36": 16.1,
+   "m48": 12.67,
+   "m60": 10.7,
+   "zubehoer": [],
+   "produktblatt": null
+  },
+  {
+   "id": "rec99ogFncySnMIWT",
+   "name": "Rebel Super Hot 30 Fizz",
+   "typ": "Wasserversorgung",
+   "hersteller": "Blupura",
+   "kauf": 2678,
+   "m36": 86.22,
+   "m48": 67.83,
+   "m60": 57.31,
+   "zubehoer": [
+    "rechrlZBXWO40wmnq",
+    "recqNilmrezNWdVvt"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "rec80BaGZD76iEdtP",
+   "name": "Rock Super Hot 30 Fizz",
+   "typ": "Wasserversorgung",
+   "hersteller": "Blupura",
+   "kauf": 3183,
+   "m36": 102.48,
+   "m48": 80.63,
+   "m60": 68.12,
+   "zubehoer": [
+    "rechrlZBXWO40wmnq",
+    "recHWQTyHuhsFlTEp"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recgwbwKxHX4n4SC6",
+   "name": "Sikelia Mini sense",
+   "typ": "Wasserversorgung",
+   "hersteller": "Zerica",
+   "kauf": 2152,
+   "m36": 69.29,
+   "m48": 54.51,
+   "m60": 46.05,
+   "zubehoer": [
+    "rechrlZBXWO40wmnq",
+    "recm0ai4DuKCk8Yof"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "rec5HZUBSiG3OF0OK",
+   "name": "Sikelia Mini Touch",
+   "typ": "Wasserversorgung",
+   "hersteller": "Zerica",
+   "kauf": 2415,
+   "m36": 77.76,
+   "m48": 61.17,
+   "m60": 51.68,
+   "zubehoer": [
+    "rechrlZBXWO40wmnq",
+    "recm0ai4DuKCk8Yof"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "reclW07XoQbUKX6eQ",
+   "name": "Sukko Top",
+   "typ": "Wasserversorgung",
+   "hersteller": "Zerica",
+   "kauf": 3675,
+   "m36": 118.32,
+   "m48": 93.09,
+   "m60": 78.65,
+   "zubehoer": [
+    "rechrlZBXWO40wmnq"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recfVGTFwVwm9r7Fi",
+   "name": "Supra 150 sense 5.0",
+   "typ": "Wasserversorgung",
+   "hersteller": "Zerica",
+   "kauf": 1879,
+   "m36": 60.5,
+   "m48": 47.6,
+   "m60": 40.21,
+   "zubehoer": [
+    "recm0ai4DuKCk8Yof",
+    "rechrlZBXWO40wmnq",
+    "recDY3YqLpNbj9J9W",
+    "recrFHMwabo8broZU"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recvnyXiNjfBv1jXV",
+   "name": "Supra 150 Touch 5.0",
+   "typ": "Wasserversorgung",
+   "hersteller": "Zerica",
+   "kauf": 2047,
+   "m36": 65.91,
+   "m48": 51.85,
+   "m60": 43.81,
+   "zubehoer": [
+    "recm0ai4DuKCk8Yof",
+    "rechrlZBXWO40wmnq"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "recaMWPHGLIqwBpso",
+   "name": "Multibox Masterterminal",
+   "typ": null,
+   "hersteller": null,
+   "kauf": 4450,
+   "m36": 143.28,
+   "m48": 112.72,
+   "m60": 95.23,
+   "zubehoer": [
+    "recaUHNp5QegpNYME",
+    "recfeEVObZN8C2kgw",
+    "recVd8SmqxPOf3O4I"
+   ],
+   "produktblatt": null
+  },
+  {
+   "id": "rec2oGtzltX4DW8zL",
+   "name": "Multibox Slaveeinheit",
+   "typ": null,
+   "hersteller": null,
+   "kauf": 8650,
+   "m36": 278.51,
+   "m48": 219.1,
+   "m60": 185.11,
+   "zubehoer": [],
+   "produktblatt": null
+  }
+ ],
+ "zubehoer": [
+  {
+   "id": "recHj5xwwv1PxFr0y",
+   "name": "1,1 kg Bohnenbehälter",
+   "art": "sonstiges",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 96,
+   "m36": 3.09,
+   "m48": 2.45,
+   "m60": 2.1,
+   "geraete": [
+    "rec1tuTEqcEuVy41y",
+    "recLaXBngTYYRQTwp",
+    "recE8pUfEpbtLJBJP",
+    "reci8OoGr1P9ESdKj",
+    "recW5mz8B3cBHHhZd"
+   ]
+  },
+  {
+   "id": "recdH5gwhsQeto5wT",
+   "name": "1,8 l Instantbehälter, 1IN Version",
+   "art": "sonstiges",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 96,
+   "m36": 3.09,
+   "m48": 2.45,
+   "m60": 2.1,
+   "geraete": [
+    "rec1tuTEqcEuVy41y",
+    "recLaXBngTYYRQTwp",
+    "recE8pUfEpbtLJBJP",
+    "reci8OoGr1P9ESdKj",
+    "recW5mz8B3cBHHhZd"
+   ]
+  },
+  {
+   "id": "rec5OlofWAcYQZtlJ",
+   "name": "1,8 l Instantbehälter, 2IN Version",
+   "art": "sonstiges",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 97,
+   "m36": 3.12,
+   "m48": 2.47,
+   "m60": 2.12,
+   "geraete": [
+    "rec1tuTEqcEuVy41y",
+    "recLaXBngTYYRQTwp",
+    "recE8pUfEpbtLJBJP",
+    "reci8OoGr1P9ESdKj",
+    "recW5mz8B3cBHHhZd"
+   ]
+  },
+  {
+   "id": "recXTuDJNyti0WXOh",
+   "name": "2,2 kg Kaffeebohnenbehälter",
+   "art": "sonstiges",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 35,
+   "m36": 1.13,
+   "m48": 0.89,
+   "m60": 0.77,
+   "geraete": [
+    "recagMSYHgKaEF1LI"
+   ]
+  },
+  {
+   "id": "recnWnlOGZ9XvGUQl",
+   "name": "3,5 L + 3,5 L Dualmilk Kühlschrank G500/G700",
+   "art": "Milchkühlschränke",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 1423,
+   "m36": 45.82,
+   "m48": 36.29,
+   "m60": 31.16,
+   "geraete": [
+    "rec52S9sDTiJ4Qm7g",
+    "recT3ifph5B8LieZg",
+    "recE8BY7ANEh9Zl8C",
+    "rec39tZqqUCgzg0u7"
+   ]
+  },
+  {
+   "id": "rec9C85AMtFrsdErC",
+   "name": "4,5 L Kühlschrank mit Glasfronttür G100/G500",
+   "art": "Milchkühlschränke",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 1798,
+   "m36": 57.89,
+   "m48": 45.85,
+   "m60": 39.38,
+   "geraete": [
+    "rec1tuTEqcEuVy41y",
+    "recE8pUfEpbtLJBJP",
+    "recW5mz8B3cBHHhZd",
+    "rec52S9sDTiJ4Qm7g",
+    "recT3ifph5B8LieZg"
+   ]
+  },
+  {
+   "id": "recptZMM2CGLYGfVx",
+   "name": "4,5 L Kühlschrank mit Glasfronttür G700",
+   "art": "Milchkühlschränke",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 1781,
+   "m36": 57.34,
+   "m48": 45.42,
+   "m60": 39,
+   "geraete": [
+    "recE8BY7ANEh9Zl8C",
+    "rec39tZqqUCgzg0u7"
+   ]
+  },
+  {
+   "id": "recqjZCEDoRnR0bPI",
+   "name": "4,5 L Kühlschrank mit Glasfronttür und Tassenwärmer auf der Oberseite G100/G500",
+   "art": "Milchkühlschränke",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 2297,
+   "m36": 73.96,
+   "m48": 58.57,
+   "m60": 50.3,
+   "geraete": [
+    "rec1tuTEqcEuVy41y",
+    "recE8pUfEpbtLJBJP",
+    "recW5mz8B3cBHHhZd",
+    "rec52S9sDTiJ4Qm7g",
+    "recT3ifph5B8LieZg",
+    "recLaXBngTYYRQTwp",
+    "reci8OoGr1P9ESdKj"
+   ]
+  },
+  {
+   "id": "recjH1Q8D9D0f7Orq",
+   "name": "4,5 L Kühlschrank mit Glasfronttür und Tassenwärmer auf der Oberseite G700",
+   "art": "Milchkühlschränke",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 2255,
+   "m36": 72.6,
+   "m48": 57.5,
+   "m60": 49.38,
+   "geraete": [
+    "recE8BY7ANEh9Zl8C",
+    "rec39tZqqUCgzg0u7"
+   ]
+  },
+  {
+   "id": "recEiY0CTvFP22kU0",
+   "name": "7,0 L Kühlschrank mit Edelstahltür, kein Milchsensor installiert G100/G500/Saeco Magic M2",
+   "art": "Milchkühlschränke",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 1013,
+   "m36": 32.62,
+   "m48": 25.83,
+   "m60": 22.18,
+   "geraete": [
+    "rec1tuTEqcEuVy41y",
+    "recE8pUfEpbtLJBJP",
+    "recW5mz8B3cBHHhZd",
+    "rec52S9sDTiJ4Qm7g",
+    "recT3ifph5B8LieZg",
+    "rectkYocKy0S0dzYe",
+    "rec2ZNdarBUCRzpvh"
+   ]
+  },
+  {
+   "id": "reczUqArAeHkOR171",
+   "name": "7,0 L Kühlschrank mit Glasfronttür G100/G500/ Saeco Magic M2",
+   "art": "Milchkühlschränke",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 1134,
+   "m36": 36.51,
+   "m48": 28.92,
+   "m60": 24.83,
+   "geraete": [
+    "rec1tuTEqcEuVy41y",
+    "recE8pUfEpbtLJBJP",
+    "recW5mz8B3cBHHhZd",
+    "rec52S9sDTiJ4Qm7g",
+    "recT3ifph5B8LieZg",
+    "rectkYocKy0S0dzYe",
+    "rec2ZNdarBUCRzpvh"
+   ]
+  },
+  {
+   "id": "recZJQ2TmIhmyeuZ8",
+   "name": "7,0 L Kühlschrank mit Glasfronttür und Tassenwärmer auf der Oberseite G100/G500/Saeco Magic M2",
+   "art": "Milchkühlschränke",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 1607,
+   "m36": 51.74,
+   "m48": 40.98,
+   "m60": 35.19,
+   "geraete": [
+    "rec1tuTEqcEuVy41y",
+    "recE8pUfEpbtLJBJP",
+    "recW5mz8B3cBHHhZd",
+    "rec52S9sDTiJ4Qm7g",
+    "recT3ifph5B8LieZg",
+    "rectkYocKy0S0dzYe",
+    "rec2ZNdarBUCRzpvh"
+   ]
+  },
+  {
+   "id": "recXlInQcbAiG5ULA",
+   "name": "Adapter für Wasserfilter seitlicher Wassertank G100",
+   "art": "sonstiges",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 52,
+   "m36": 1.67,
+   "m48": 1.33,
+   "m60": 1.14,
+   "geraete": [
+    "rec1tuTEqcEuVy41y",
+    "recLaXBngTYYRQTwp",
+    "recE8pUfEpbtLJBJP",
+    "reci8OoGr1P9ESdKj",
+    "recW5mz8B3cBHHhZd"
+   ]
+  },
+  {
+   "id": "recj6Np7uXY6FXhzF",
+   "name": "Anbaugehäuse für Münzwechsler Cage 540 GW",
+   "art": "Bezahlsysteme",
+   "versorgung": [],
+   "kauf": 720,
+   "m36": 23.18,
+   "m48": 18.36,
+   "m60": 15.77,
+   "geraete": [
+    "recUp80KbqMvKrk1X",
+    "rec1tuTEqcEuVy41y",
+    "rectkYocKy0S0dzYe",
+    "rec2ZNdarBUCRzpvh",
+    "recagMSYHgKaEF1LI",
+    "recE8BY7ANEh9Zl8C",
+    "rec9TFonziO2AKiI5",
+    "recdbjJwsKJfwCtSw",
+    "recW5mz8B3cBHHhZd",
+    "rec39tZqqUCgzg0u7",
+    "recLaXBngTYYRQTwp",
+    "reci8OoGr1P9ESdKj",
+    "recE8pUfEpbtLJBJP",
+    "recT3ifph5B8LieZg",
+    "rec52S9sDTiJ4Qm7g",
+    "rec0VcXOAKjQNlE6m",
+    "recKkIQ2MsielKe6Q",
+    "reccKMsEvbiI3w3GS",
+    "recljGAi66JW8Sspa",
+    "recSDOf1LexeX671Z",
+    "recR4sKFVIL0xGHES"
+   ]
+  },
+  {
+   "id": "rec49Nq2agMgrxjW7",
+   "name": "Ausgestatteter Unterschrank mit Satzbehälter, B 410 x T 570 x H 845 mm G100",
+   "art": "Unterschrank",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 533,
+   "m36": 17.16,
+   "m48": 13.59,
+   "m60": 11.67,
+   "geraete": [
+    "rec1tuTEqcEuVy41y",
+    "recLaXBngTYYRQTwp",
+    "recE8pUfEpbtLJBJP",
+    "reci8OoGr1P9ESdKj",
+    "recW5mz8B3cBHHhZd"
+   ]
+  },
+  {
+   "id": "recl3QCQLUJ6aUWY3",
+   "name": "Ausgestatteter Unterschrank vorbereitet für Münzwechsler G300 Krea/ Prime",
+   "art": "Unterschrank",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 886,
+   "m36": 28.53,
+   "m48": 22.59,
+   "m60": 19.4,
+   "geraete": [
+    "recagMSYHgKaEF1LI"
+   ]
+  },
+  {
+   "id": "receZKE7YGNSMtiQf",
+   "name": "Behälterverriegelung Vitro S1 EVO",
+   "art": "sonstiges",
+   "versorgung": [],
+   "kauf": 87,
+   "m36": 2.8,
+   "m48": 2.22,
+   "m60": 1.91,
+   "geraete": [
+    "reccKMsEvbiI3w3GS",
+    "recljGAi66JW8Sspa",
+    "recSDOf1LexeX671Z"
+   ]
+  },
+  {
+   "id": "rechrlZBXWO40wmnq",
+   "name": "Bestcare S",
+   "art": "sonstiges",
+   "versorgung": [
+    "Wasser"
+   ],
+   "kauf": 81,
+   "m36": 2.61,
+   "m48": 2.07,
+   "m60": 1.77,
+   "geraete": [
+    "recfVGTFwVwm9r7Fi",
+    "recPtWInfl4f28dCj",
+    "reclk42eLZ1RMOsmd",
+    "rec80BaGZD76iEdtP",
+    "reclW07XoQbUKX6eQ",
+    "recgwbwKxHX4n4SC6",
+    "recsJGqWAYsVeGZC2",
+    "rec5HZUBSiG3OF0OK",
+    "recvnyXiNjfBv1jXV",
+    "rec99ogFncySnMIWT"
+   ]
+  },
+  {
+   "id": "recU7MCXmXARfg8aH",
+   "name": "Bezahlmodul inkl. Geldscheinleser (Boddart)",
+   "art": "Bezahlsysteme",
+   "versorgung": [],
+   "kauf": 1410,
+   "m36": 45.4,
+   "m48": 35.96,
+   "m60": 30.88,
+   "geraete": [
+    "recLaXBngTYYRQTwp",
+    "reci8OoGr1P9ESdKj",
+    "recE8pUfEpbtLJBJP",
+    "recW5mz8B3cBHHhZd",
+    "rec1tuTEqcEuVy41y",
+    "recUp80KbqMvKrk1X",
+    "rec52S9sDTiJ4Qm7g",
+    "recE8BY7ANEh9Zl8C",
+    "recagMSYHgKaEF1LI",
+    "rec0VcXOAKjQNlE6m",
+    "recT3ifph5B8LieZg",
+    "rec39tZqqUCgzg0u7",
+    "reccKMsEvbiI3w3GS",
+    "recljGAi66JW8Sspa",
+    "recSDOf1LexeX671Z",
+    "recR4sKFVIL0xGHES"
+   ]
+  },
+  {
+   "id": "recjyXwpSXk5UUjAq",
+   "name": "Bezahlmodul inkl. Münzprüfer (Animo)",
+   "art": "Bezahlsysteme",
+   "versorgung": [],
+   "kauf": 943,
+   "m36": 30.36,
+   "m48": 24.05,
+   "m60": 20.65,
+   "geraete": [
+    "recLaXBngTYYRQTwp",
+    "reci8OoGr1P9ESdKj",
+    "recE8pUfEpbtLJBJP",
+    "recW5mz8B3cBHHhZd",
+    "rec1tuTEqcEuVy41y",
+    "rec2ZNdarBUCRzpvh",
+    "rec9TFonziO2AKiI5",
+    "recKkIQ2MsielKe6Q",
+    "rectkYocKy0S0dzYe",
+    "rec52S9sDTiJ4Qm7g",
+    "recE8BY7ANEh9Zl8C",
+    "recagMSYHgKaEF1LI",
+    "rec0VcXOAKjQNlE6m",
+    "recT3ifph5B8LieZg",
+    "rec39tZqqUCgzg0u7",
+    "reccKMsEvbiI3w3GS",
+    "recljGAi66JW8Sspa",
+    "recSDOf1LexeX671Z",
+    "recR4sKFVIL0xGHES",
+    "recUp80KbqMvKrk1X"
+   ]
+  },
+  {
+   "id": "reciRlhWRs073FhtG",
+   "name": "Bezahlmodul inkl. Münzwechsler (Animo)",
+   "art": "Bezahlsysteme",
+   "versorgung": [],
+   "kauf": 1602,
+   "m36": 51.58,
+   "m48": 40.85,
+   "m60": 35.08,
+   "geraete": [
+    "recLaXBngTYYRQTwp",
+    "reci8OoGr1P9ESdKj",
+    "recE8pUfEpbtLJBJP",
+    "recW5mz8B3cBHHhZd",
+    "rec1tuTEqcEuVy41y",
+    "rec2ZNdarBUCRzpvh",
+    "rec9TFonziO2AKiI5",
+    "recKkIQ2MsielKe6Q",
+    "rectkYocKy0S0dzYe",
+    "rec52S9sDTiJ4Qm7g",
+    "recE8BY7ANEh9Zl8C",
+    "recagMSYHgKaEF1LI",
+    "rec0VcXOAKjQNlE6m",
+    "recT3ifph5B8LieZg",
+    "rec39tZqqUCgzg0u7",
+    "recdbjJwsKJfwCtSw",
+    "reccKMsEvbiI3w3GS",
+    "recljGAi66JW8Sspa",
+    "recSDOf1LexeX671Z",
+    "recR4sKFVIL0xGHES"
+   ]
+  },
+  {
+   "id": "reczSUkvto6tDkSDB",
+   "name": "Bezahlmodul Kontaktlos + Münzprüfer (Animo)",
+   "art": "Bezahlsysteme",
+   "versorgung": [],
+   "kauf": 1193,
+   "m36": 38.41,
+   "m48": 30.42,
+   "m60": 26.13,
+   "geraete": [
+    "recLaXBngTYYRQTwp",
+    "reci8OoGr1P9ESdKj",
+    "recE8pUfEpbtLJBJP",
+    "recW5mz8B3cBHHhZd",
+    "rec1tuTEqcEuVy41y",
+    "rec2ZNdarBUCRzpvh",
+    "rec9TFonziO2AKiI5",
+    "recKkIQ2MsielKe6Q",
+    "rectkYocKy0S0dzYe",
+    "rec52S9sDTiJ4Qm7g",
+    "recE8BY7ANEh9Zl8C",
+    "recagMSYHgKaEF1LI",
+    "rec0VcXOAKjQNlE6m",
+    "recT3ifph5B8LieZg",
+    "rec39tZqqUCgzg0u7",
+    "reccKMsEvbiI3w3GS",
+    "recljGAi66JW8Sspa",
+    "recSDOf1LexeX671Z",
+    "recR4sKFVIL0xGHES"
+   ]
+  },
+  {
+   "id": "recpHAgd1kdCKsW4T",
+   "name": "Bezahlmodul Kontaktlos + Münzwechsler (Animo)",
+   "art": "Bezahlsysteme",
+   "versorgung": [],
+   "kauf": 1845,
+   "m36": 59.4,
+   "m48": 47.05,
+   "m60": 40.41,
+   "geraete": [
+    "recLaXBngTYYRQTwp",
+    "reci8OoGr1P9ESdKj",
+    "recE8pUfEpbtLJBJP",
+    "recW5mz8B3cBHHhZd",
+    "rec1tuTEqcEuVy41y",
+    "rec2ZNdarBUCRzpvh",
+    "rec9TFonziO2AKiI5",
+    "recKkIQ2MsielKe6Q",
+    "rectkYocKy0S0dzYe",
+    "rec52S9sDTiJ4Qm7g",
+    "recE8BY7ANEh9Zl8C",
+    "recagMSYHgKaEF1LI",
+    "rec0VcXOAKjQNlE6m",
+    "reccKMsEvbiI3w3GS",
+    "recljGAi66JW8Sspa",
+    "recSDOf1LexeX671Z",
+    "recR4sKFVIL0xGHES"
+   ]
+  },
+  {
+   "id": "rec2LmSRO9T7NtTU5",
+   "name": "Bezahlmodul Kontaktloses Zahlsystem (Animo)",
+   "art": "Bezahlsysteme",
+   "versorgung": [],
+   "kauf": 535,
+   "m36": 17.23,
+   "m48": 13.64,
+   "m60": 11.72,
+   "geraete": [
+    "recLaXBngTYYRQTwp",
+    "reci8OoGr1P9ESdKj",
+    "recE8pUfEpbtLJBJP",
+    "recW5mz8B3cBHHhZd",
+    "rec1tuTEqcEuVy41y",
+    "rec2ZNdarBUCRzpvh",
+    "rec9TFonziO2AKiI5",
+    "recKkIQ2MsielKe6Q",
+    "rectkYocKy0S0dzYe",
+    "recUp80KbqMvKrk1X",
+    "rec52S9sDTiJ4Qm7g",
+    "recE8BY7ANEh9Zl8C",
+    "recagMSYHgKaEF1LI",
+    "rec0VcXOAKjQNlE6m",
+    "recdbjJwsKJfwCtSw",
+    "recT3ifph5B8LieZg",
+    "rec39tZqqUCgzg0u7",
+    "reccKMsEvbiI3w3GS",
+    "recljGAi66JW8Sspa",
+    "recSDOf1LexeX671Z",
+    "recR4sKFVIL0xGHES"
+   ]
+  },
+  {
+   "id": "rec6QdhrR7da6YkHA",
+   "name": "Blufire",
+   "art": "sonstiges",
+   "versorgung": [
+    "Wasser"
+   ],
+   "kauf": 254,
+   "m36": 8.18,
+   "m48": 6.48,
+   "m60": 5.56,
+   "geraete": [
+    "recsJGqWAYsVeGZC2",
+    "recPtWInfl4f28dCj",
+    "rec2ATgwwsMTeaIQl",
+    "recDoQdso8u5oN42J"
+   ]
+  },
+  {
+   "id": "recYoQc0ZIF98ROwB",
+   "name": "Bluglass Tower One 3 W",
+   "art": null,
+   "versorgung": [],
+   "kauf": 1051,
+   "m36": 33.84,
+   "m48": 26.8,
+   "m60": 23.02,
+   "geraete": [
+    "recvW1Z7Ymo15ZqTb",
+    "recGpQsfL2Gb4YX4N"
+   ]
+  },
+  {
+   "id": "recR2BRh9Mf8GygAc",
+   "name": "Bluglass Tower Super Hot FIZZ",
+   "art": null,
+   "versorgung": [],
+   "kauf": 1277,
+   "m36": 41.12,
+   "m48": 32.56,
+   "m60": 27.97,
+   "geraete": [
+    "reckydfZTfsVeCq8P"
+   ]
+  },
+  {
+   "id": "recUjhTB0BLm6ClIi",
+   "name": "Blupura C2A",
+   "art": "Zapfhähne",
+   "versorgung": [
+    "Wasser"
+   ],
+   "kauf": 670,
+   "m36": 21.57,
+   "m48": 17.09,
+   "m60": 14.67,
+   "geraete": [
+    "reclk42eLZ1RMOsmd"
+   ]
+  },
+  {
+   "id": "recHezXL7Ukwik2Tj",
+   "name": "Blupura C3A",
+   "art": "Zapfhähne",
+   "versorgung": [],
+   "kauf": 873,
+   "m36": 28.11,
+   "m48": 22.26,
+   "m60": 19.12,
+   "geraete": [
+    "reclk42eLZ1RMOsmd"
+   ]
+  },
+  {
+   "id": "recwuMjFTCBcy01qu",
+   "name": "BluSeven FIZZ",
+   "art": null,
+   "versorgung": [],
+   "kauf": 2055,
+   "m36": 66.17,
+   "m48": 52.4,
+   "m60": 45,
+   "geraete": [
+    "recvW1Z7Ymo15ZqTb",
+    "recGpQsfL2Gb4YX4N"
+   ]
+  },
+  {
+   "id": "recN63przGvmAL59a",
+   "name": "BluSeven Hot FIZZ",
+   "art": null,
+   "versorgung": [],
+   "kauf": 2134,
+   "m36": 68.71,
+   "m48": 54.42,
+   "m60": 46.73,
+   "geraete": [
+    "reckydfZTfsVeCq8P"
+   ]
+  },
+  {
+   "id": "reczB0vvhtmTiQkbe",
+   "name": "Blusoda Black Cabinet 30",
+   "art": null,
+   "versorgung": [],
+   "kauf": 566,
+   "m36": 18.22,
+   "m48": 14.43,
+   "m60": 12.4,
+   "geraete": [
+    "recTkd0wlxlFGAF1M"
+   ]
+  },
+  {
+   "id": "recZ9IrKRPCj5NuMH",
+   "name": "Chipsystem Hi!",
+   "art": "Bezahlsysteme",
+   "versorgung": [],
+   "kauf": 550,
+   "m36": 17.71,
+   "m48": 14.02,
+   "m60": 12.05,
+   "geraete": [
+    "recLaXBngTYYRQTwp",
+    "reci8OoGr1P9ESdKj",
+    "recE8pUfEpbtLJBJP",
+    "recW5mz8B3cBHHhZd",
+    "rec1tuTEqcEuVy41y",
+    "rec2ZNdarBUCRzpvh",
+    "rec9TFonziO2AKiI5",
+    "recKkIQ2MsielKe6Q",
+    "rectkYocKy0S0dzYe",
+    "recUp80KbqMvKrk1X",
+    "rec52S9sDTiJ4Qm7g",
+    "recE8BY7ANEh9Zl8C",
+    "recagMSYHgKaEF1LI",
+    "rec0VcXOAKjQNlE6m",
+    "recd4xNWO7uKoYAq4",
+    "recNjeO7LKQnmdIUo",
+    "recDOASqMO5z3ikBo",
+    "recT3ifph5B8LieZg",
+    "rec39tZqqUCgzg0u7",
+    "recRT92VxoMcPWTGx",
+    "recLaYjrZEbAMUC91",
+    "recxeOIjLwkbEFHl0",
+    "rec56WrVneaGF2GKV",
+    "recFD4P72h5LUGWvQ",
+    "recP1JscDHFQtlSrq",
+    "recFAGA2rnf99NWVF",
+    "recmlyOwlh9T5OpNw",
+    "recqqcy455dhm2XB4",
+    "reczzVSfdABxVkrYw",
+    "recUTmUh2YDqAZ51v",
+    "recOxKP5aAb47176S",
+    "recwTDBbWLTBSX7oq",
+    "recdRoTQJ0ClKYGwa",
+    "recrGI3UjZVzYqfeL",
+    "recBhBDXc893tv6Ab",
+    "rece6o1InwMogZ1s6",
+    "recmWIk7c9yFHUU1s",
+    "recz9bdeoEctzgcNa",
+    "recn2KXlHBwF04xv7",
+    "reclDWaBVir3eCrRm",
+    "recdbjJwsKJfwCtSw",
+    "recSncamJXKIhLLg7",
+    "rec5vHbrVsknegtYs",
+    "recjgmlasn5OZ9A1C",
+    "recgr8R7TMx72FjCc",
+    "recxHQ53VxCk0d7Eq",
+    "recyL1bp835PQn3PL",
+    "reci3r46nAONQm7h6",
+    "recKLDqX039kPiBKY",
+    "recoYCptspu24d3nv",
+    "recLpsL4Nx31mXS1y",
+    "recTYfZx0WKXiZIrJ",
+    "reccKMsEvbiI3w3GS",
+    "recljGAi66JW8Sspa",
+    "recSDOf1LexeX671Z",
+    "recR4sKFVIL0xGHES",
+    "recT8lGjwNNTd3ZdB"
+   ]
+  },
+  {
+   "id": "recXTkYjLnSUS1lLT",
+   "name": "Einbaurahmen Nayax",
+   "art": "Bezahlsysteme",
+   "versorgung": [],
+   "kauf": 70,
+   "m36": 2.25,
+   "m48": 1.79,
+   "m60": 1.53,
+   "geraete": [
+    "rec1tuTEqcEuVy41y",
+    "recLaXBngTYYRQTwp",
+    "recE8pUfEpbtLJBJP",
+    "reci8OoGr1P9ESdKj",
+    "recW5mz8B3cBHHhZd",
+    "recagMSYHgKaEF1LI",
+    "recT3ifph5B8LieZg",
+    "rec52S9sDTiJ4Qm7g",
+    "rec39tZqqUCgzg0u7",
+    "recE8BY7ANEh9Zl8C",
+    "recUp80KbqMvKrk1X",
+    "rec0VcXOAKjQNlE6m",
+    "recdbjJwsKJfwCtSw",
+    "reccKMsEvbiI3w3GS",
+    "recljGAi66JW8Sspa",
+    "recSDOf1LexeX671Z",
+    "recR4sKFVIL0xGHES"
+   ]
+  },
+  {
+   "id": "recN4Jupr0BQznqN0",
+   "name": "Festwasserkit Vitro S1 schwarz",
+   "art": "sonstiges",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 144,
+   "m36": 4.64,
+   "m48": 3.67,
+   "m60": 3.15,
+   "geraete": [
+    "recljGAi66JW8Sspa"
+   ]
+  },
+  {
+   "id": "recE6kyHZgzVZKvPT",
+   "name": "FLOJET Getränkepumpe - mit 20 Ltr. Wasserbehälter",
+   "art": "sonstiges",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 360,
+   "m36": 11.59,
+   "m48": 9.18,
+   "m60": 7.88,
+   "geraete": [
+    "rec1tuTEqcEuVy41y",
+    "recLaXBngTYYRQTwp",
+    "recE8pUfEpbtLJBJP",
+    "reci8OoGr1P9ESdKj",
+    "recW5mz8B3cBHHhZd",
+    "recagMSYHgKaEF1LI",
+    "recUp80KbqMvKrk1X",
+    "recSDOf1LexeX671Z"
+   ]
+  },
+  {
+   "id": "recaUHNp5QegpNYME",
+   "name": "Geldscheinleser ICT X7P (5€,10€,20€)",
+   "art": "Bezahlsysteme",
+   "versorgung": [
+    "Kaffee",
+    "Snack"
+   ],
+   "kauf": 499,
+   "m36": 16.07,
+   "m48": 12.72,
+   "m60": 10.93,
+   "geraete": [
+    "recRT92VxoMcPWTGx",
+    "recLaYjrZEbAMUC91",
+    "recxeOIjLwkbEFHl0",
+    "rec56WrVneaGF2GKV",
+    "recFD4P72h5LUGWvQ",
+    "recDOASqMO5z3ikBo",
+    "recNjeO7LKQnmdIUo",
+    "recUp80KbqMvKrk1X",
+    "recP1JscDHFQtlSrq",
+    "recFAGA2rnf99NWVF",
+    "recmlyOwlh9T5OpNw",
+    "recqqcy455dhm2XB4",
+    "reczzVSfdABxVkrYw",
+    "recUTmUh2YDqAZ51v",
+    "recOxKP5aAb47176S",
+    "recwTDBbWLTBSX7oq",
+    "recdRoTQJ0ClKYGwa",
+    "recrGI3UjZVzYqfeL",
+    "recd4xNWO7uKoYAq4",
+    "recBhBDXc893tv6Ab",
+    "recmWIk7c9yFHUU1s",
+    "rece6o1InwMogZ1s6",
+    "recz9bdeoEctzgcNa",
+    "recn2KXlHBwF04xv7",
+    "reclDWaBVir3eCrRm",
+    "recjgmlasn5OZ9A1C",
+    "recgr8R7TMx72FjCc",
+    "recxHQ53VxCk0d7Eq",
+    "recyL1bp835PQn3PL",
+    "reci3r46nAONQm7h6",
+    "recKLDqX039kPiBKY",
+    "recoYCptspu24d3nv",
+    "rec5vHbrVsknegtYs",
+    "recSncamJXKIhLLg7",
+    "recLpsL4Nx31mXS1y",
+    "recTYfZx0WKXiZIrJ",
+    "recTjJrHj7tfKPVYH",
+    "recCrzvgQH5GUuEaF",
+    "recvHfh9uhgrqZvtJ",
+    "reczITrbGatICTV4R",
+    "recSVQ0iT7iL8npeZ",
+    "recuKgMWZknAuzT2u",
+    "recaMWPHGLIqwBpso"
+   ]
+  },
+  {
+   "id": "recRZbePs0spW8QuL",
+   "name": "Geldscheinleser ICT XBA (5€,10€,20€,50€)",
+   "art": "Bezahlsysteme",
+   "versorgung": [],
+   "kauf": 559,
+   "m36": 18,
+   "m48": 14.25,
+   "m60": 12.24,
+   "geraete": [
+    "recUp80KbqMvKrk1X",
+    "recljGAi66JW8Sspa",
+    "rec2ZNdarBUCRzpvh",
+    "recKkIQ2MsielKe6Q",
+    "rec9TFonziO2AKiI5",
+    "rec1tuTEqcEuVy41y",
+    "rectkYocKy0S0dzYe",
+    "recdbjJwsKJfwCtSw",
+    "rec0VcXOAKjQNlE6m",
+    "rec39tZqqUCgzg0u7",
+    "recE8BY7ANEh9Zl8C",
+    "rec52S9sDTiJ4Qm7g",
+    "recT3ifph5B8LieZg",
+    "recagMSYHgKaEF1LI",
+    "recW5mz8B3cBHHhZd",
+    "reci8OoGr1P9ESdKj",
+    "recE8pUfEpbtLJBJP",
+    "recLaXBngTYYRQTwp",
+    "recNjeO7LKQnmdIUo",
+    "recDOASqMO5z3ikBo",
+    "recRT92VxoMcPWTGx",
+    "recLaYjrZEbAMUC91",
+    "recxeOIjLwkbEFHl0",
+    "rec56WrVneaGF2GKV",
+    "recFD4P72h5LUGWvQ",
+    "recP1JscDHFQtlSrq",
+    "recFAGA2rnf99NWVF",
+    "recmlyOwlh9T5OpNw",
+    "recqqcy455dhm2XB4",
+    "reczzVSfdABxVkrYw",
+    "recUTmUh2YDqAZ51v",
+    "recOxKP5aAb47176S",
+    "recwTDBbWLTBSX7oq",
+    "recdRoTQJ0ClKYGwa",
+    "recd4xNWO7uKoYAq4",
+    "recrGI3UjZVzYqfeL",
+    "recBhBDXc893tv6Ab",
+    "rece6o1InwMogZ1s6",
+    "recmWIk7c9yFHUU1s",
+    "recz9bdeoEctzgcNa",
+    "recn2KXlHBwF04xv7",
+    "reclDWaBVir3eCrRm",
+    "recjgmlasn5OZ9A1C",
+    "recgr8R7TMx72FjCc",
+    "recxHQ53VxCk0d7Eq",
+    "recyL1bp835PQn3PL",
+    "reci3r46nAONQm7h6",
+    "recKLDqX039kPiBKY",
+    "recoYCptspu24d3nv",
+    "rec5vHbrVsknegtYs",
+    "recSncamJXKIhLLg7",
+    "recLpsL4Nx31mXS1y",
+    "recTYfZx0WKXiZIrJ",
+    "recCrzvgQH5GUuEaF",
+    "recTjJrHj7tfKPVYH",
+    "recvHfh9uhgrqZvtJ",
+    "reczITrbGatICTV4R",
+    "recSVQ0iT7iL8npeZ",
+    "recuKgMWZknAuzT2u"
+   ]
+  },
+  {
+   "id": "rec2nKm62yBdCXCmr",
+   "name": "Hi! Tischaufwerter",
+   "art": "Bezahlsysteme",
+   "versorgung": [],
+   "kauf": 850,
+   "m36": 27.37,
+   "m48": 21.68,
+   "m60": 18.62,
+   "geraete": [
+    "recLaXBngTYYRQTwp",
+    "reci8OoGr1P9ESdKj",
+    "recE8pUfEpbtLJBJP",
+    "recW5mz8B3cBHHhZd",
+    "rec1tuTEqcEuVy41y",
+    "rec2ZNdarBUCRzpvh",
+    "rec9TFonziO2AKiI5",
+    "recKkIQ2MsielKe6Q",
+    "rectkYocKy0S0dzYe",
+    "recUp80KbqMvKrk1X",
+    "rec52S9sDTiJ4Qm7g",
+    "recE8BY7ANEh9Zl8C",
+    "recagMSYHgKaEF1LI",
+    "rec0VcXOAKjQNlE6m",
+    "recSDOf1LexeX671Z",
+    "recR4sKFVIL0xGHES",
+    "recj57vFAYnUTqvlT",
+    "recT3ifph5B8LieZg",
+    "rec39tZqqUCgzg0u7"
+   ]
+  },
+  {
+   "id": "recEIpMonMDM5Nrax",
+   "name": "Holzunterschrank Doppeltürig (B1000 x T600 x H850 mm) für alle Modelle",
+   "art": "Unterschrank",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 2251,
+   "m36": 72.48,
+   "m48": 57.4,
+   "m60": 49.3,
+   "geraete": [
+    "recljGAi66JW8Sspa",
+    "recdbjJwsKJfwCtSw",
+    "rec0VcXOAKjQNlE6m",
+    "rec39tZqqUCgzg0u7",
+    "recE8BY7ANEh9Zl8C",
+    "recT3ifph5B8LieZg",
+    "rec52S9sDTiJ4Qm7g",
+    "recagMSYHgKaEF1LI",
+    "recW5mz8B3cBHHhZd",
+    "reci8OoGr1P9ESdKj",
+    "recE8pUfEpbtLJBJP",
+    "recLaXBngTYYRQTwp",
+    "rec1tuTEqcEuVy41y"
+   ]
+  },
+  {
+   "id": "recydQjE9FkC2MERm",
+   "name": "Holzunterschrank eintürig (B700 x T600 x H850 mm) für alle Modelle",
+   "art": "Unterschrank",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 1983,
+   "m36": 63.85,
+   "m48": 50.57,
+   "m60": 43.43,
+   "geraete": [
+    "recljGAi66JW8Sspa",
+    "rec2ZNdarBUCRzpvh",
+    "rectkYocKy0S0dzYe",
+    "recKkIQ2MsielKe6Q",
+    "rec9TFonziO2AKiI5",
+    "recdbjJwsKJfwCtSw",
+    "rec0VcXOAKjQNlE6m",
+    "rec39tZqqUCgzg0u7",
+    "recE8BY7ANEh9Zl8C",
+    "rec52S9sDTiJ4Qm7g",
+    "recagMSYHgKaEF1LI",
+    "recW5mz8B3cBHHhZd",
+    "reci8OoGr1P9ESdKj",
+    "recE8pUfEpbtLJBJP",
+    "recLaXBngTYYRQTwp",
+    "rec1tuTEqcEuVy41y"
+   ]
+  },
+  {
+   "id": "recTTW3pBio8xWjTA",
+   "name": "Ice Maker Modul",
+   "art": "sonstiges",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 5682,
+   "m36": 182.94,
+   "m48": 144.89,
+   "m60": 124.44,
+   "geraete": [
+    "rec52S9sDTiJ4Qm7g",
+    "recT3ifph5B8LieZg",
+    "recE8BY7ANEh9Zl8C",
+    "rec39tZqqUCgzg0u7"
+   ]
+  },
+  {
+   "id": "recY8SACbnoFI3roy",
+   "name": "Kabelsatz für externe Zahlungsmodule",
+   "art": "Bezahlsysteme",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 41,
+   "m36": 1.32,
+   "m48": 1.05,
+   "m60": 0.9,
+   "geraete": [
+    "rec0VcXOAKjQNlE6m",
+    "recdbjJwsKJfwCtSw"
+   ]
+  },
+  {
+   "id": "reciF25DChprw0roT",
+   "name": "Kit Abfallrutsche feste Abfälle",
+   "art": "sonstiges",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 135,
+   "m36": 4.35,
+   "m48": 3.44,
+   "m60": 2.96,
+   "geraete": [
+    "rec0VcXOAKjQNlE6m",
+    "recdbjJwsKJfwCtSw"
+   ]
+  },
+  {
+   "id": "recP9tVnowcXou9tf",
+   "name": "Kit Abwasserfestanschluss G100",
+   "art": "sonstiges",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 95,
+   "m36": 3.06,
+   "m48": 2.42,
+   "m60": 2.08,
+   "geraete": [
+    "rec1tuTEqcEuVy41y",
+    "recLaXBngTYYRQTwp",
+    "recE8pUfEpbtLJBJP",
+    "reci8OoGr1P9ESdKj",
+    "recW5mz8B3cBHHhZd"
+   ]
+  },
+  {
+   "id": "recNi1JI6mn1lUjRe",
+   "name": "Kit BC fest flüssig Abfall",
+   "art": "sonstiges",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 238,
+   "m36": 7.66,
+   "m48": 6.07,
+   "m60": 5.21,
+   "geraete": [
+    "rec0VcXOAKjQNlE6m",
+    "recdbjJwsKJfwCtSw"
+   ]
+  },
+  {
+   "id": "recogwfxU2NZuecPg",
+   "name": "Kit extra Zucker Kanister, 1,5 kg",
+   "art": "sonstiges",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 222,
+   "m36": 7.15,
+   "m48": 5.66,
+   "m60": 4.86,
+   "geraete": [
+    "rec0VcXOAKjQNlE6m",
+    "recdbjJwsKJfwCtSw"
+   ]
+  },
+  {
+   "id": "rechp0o6Ye3iHDW37",
+   "name": "Kit Flüssigkeitsablass",
+   "art": "sonstiges",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 81,
+   "m36": 2.61,
+   "m48": 2.07,
+   "m60": 1.77,
+   "geraete": [
+    "rec0VcXOAKjQNlE6m",
+    "recdbjJwsKJfwCtSw",
+    "recUp80KbqMvKrk1X"
+   ]
+  },
+  {
+   "id": "reclPYBoIJ2ucIxLw",
+   "name": "Kit für Ablaufschlauch",
+   "art": "sonstiges",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 32,
+   "m36": 1.03,
+   "m48": 0.82,
+   "m60": 0.7,
+   "geraete": [
+    "rec0VcXOAKjQNlE6m",
+    "recdbjJwsKJfwCtSw"
+   ]
+  },
+  {
+   "id": "recZNNIJtMtOeDKlR",
+   "name": "Kit für Flüssigabfälle",
+   "art": "sonstiges",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 81,
+   "m36": 2.61,
+   "m48": 2.07,
+   "m60": 1.77,
+   "geraete": [
+    "recagMSYHgKaEF1LI"
+   ]
+  },
+  {
+   "id": "recpZA3Q6p5FrKSBO",
+   "name": "Kit für Wasserselbstversorgung, 20 L Tank + Flowjet Pumpe Schwarz G500/G700",
+   "art": "sonstiges",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 744,
+   "m36": 23.95,
+   "m48": 18.97,
+   "m60": 16.29,
+   "geraete": [
+    "rec52S9sDTiJ4Qm7g",
+    "recT3ifph5B8LieZg",
+    "recE8BY7ANEh9Zl8C",
+    "rec39tZqqUCgzg0u7"
+   ]
+  },
+  {
+   "id": "recxlZX7NYxAOyfzE",
+   "name": "Kit Heisswasserauslass separat",
+   "art": "sonstiges",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 115,
+   "m36": 3.7,
+   "m48": 2.93,
+   "m60": 2.52,
+   "geraete": [
+    "rec1tuTEqcEuVy41y",
+    "recLaXBngTYYRQTwp",
+    "recE8pUfEpbtLJBJP",
+    "reci8OoGr1P9ESdKj",
+    "recW5mz8B3cBHHhZd"
+   ]
+  },
+  {
+   "id": "recAIkreM8hZNInci",
+   "name": "Kit Instant Extra Kanister, 1,5 kg",
+   "art": "sonstiges",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 373,
+   "m36": 12.01,
+   "m48": 9.51,
+   "m60": 8.17,
+   "geraete": [
+    "rec0VcXOAKjQNlE6m",
+    "recdbjJwsKJfwCtSw"
+   ]
+  },
+  {
+   "id": "recJhddcPHHC2F8T4",
+   "name": "Kit Satzabwurf G100",
+   "art": "sonstiges",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 102,
+   "m36": 3.28,
+   "m48": 2.6,
+   "m60": 2.23,
+   "geraete": [
+    "rec1tuTEqcEuVy41y",
+    "recLaXBngTYYRQTwp",
+    "recE8pUfEpbtLJBJP",
+    "reci8OoGr1P9ESdKj",
+    "recW5mz8B3cBHHhZd"
+   ]
+  },
+  {
+   "id": "recOfAeBPklLz3fir",
+   "name": "Kit Satzabwurf G300 Krea/Prime",
+   "art": "sonstiges",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 76,
+   "m36": 2.45,
+   "m48": 1.94,
+   "m60": 1.66,
+   "geraete": [
+    "recagMSYHgKaEF1LI"
+   ]
+  },
+  {
+   "id": "rec6YKf0APQ6Ki3Vl",
+   "name": "Kit Satzabwurf G500/G700",
+   "art": "sonstiges",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 212,
+   "m36": 6.83,
+   "m48": 5.41,
+   "m60": 4.64,
+   "geraete": [
+    "rec52S9sDTiJ4Qm7g",
+    "recE8BY7ANEh9Zl8C",
+    "recT3ifph5B8LieZg",
+    "rec39tZqqUCgzg0u7"
+   ]
+  },
+  {
+   "id": "recFKwdfHqKsB8uyW",
+   "name": "Kit zur Installation des Kühlschranks auf der linken Seite G500",
+   "art": "Milchkühlschränke",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 42,
+   "m36": 1.35,
+   "m48": 1.07,
+   "m60": 0.92,
+   "geraete": [
+    "rec52S9sDTiJ4Qm7g",
+    "recT3ifph5B8LieZg"
+   ]
+  },
+  {
+   "id": "recRK8rI8zkrXR0C6",
+   "name": "Kit zur Installation des Kühlschranks auf der linken Seite G700",
+   "art": "Milchkühlschränke",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 42,
+   "m36": 1.35,
+   "m48": 1.07,
+   "m60": 0.92,
+   "geraete": [
+    "recE8BY7ANEh9Zl8C",
+    "rec39tZqqUCgzg0u7"
+   ]
+  },
+  {
+   "id": "recqBCpGzrUG3afBR",
+   "name": "Kit zur Installation des Kühlschranks auf der linken Seite, DualMilk Version G700",
+   "art": "Milchkühlschränke",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 50,
+   "m36": 1.61,
+   "m48": 1.27,
+   "m60": 1.1,
+   "geraete": [
+    "recE8BY7ANEh9Zl8C",
+    "rec39tZqqUCgzg0u7"
+   ]
+  },
+  {
+   "id": "recGG8jzp2wfd3pxZ",
+   "name": "Kolumna Glass Sensor Buttons",
+   "art": "Zapfhähne",
+   "versorgung": [
+    "Wasser"
+   ],
+   "kauf": 962,
+   "m36": 30.97,
+   "m48": 24.53,
+   "m60": 21.07,
+   "geraete": [
+    "reclk42eLZ1RMOsmd"
+   ]
+  },
+  {
+   "id": "reclO7PqPuCUUxCHY",
+   "name": "Kolumna Glass Touch",
+   "art": "Zapfhähne",
+   "versorgung": [
+    "Wasser"
+   ],
+   "kauf": 1595,
+   "m36": 51.35,
+   "m48": 40.67,
+   "m60": 34.93,
+   "geraete": [
+    "reclk42eLZ1RMOsmd"
+   ]
+  },
+  {
+   "id": "recbOzZC8nNuUm6GM",
+   "name": "MDB Adapterstecker G300",
+   "art": "Bezahlsysteme",
+   "versorgung": [],
+   "kauf": 31,
+   "m36": 1,
+   "m48": 0.79,
+   "m60": 0.68,
+   "geraete": [
+    "recagMSYHgKaEF1LI"
+   ]
+  },
+  {
+   "id": "recWlYOgeC3jhjgeB",
+   "name": "MDB Kabel VitroS1",
+   "art": "Bezahlsysteme",
+   "versorgung": [],
+   "kauf": 15,
+   "m36": 0.48,
+   "m48": 0.38,
+   "m60": 0.33,
+   "geraete": [
+    "reccKMsEvbiI3w3GS",
+    "recljGAi66JW8Sspa",
+    "recSDOf1LexeX671Z",
+    "recR4sKFVIL0xGHES"
+   ]
+  },
+  {
+   "id": "recHiIfEPYGwW5w3V",
+   "name": "MDB Kit Barista 200 962254",
+   "art": "Bezahlsysteme",
+   "versorgung": [],
+   "kauf": 78,
+   "m36": 2.51,
+   "m48": 1.99,
+   "m60": 1.71,
+   "geraete": [
+    "recUp80KbqMvKrk1X"
+   ]
+  },
+  {
+   "id": "rec9MBhC3Fhp4deHg",
+   "name": "MDB Kit G100 9P0212",
+   "art": "Bezahlsysteme",
+   "versorgung": [],
+   "kauf": 65.21,
+   "m36": 2.1,
+   "m48": 1.66,
+   "m60": 1.43,
+   "geraete": [
+    "rec1tuTEqcEuVy41y",
+    "recLaXBngTYYRQTwp",
+    "recE8pUfEpbtLJBJP",
+    "reci8OoGr1P9ESdKj",
+    "recW5mz8B3cBHHhZd"
+   ]
+  },
+  {
+   "id": "recGt3yvESJPTNeag",
+   "name": "MDB Protokoll Kit für seitliches Bezahlmodul",
+   "art": "sonstiges",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 49,
+   "m36": 1.58,
+   "m48": 1.25,
+   "m60": 1.07,
+   "geraete": [
+    "rec1tuTEqcEuVy41y",
+    "recLaXBngTYYRQTwp",
+    "recE8pUfEpbtLJBJP",
+    "reci8OoGr1P9ESdKj",
+    "recW5mz8B3cBHHhZd",
+    "recagMSYHgKaEF1LI",
+    "recT3ifph5B8LieZg",
+    "rec52S9sDTiJ4Qm7g",
+    "rec39tZqqUCgzg0u7",
+    "recE8BY7ANEh9Zl8C",
+    "recUp80KbqMvKrk1X",
+    "recDOASqMO5z3ikBo",
+    "recNjeO7LKQnmdIUo",
+    "rec0VcXOAKjQNlE6m",
+    "recdbjJwsKJfwCtSw"
+   ]
+  },
+  {
+   "id": "recXrsQlMi5RbhVov",
+   "name": "Milchkühler 1 Liter Saeco Magic",
+   "art": "Milchkühlschränke",
+   "versorgung": [],
+   "kauf": 184,
+   "m36": 5.92,
+   "m48": 4.69,
+   "m60": 4.03,
+   "geraete": [
+    "rectkYocKy0S0dzYe",
+    "rec2ZNdarBUCRzpvh"
+   ]
+  },
+  {
+   "id": "recWsC2BQb3wQNYCz",
+   "name": "Mini-Gehäuse für Kontaktloses Bezahlsystem (Animo)",
+   "art": "Bezahlsysteme",
+   "versorgung": [],
+   "kauf": 155,
+   "m36": 4.99,
+   "m48": 3.95,
+   "m60": 3.39,
+   "geraete": [
+    "recLaXBngTYYRQTwp",
+    "reci8OoGr1P9ESdKj",
+    "recE8pUfEpbtLJBJP",
+    "recW5mz8B3cBHHhZd",
+    "rec1tuTEqcEuVy41y",
+    "rec2ZNdarBUCRzpvh",
+    "rec9TFonziO2AKiI5",
+    "recKkIQ2MsielKe6Q",
+    "rectkYocKy0S0dzYe",
+    "recUp80KbqMvKrk1X",
+    "rec52S9sDTiJ4Qm7g",
+    "recE8BY7ANEh9Zl8C",
+    "recagMSYHgKaEF1LI",
+    "rec0VcXOAKjQNlE6m",
+    "recT3ifph5B8LieZg",
+    "rec39tZqqUCgzg0u7",
+    "recljGAi66JW8Sspa"
+   ]
+  },
+  {
+   "id": "recAyC9s1DBgjgNmP",
+   "name": "Münzprüfer",
+   "art": null,
+   "versorgung": [],
+   "kauf": null,
+   "m36": 0,
+   "m48": 0,
+   "m60": 0,
+   "geraete": [
+    "recDOASqMO5z3ikBo"
+   ]
+  },
+  {
+   "id": "recJqaWvqbYzvgbmp",
+   "name": "Münzprüfer einschließlich MDB Kabel",
+   "art": "Bezahlsysteme",
+   "versorgung": [],
+   "kauf": 292,
+   "m36": 9.4,
+   "m48": 7.45,
+   "m60": 6.39,
+   "geraete": [
+    "recDOASqMO5z3ikBo",
+    "recSDOf1LexeX671Z",
+    "recR4sKFVIL0xGHES",
+    "recUp80KbqMvKrk1X"
+   ]
+  },
+  {
+   "id": "recZtUBuVYnUouCFg",
+   "name": "Münzwechsler",
+   "art": null,
+   "versorgung": [],
+   "kauf": null,
+   "m36": 0,
+   "m48": 0,
+   "m60": 0,
+   "geraete": []
+  },
+  {
+   "id": "recfeEVObZN8C2kgw",
+   "name": "Münzwechsler SuzoHapp C2 MDB",
+   "art": "Bezahlsysteme",
+   "versorgung": [],
+   "kauf": 545,
+   "m36": 17.55,
+   "m48": 13.9,
+   "m60": 11.94,
+   "geraete": [
+    "recljGAi66JW8Sspa",
+    "rec2ZNdarBUCRzpvh",
+    "recKkIQ2MsielKe6Q",
+    "rec9TFonziO2AKiI5",
+    "rec1tuTEqcEuVy41y",
+    "rectkYocKy0S0dzYe",
+    "recdbjJwsKJfwCtSw",
+    "rec0VcXOAKjQNlE6m",
+    "rec39tZqqUCgzg0u7",
+    "recE8BY7ANEh9Zl8C",
+    "rec52S9sDTiJ4Qm7g",
+    "recT3ifph5B8LieZg",
+    "recagMSYHgKaEF1LI",
+    "recW5mz8B3cBHHhZd",
+    "reci8OoGr1P9ESdKj",
+    "recE8pUfEpbtLJBJP",
+    "recLaXBngTYYRQTwp",
+    "recNjeO7LKQnmdIUo",
+    "recUp80KbqMvKrk1X",
+    "recRT92VxoMcPWTGx",
+    "recLaYjrZEbAMUC91",
+    "recxeOIjLwkbEFHl0",
+    "rec56WrVneaGF2GKV",
+    "recFD4P72h5LUGWvQ",
+    "recP1JscDHFQtlSrq",
+    "recFAGA2rnf99NWVF",
+    "recmlyOwlh9T5OpNw",
+    "recqqcy455dhm2XB4",
+    "reczzVSfdABxVkrYw",
+    "recUTmUh2YDqAZ51v",
+    "recOxKP5aAb47176S",
+    "recwTDBbWLTBSX7oq",
+    "recdRoTQJ0ClKYGwa",
+    "recd4xNWO7uKoYAq4",
+    "recrGI3UjZVzYqfeL",
+    "recBhBDXc893tv6Ab",
+    "rece6o1InwMogZ1s6",
+    "recmWIk7c9yFHUU1s",
+    "recz9bdeoEctzgcNa",
+    "recn2KXlHBwF04xv7",
+    "reclDWaBVir3eCrRm",
+    "recjgmlasn5OZ9A1C",
+    "recgr8R7TMx72FjCc",
+    "recxHQ53VxCk0d7Eq",
+    "recyL1bp835PQn3PL",
+    "reci3r46nAONQm7h6",
+    "recKLDqX039kPiBKY",
+    "recoYCptspu24d3nv",
+    "rec5vHbrVsknegtYs",
+    "recSncamJXKIhLLg7",
+    "recLpsL4Nx31mXS1y",
+    "recTYfZx0WKXiZIrJ",
+    "recX7m6ECYf71Jpqi",
+    "recSVQ0iT7iL8npeZ",
+    "recCrzvgQH5GUuEaF",
+    "reczITrbGatICTV4R",
+    "recTjJrHj7tfKPVYH",
+    "recuKgMWZknAuzT2u",
+    "recDOASqMO5z3ikBo",
+    "recSDOf1LexeX671Z",
+    "recvHfh9uhgrqZvtJ",
+    "recQeFkc3xSEdV0Sl",
+    "recT8lGjwNNTd3ZdB",
+    "recaMWPHGLIqwBpso"
+   ]
+  },
+  {
+   "id": "recWP4xjn3DlTpIuJ",
+   "name": "Nayax Onyx",
+   "art": "Bezahlsysteme",
+   "versorgung": [],
+   "kauf": 429,
+   "m36": 13.81,
+   "m48": 10.94,
+   "m60": 9.4,
+   "geraete": [
+    "rec1tuTEqcEuVy41y",
+    "rec2ZNdarBUCRzpvh",
+    "rec9TFonziO2AKiI5",
+    "recKkIQ2MsielKe6Q",
+    "recd4xNWO7uKoYAq4",
+    "recUp80KbqMvKrk1X",
+    "recNjeO7LKQnmdIUo",
+    "recDOASqMO5z3ikBo",
+    "recLaXBngTYYRQTwp",
+    "recE8pUfEpbtLJBJP",
+    "reci8OoGr1P9ESdKj",
+    "recW5mz8B3cBHHhZd",
+    "recagMSYHgKaEF1LI",
+    "rec52S9sDTiJ4Qm7g",
+    "recT3ifph5B8LieZg",
+    "recE8BY7ANEh9Zl8C",
+    "rec39tZqqUCgzg0u7",
+    "recRT92VxoMcPWTGx",
+    "recLaYjrZEbAMUC91",
+    "recxeOIjLwkbEFHl0",
+    "rec56WrVneaGF2GKV",
+    "recFD4P72h5LUGWvQ",
+    "recCrzvgQH5GUuEaF",
+    "recP1JscDHFQtlSrq",
+    "recFAGA2rnf99NWVF",
+    "recmlyOwlh9T5OpNw",
+    "recqqcy455dhm2XB4",
+    "recTjJrHj7tfKPVYH",
+    "recvHfh9uhgrqZvtJ",
+    "reczITrbGatICTV4R",
+    "recSVQ0iT7iL8npeZ",
+    "recjgmlasn5OZ9A1C",
+    "reczzVSfdABxVkrYw",
+    "recOxKP5aAb47176S",
+    "rece6o1InwMogZ1s6",
+    "recUTmUh2YDqAZ51v",
+    "recdRoTQJ0ClKYGwa",
+    "recwTDBbWLTBSX7oq",
+    "recrGI3UjZVzYqfeL",
+    "recBhBDXc893tv6Ab",
+    "recTYfZx0WKXiZIrJ",
+    "recz9bdeoEctzgcNa",
+    "recmWIk7c9yFHUU1s",
+    "recLpsL4Nx31mXS1y",
+    "reclDWaBVir3eCrRm",
+    "recn2KXlHBwF04xv7",
+    "recSncamJXKIhLLg7",
+    "rec5vHbrVsknegtYs",
+    "recoYCptspu24d3nv",
+    "recKLDqX039kPiBKY",
+    "reci3r46nAONQm7h6",
+    "recgr8R7TMx72FjCc",
+    "recxHQ53VxCk0d7Eq",
+    "recyL1bp835PQn3PL",
+    "recuKgMWZknAuzT2u",
+    "recdbjJwsKJfwCtSw",
+    "rec0VcXOAKjQNlE6m",
+    "recQeFkc3xSEdV0Sl",
+    "recT8lGjwNNTd3ZdB"
+   ]
+  },
+  {
+   "id": "recqNilmrezNWdVvt",
+   "name": "Rebel Cabinet",
+   "art": "Unterschrank",
+   "versorgung": [],
+   "kauf": 390,
+   "m36": 12.56,
+   "m48": 9.95,
+   "m60": 8.54,
+   "geraete": [
+    "rec99ogFncySnMIWT"
+   ]
+  },
+  {
+   "id": "reco84guouUh5Jssn",
+   "name": "Regal Kit für 4 Instantkanister",
+   "art": "sonstiges",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 295,
+   "m36": 9.5,
+   "m48": 7.52,
+   "m60": 6.46,
+   "geraete": [
+    "recagMSYHgKaEF1LI"
+   ]
+  },
+  {
+   "id": "recCUVTFqLulpyjRG",
+   "name": "Reinigungsset Dualmilk",
+   "art": "Milchkühlschränke",
+   "versorgung": [],
+   "kauf": 100,
+   "m36": 3.22,
+   "m48": 2.55,
+   "m60": 2.19,
+   "geraete": [
+    "rec39tZqqUCgzg0u7",
+    "recE8BY7ANEh9Zl8C"
+   ]
+  },
+  {
+   "id": "rec7VkrEQeNAsAu7Y",
+   "name": "Scheinleser",
+   "art": null,
+   "versorgung": [],
+   "kauf": null,
+   "m36": 0,
+   "m48": 0,
+   "m60": 0,
+   "geraete": [
+    "recT8lGjwNNTd3ZdB"
+   ]
+  },
+  {
+   "id": "recU3cC9aBHWxWnep",
+   "name": "Seco Karl4",
+   "art": "Bezahlsysteme",
+   "versorgung": [],
+   "kauf": 798,
+   "m36": 25.69,
+   "m48": 20.35,
+   "m60": 17.48,
+   "geraete": [
+    "recrGI3UjZVzYqfeL",
+    "recd4xNWO7uKoYAq4",
+    "rece6o1InwMogZ1s6",
+    "recBhBDXc893tv6Ab",
+    "recz9bdeoEctzgcNa",
+    "recmWIk7c9yFHUU1s",
+    "reclDWaBVir3eCrRm",
+    "recn2KXlHBwF04xv7"
+   ]
+  },
+  {
+   "id": "rectEyQw6xX4vkEqs",
+   "name": "Seitlicher Tank 5,0 G100",
+   "art": "sonstiges",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 294,
+   "m36": 9.47,
+   "m48": 7.5,
+   "m60": 6.44,
+   "geraete": [
+    "rec1tuTEqcEuVy41y",
+    "recLaXBngTYYRQTwp",
+    "recE8pUfEpbtLJBJP",
+    "reci8OoGr1P9ESdKj",
+    "recW5mz8B3cBHHhZd"
+   ]
+  },
+  {
+   "id": "recwdmfYbpIj5phNd",
+   "name": "senvend",
+   "art": null,
+   "versorgung": [],
+   "kauf": null,
+   "m36": 0,
+   "m48": 0,
+   "m60": 0,
+   "geraete": []
+  },
+  {
+   "id": "recVd8SmqxPOf3O4I",
+   "name": "senvend UX700",
+   "art": "Bezahlsysteme",
+   "versorgung": [],
+   "kauf": 1200,
+   "m36": 38.64,
+   "m48": 30.6,
+   "m60": 26.28,
+   "geraete": [
+    "recRT92VxoMcPWTGx",
+    "recLaYjrZEbAMUC91",
+    "recxeOIjLwkbEFHl0",
+    "rec56WrVneaGF2GKV",
+    "recFD4P72h5LUGWvQ",
+    "recP1JscDHFQtlSrq",
+    "reczzVSfdABxVkrYw",
+    "recUTmUh2YDqAZ51v",
+    "recOxKP5aAb47176S",
+    "recwTDBbWLTBSX7oq",
+    "recdRoTQJ0ClKYGwa",
+    "recd4xNWO7uKoYAq4",
+    "recrGI3UjZVzYqfeL",
+    "recBhBDXc893tv6Ab",
+    "rece6o1InwMogZ1s6",
+    "recmWIk7c9yFHUU1s",
+    "recz9bdeoEctzgcNa",
+    "recn2KXlHBwF04xv7",
+    "recFAGA2rnf99NWVF",
+    "reclDWaBVir3eCrRm",
+    "recmlyOwlh9T5OpNw",
+    "recqqcy455dhm2XB4",
+    "recUp80KbqMvKrk1X",
+    "recDOASqMO5z3ikBo",
+    "recNjeO7LKQnmdIUo",
+    "recjgmlasn5OZ9A1C",
+    "recgr8R7TMx72FjCc",
+    "recxHQ53VxCk0d7Eq",
+    "recyL1bp835PQn3PL",
+    "reci3r46nAONQm7h6",
+    "recKLDqX039kPiBKY",
+    "recoYCptspu24d3nv",
+    "rec5vHbrVsknegtYs",
+    "recSncamJXKIhLLg7",
+    "recLpsL4Nx31mXS1y",
+    "recTYfZx0WKXiZIrJ",
+    "recTjJrHj7tfKPVYH",
+    "recCrzvgQH5GUuEaF",
+    "recvHfh9uhgrqZvtJ",
+    "reczITrbGatICTV4R",
+    "recSVQ0iT7iL8npeZ",
+    "recuKgMWZknAuzT2u",
+    "recT8lGjwNNTd3ZdB",
+    "recaMWPHGLIqwBpso"
+   ]
+  },
+  {
+   "id": "rec1PdrK8GgpeJWqP",
+   "name": "T5",
+   "art": null,
+   "versorgung": [],
+   "kauf": 1049,
+   "m36": 33.77,
+   "m48": 26.75,
+   "m60": 22.97,
+   "geraete": [
+    "recGpQsfL2Gb4YX4N",
+    "recvW1Z7Ymo15ZqTb"
+   ]
+  },
+  {
+   "id": "recOkUKX6bBHAAiUY",
+   "name": "Tassenwärmer 3 Etagen (Animo)",
+   "art": "sonstiges",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 920,
+   "m36": 29.62,
+   "m48": 23.46,
+   "m60": 20.15,
+   "geraete": [
+    "recLaXBngTYYRQTwp",
+    "reci8OoGr1P9ESdKj",
+    "recE8pUfEpbtLJBJP",
+    "recW5mz8B3cBHHhZd",
+    "rec1tuTEqcEuVy41y",
+    "rec2ZNdarBUCRzpvh",
+    "rec9TFonziO2AKiI5",
+    "recKkIQ2MsielKe6Q",
+    "rectkYocKy0S0dzYe",
+    "recUp80KbqMvKrk1X",
+    "rec52S9sDTiJ4Qm7g",
+    "recE8BY7ANEh9Zl8C",
+    "recagMSYHgKaEF1LI",
+    "rec0VcXOAKjQNlE6m"
+   ]
+  },
+  {
+   "id": "recqwpdmvOsENVaSr",
+   "name": "Tassenwärmer mit 2 Ebenen, 230V 50Hz",
+   "art": "sonstiges",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 749,
+   "m36": 24.12,
+   "m48": 19.1,
+   "m60": 16.4,
+   "geraete": [
+    "rec1tuTEqcEuVy41y",
+    "recLaXBngTYYRQTwp",
+    "recE8pUfEpbtLJBJP",
+    "reci8OoGr1P9ESdKj",
+    "recW5mz8B3cBHHhZd",
+    "recagMSYHgKaEF1LI",
+    "rec52S9sDTiJ4Qm7g",
+    "recT3ifph5B8LieZg",
+    "recE8BY7ANEh9Zl8C",
+    "rec39tZqqUCgzg0u7",
+    "rec0VcXOAKjQNlE6m",
+    "recdbjJwsKJfwCtSw",
+    "rec2ZNdarBUCRzpvh"
+   ]
+  },
+  {
+   "id": "recOz45iDlGe4iKdA",
+   "name": "Tassenwärmer mit 3 Ebenen, 230V 50Hz",
+   "art": "sonstiges",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 952,
+   "m36": 30.65,
+   "m48": 24.28,
+   "m60": 20.85,
+   "geraete": [
+    "rec1tuTEqcEuVy41y",
+    "recLaXBngTYYRQTwp",
+    "recE8pUfEpbtLJBJP",
+    "reci8OoGr1P9ESdKj",
+    "recW5mz8B3cBHHhZd",
+    "recagMSYHgKaEF1LI",
+    "rec52S9sDTiJ4Qm7g",
+    "recT3ifph5B8LieZg",
+    "recE8BY7ANEh9Zl8C",
+    "rec39tZqqUCgzg0u7",
+    "rec0VcXOAKjQNlE6m",
+    "recdbjJwsKJfwCtSw",
+    "rec2ZNdarBUCRzpvh"
+   ]
+  },
+  {
+   "id": "recS87zQXflUGO01o",
+   "name": "Tischplatte für Unterschrank, Breite 720 mm G100",
+   "art": "Unterschrank",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 467,
+   "m36": 15.04,
+   "m48": 11.91,
+   "m60": 10.23,
+   "geraete": [
+    "rec1tuTEqcEuVy41y",
+    "recLaXBngTYYRQTwp",
+    "recE8pUfEpbtLJBJP",
+    "reci8OoGr1P9ESdKj",
+    "recW5mz8B3cBHHhZd"
+   ]
+  },
+  {
+   "id": "recVTF1lAiYBYxwoX",
+   "name": "Tropfschale Edelstahl für Tower",
+   "art": null,
+   "versorgung": [],
+   "kauf": 97,
+   "m36": 3.12,
+   "m48": 2.47,
+   "m60": 2.12,
+   "geraete": [
+    "recvW1Z7Ymo15ZqTb",
+    "reckydfZTfsVeCq8P",
+    "recGpQsfL2Gb4YX4N"
+   ]
+  },
+  {
+   "id": "recwfcHiDfxIKtyu8",
+   "name": "Unterschrank Blusoda",
+   "art": null,
+   "versorgung": [],
+   "kauf": null,
+   "m36": 0,
+   "m48": 0,
+   "m60": 0,
+   "geraete": []
+  },
+  {
+   "id": "recHWQTyHuhsFlTEp",
+   "name": "Unterschrank Blusoda 30",
+   "art": "Unterschrank",
+   "versorgung": [
+    "Wasser"
+   ],
+   "kauf": 470,
+   "m36": 15.13,
+   "m48": 11.99,
+   "m60": 10.29,
+   "geraete": [
+    "recsJGqWAYsVeGZC2",
+    "rec80BaGZD76iEdtP",
+    "rec2ATgwwsMTeaIQl",
+    "recqPuffCaNTCaexY"
+   ]
+  },
+  {
+   "id": "recuK2AM91bgt2GZC",
+   "name": "Unterschrank Blusoda 45",
+   "art": "Unterschrank",
+   "versorgung": [
+    "Wasser"
+   ],
+   "kauf": 470,
+   "m36": 15.13,
+   "m48": 11.99,
+   "m60": 10.29,
+   "geraete": [
+    "recDoQdso8u5oN42J"
+   ]
+  },
+  {
+   "id": "recBv43YpYbCsZabj",
+   "name": "Unterschrank Blusoda Black",
+   "art": null,
+   "versorgung": [],
+   "kauf": null,
+   "m36": 0,
+   "m48": 0,
+   "m60": 0,
+   "geraete": []
+  },
+  {
+   "id": "rec2Qcxz2rQUze6gh",
+   "name": "Unterschrank GS MasterBrew",
+   "art": "Unterschrank",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 962,
+   "m36": 30.97,
+   "m48": 24.53,
+   "m60": 21.07,
+   "geraete": [
+    "rec0VcXOAKjQNlE6m",
+    "recdbjJwsKJfwCtSw"
+   ]
+  },
+  {
+   "id": "recslRbCh8aXwVto4",
+   "name": "Unterschrank mit Ausstattung G300 Krea/ Prime",
+   "art": "Unterschrank",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 684,
+   "m36": 22.02,
+   "m48": 17.44,
+   "m60": 14.98,
+   "geraete": [
+    "recagMSYHgKaEF1LI"
+   ]
+  },
+  {
+   "id": "recYPvUlQlbvQlNyt",
+   "name": "Unterschrank mit Ausstattung Schwarz",
+   "art": "Unterschrank",
+   "versorgung": [],
+   "kauf": 550,
+   "m36": 17.71,
+   "m48": 14.02,
+   "m60": 12.05,
+   "geraete": [
+    "recUp80KbqMvKrk1X"
+   ]
+  },
+  {
+   "id": "recGuDwA6Ojy9D6la",
+   "name": "Unterschrank schwarz vorbereitet für Münzwechsler",
+   "art": "Unterschrank",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 806,
+   "m36": 25.95,
+   "m48": 20.55,
+   "m60": 17.65,
+   "geraete": [
+    "recUp80KbqMvKrk1X"
+   ]
+  },
+  {
+   "id": "recqhj7kb1bU7wuqa",
+   "name": "Unterschrank schwarz vorbereitet für Münzwechsler",
+   "art": "Unterschrank",
+   "versorgung": [],
+   "kauf": 458,
+   "m36": 14.75,
+   "m48": 11.68,
+   "m60": 10.03,
+   "geraete": [
+    "recUp80KbqMvKrk1X"
+   ]
+  },
+  {
+   "id": "rec9qNCKPObl47Nbs",
+   "name": "Unterschrank Supra",
+   "art": null,
+   "versorgung": [],
+   "kauf": null,
+   "m36": 0,
+   "m48": 0,
+   "m60": 0,
+   "geraete": []
+  },
+  {
+   "id": "recm0ai4DuKCk8Yof",
+   "name": "Unterschrank Supra Sense/Touch",
+   "art": "Unterschrank",
+   "versorgung": [
+    "Wasser"
+   ],
+   "kauf": 350,
+   "m36": 11.27,
+   "m48": 8.92,
+   "m60": 7.67,
+   "geraete": [
+    "recfVGTFwVwm9r7Fi",
+    "recvnyXiNjfBv1jXV",
+    "recgwbwKxHX4n4SC6",
+    "rec5HZUBSiG3OF0OK"
+   ]
+  },
+  {
+   "id": "recZdELhdk9Zkm8Mq",
+   "name": "Unterschrank VitroS1 (vorb. für Münzprüfer)",
+   "art": "Unterschrank",
+   "versorgung": [],
+   "kauf": 465,
+   "m36": 14.97,
+   "m48": 11.86,
+   "m60": 10.18,
+   "geraete": [
+    "reccKMsEvbiI3w3GS",
+    "recljGAi66JW8Sspa",
+    "recSDOf1LexeX671Z",
+    "recR4sKFVIL0xGHES"
+   ]
+  },
+  {
+   "id": "recLqYswCjf2XqEs0",
+   "name": "Unterschrank, B 410 x T 570 x H 845 mm G100",
+   "art": "Unterschrank",
+   "versorgung": [
+    "Kaffee"
+   ],
+   "kauf": 382,
+   "m36": 12.3,
+   "m48": 9.74,
+   "m60": 8.37,
+   "geraete": [
+    "rec1tuTEqcEuVy41y",
+    "recLaXBngTYYRQTwp",
+    "recE8pUfEpbtLJBJP",
+    "reci8OoGr1P9ESdKj",
+    "recW5mz8B3cBHHhZd"
+   ]
+  },
+  {
+   "id": "recrFHMwabo8broZU",
+   "name": "UVC LED out",
+   "art": "sonstiges",
+   "versorgung": [
+    "Wasser"
+   ],
+   "kauf": 210,
+   "m36": 6.76,
+   "m48": 5.36,
+   "m60": 4.6,
+   "geraete": [
+    "recfVGTFwVwm9r7Fi"
+   ]
+  },
+  {
+   "id": "recS2lDY5GTHnjbsE",
+   "name": "UVC LED OUT Fontemagna",
+   "art": "sonstiges",
+   "versorgung": [
+    "Wasser"
+   ],
+   "kauf": 628,
+   "m36": 20.22,
+   "m48": 16.01,
+   "m60": 13.75,
+   "geraete": []
+  },
+  {
+   "id": "recDY3YqLpNbj9J9W",
+   "name": "UVC Wassereingang",
+   "art": "sonstiges",
+   "versorgung": [
+    "Wasser"
+   ],
+   "kauf": 320,
+   "m36": 10.3,
+   "m48": 8.16,
+   "m60": 7.01,
+   "geraete": [
+    "recPtWInfl4f28dCj",
+    "reclk42eLZ1RMOsmd",
+    "recfVGTFwVwm9r7Fi",
+    "rec2ATgwwsMTeaIQl",
+    "recsJGqWAYsVeGZC2",
+    "recDoQdso8u5oN42J"
+   ]
+  },
+  {
+   "id": "rectenstGyZRXAbw6",
+   "name": "You Tap J Edelstahl",
+   "art": "Zapfhähne",
+   "versorgung": [
+    "Wasser"
+   ],
+   "kauf": 793.65,
+   "m36": 25.55,
+   "m48": 20.24,
+   "m60": 17.38,
+   "geraete": [
+    "reclk42eLZ1RMOsmd"
+   ]
+  },
+  {
+   "id": "recfEnpjLxbUyztIW",
+   "name": "You Tap J matt schwarz",
+   "art": "Zapfhähne",
+   "versorgung": [
+    "Wasser"
+   ],
+   "kauf": 822.25,
+   "m36": 26.47,
+   "m48": 20.97,
+   "m60": 18.01,
+   "geraete": [
+    "reclk42eLZ1RMOsmd"
+   ]
+  },
+  {
+   "id": "recI9oJPVdbHjapMp",
+   "name": "You Tap L Edelstahl",
+   "art": "Zapfhähne",
+   "versorgung": [
+    "Wasser"
+   ],
+   "kauf": 793.65,
+   "m36": 25.55,
+   "m48": 20.24,
+   "m60": 17.38,
+   "geraete": [
+    "reclk42eLZ1RMOsmd"
+   ]
+  },
+  {
+   "id": "rec78n8aSh37nMw1z",
+   "name": "You Tap L matt schwarz",
+   "art": "Zapfhähne",
+   "versorgung": [
+    "Wasser"
+   ],
+   "kauf": 822.25,
+   "m36": 26.47,
+   "m48": 20.97,
+   "m60": 18.01,
+   "geraete": [
+    "reclk42eLZ1RMOsmd"
+   ]
+  },
+  {
+   "id": "reccYucmhwENYx2tw",
+   "name": "Zahlungsmodul (vorbereitet für Münzprüfer) Vitro S1",
+   "art": "Bezahlsysteme",
+   "versorgung": [],
+   "kauf": 223,
+   "m36": 7.18,
+   "m48": 5.69,
+   "m60": 4.88,
+   "geraete": [
+    "recljGAi66JW8Sspa",
+    "recSDOf1LexeX671Z"
+   ]
+  }
+ ],
+ "care": [
+  {
+   "id": "recdztQg21IpA7EYw",
+   "name": "Coffee Care S",
+   "monat": 29,
+   "versorgung": "Kaffeeversorgung"
+  },
+  {
+   "id": "recGpBNo7ECDocQtB",
+   "name": "Coffee Care M",
+   "monat": 39,
+   "versorgung": "Kaffeeversorgung"
+  },
+  {
+   "id": "recCeNRUpjLeLJvpd",
+   "name": "Coffee Care L",
+   "monat": 49,
+   "versorgung": "Kaffeeversorgung"
+  },
+  {
+   "id": "rece8U7xcuPg9yGL5",
+   "name": "Water Care",
+   "monat": 39,
+   "versorgung": "Wasserversorgung"
+  },
+  {
+   "id": "recevqxhk9JJS1YvD",
+   "name": "Water Care+",
+   "monat": 49,
+   "versorgung": "Wasserversorgung"
+  },
+  {
+   "id": "recBehxGXgCL8wwFF",
+   "name": "Water Care Hot",
+   "monat": 55,
+   "versorgung": "Wasserversorgung"
+  },
+  {
+   "id": "recyiVZDssTYNytqa",
+   "name": "Water Care Hot+",
+   "monat": 69,
+   "versorgung": "Wasserversorgung"
+  },
+  {
+   "id": "recRVtYKTXcyCbLbF",
+   "name": "Bottle Care",
+   "monat": 23,
+   "versorgung": "Wasserversorgung"
+  },
+  {
+   "id": "recB64e7iipihrUl1",
+   "name": "Vending Care",
+   "monat": 29,
+   "versorgung": "Warenautomaten"
+  }
+ ],
+ "installation": [
+  {
+   "id": "rec1Q55Fos4PF1Sy4",
+   "name": "KVA Installationseinheit (L-bis 120 Tassen)",
+   "kauf": 316,
+   "m36": 10.17,
+   "m48": 8.06,
+   "m60": 6.92,
+   "versorgung": "Kaffeeversorgung"
+  },
+  {
+   "id": "rec92yGdnEE7Cwdny",
+   "name": "KVA Installationseinheit (2XL-ab 180 Tassen)",
+   "kauf": 419,
+   "m36": 13.49,
+   "m48": 10.68,
+   "m60": 9.18,
+   "versorgung": "Kaffeeversorgung"
+  },
+  {
+   "id": "recDyIkZPbHNvubfa",
+   "name": "KVA Installationseinheit (XL-bis 180 Tassen)",
+   "kauf": 341,
+   "m36": 10.98,
+   "m48": 8.7,
+   "m60": 7.47,
+   "versorgung": "Kaffeeversorgung"
+  },
+  {
+   "id": "recIfIczWEIuZatas",
+   "name": "KVA Installationseinheit (S-bis 30 Tassen)",
+   "kauf": 239,
+   "m36": 7.7,
+   "m48": 6.09,
+   "m60": 5.23,
+   "versorgung": "Kaffeeversorgung"
+  },
+  {
+   "id": "recZAvMVTzTIJ3JIB",
+   "name": "KVA Installationseinheit (V-bis 50 Tassen)",
+   "kauf": 245,
+   "m36": 7.89,
+   "m48": 6.25,
+   "m60": 5.37,
+   "versorgung": "Kaffeeversorgung"
+  },
+  {
+   "id": "reciFQ1aeOVi51D6w",
+   "name": "KVA Installationseinheit (M-bis 90 Tassen)",
+   "kauf": 281,
+   "m36": 9.05,
+   "m48": 7.17,
+   "m60": 6.15,
+   "versorgung": "Kaffeeversorgung"
+  },
+  {
+   "id": "recJPt8hiXuY43NA3",
+   "name": "TWA Installationseinheit Office",
+   "kauf": 290,
+   "m36": 9.34,
+   "m48": 7.4,
+   "m60": 6.35,
+   "versorgung": "Wasserversorgung"
+  },
+  {
+   "id": "recqeERlQM1YcBv8C",
+   "name": "TWA Installationseinheit Office Hot",
+   "kauf": 382,
+   "m36": 12.3,
+   "m48": 9.74,
+   "m60": 8.37,
+   "versorgung": "Wasserversorgung"
+  },
+  {
+   "id": "reckU9xXOE6TdsrI9",
+   "name": "TWA Installationseinheit Office Care",
+   "kauf": 390,
+   "m36": 12.56,
+   "m48": 9.95,
+   "m60": 8.54,
+   "versorgung": "Wasserversorgung"
+  },
+  {
+   "id": "recOgl4oucneQG8NY",
+   "name": "TWA Installationseinheit Industrie",
+   "kauf": 226,
+   "m36": 7.28,
+   "m48": 5.76,
+   "m60": 4.95,
+   "versorgung": "Wasserversorgung"
+  },
+  {
+   "id": "recZWIwAH3WZfNNNF",
+   "name": "TWA Installationseinheit Industrie Hot",
+   "kauf": 318,
+   "m36": 10.24,
+   "m48": 8.11,
+   "m60": 6.96,
+   "versorgung": "Wasserversorgung"
+  },
+  {
+   "id": "reclUgp8cP22zaI7d",
+   "name": "TWA Installationseinheit Industrie Care",
+   "kauf": 328,
+   "m36": 10.56,
+   "m48": 8.36,
+   "m60": 7.18,
+   "versorgung": "Wasserversorgung"
+  }
+ ],
+ "lieferung": [
+  {
+   "id": "recZGsYaiykxgSEUI",
+   "name": "Lieferung & Installation",
+   "kauf": 280,
+   "m36": 9.02,
+   "m48": 7.14,
+   "m60": 6.13,
+   "versorgung": "Wasser und Kaffee"
+  },
+  {
+   "id": "recthRk3JdWqfwFgw",
+   "name": "Lieferung & Einweisung Snackautomat",
+   "kauf": 350,
+   "m36": 11.27,
+   "m48": 8.92,
+   "m60": 7.67,
+   "versorgung": "Warenautomaten"
+  }
+ ],
+ "vertrieb": [
+  "Christoph Lanz",
+  "Kevin Erhardt",
+  "Michael Wick"
+ ]
+}

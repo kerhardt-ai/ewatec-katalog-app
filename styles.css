@@ -34,8 +34,8 @@ main.innen { flex: 1; }
 /* Kopf */
 header.kopf { position: sticky; top: 0; z-index: 20; background: rgba(4, 8, 11, .94); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 1px solid var(--linie); }
 .kopf-zeile { height: 80px; display: flex; align-items: center; gap: 24px; }
-.marke { display: flex; align-items: baseline; gap: 12px; flex: 0 0 auto; cursor: pointer; }
-.marke b { font-size: 26px; font-weight: 700; letter-spacing: -.02em; }
+.marke { display: flex; align-items: center; gap: 14px; flex: 0 0 auto; cursor: pointer; }
+.marke img { height: 30px; width: auto; display: block; }
 .marke span { font-size: 14px; color: var(--text-3); }
 nav.haupt { display: flex; gap: 4px; flex: 1 1 auto; }
 .nav-btn { height: 48px; padding: 0 18px; border: none; border-radius: 24px; background: transparent; color: var(--text-2); font-size: 16px; white-space: nowrap; }
@@ -216,3 +216,33 @@ footer.fuss .innen { padding-top: 26px; padding-bottom: 26px; display: flex; fle
   aside.summe { position: static; }
   .position-zeile { grid-template-columns: 1fr; }
 }
+
+/* Geräteberater */
+.einstieg.gross { min-height: 220px; }
+.einstieg.gross b { font-size: clamp(32px, 4vw, 44px); }
+.berater { padding: 48px 0 88px; display: flex; flex-direction: column; gap: 32px; }
+.fortschritt { display: flex; align-items: center; gap: 8px; }
+.fortschritt > span:not(.label) { width: 56px; height: 4px; border-radius: 2px; background: var(--stahl); }
+.fortschritt > span.fertig { background: var(--akzent); }
+h2.frage { margin: 0; font-size: clamp(32px, 4vw, 52px); font-weight: 600; letter-spacing: -.02em; text-wrap: balance; }
+.antworten { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 18px; }
+.antwort { min-height: 150px; padding: 26px; border-radius: 20px; border: 2px solid var(--linie); background: var(--flaeche); text-align: left; display: flex; flex-direction: column; justify-content: flex-end; gap: 8px; transition: border-color .2s, background .2s; }
+.antwort:hover, .antwort:focus-visible { border-color: var(--akzent); background: #0B1E2C; outline: none; }
+.antwort b { font-size: 26px; font-weight: 600; line-height: 1.15; }
+.antwort span { font-size: 16px; color: var(--text-2); font-weight: 300; }
+.antwort.mit-bild { padding: 0; overflow: hidden; justify-content: flex-start; }
+.antwort.mit-bild .bild { aspect-ratio: 4 / 3; width: 100%; }
+.antwort-text { padding: 20px 22px 24px; display: flex; flex-direction: column; gap: 6px; }
+.empfehlung { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: clamp(28px, 4vw, 56px); align-items: start; background: var(--flaeche); border: 1px solid var(--akzent); border-radius: 24px; padding: clamp(20px, 3vw, 36px); }
+@media (max-width: 860px) { .empfehlung { grid-template-columns: 1fr; } }
+.empfehlung-bild { border-radius: 18px; overflow: hidden; aspect-ratio: 1 / 1; cursor: pointer; }
+.empfehlung-info { display: flex; flex-direction: column; gap: 26px; }
+.gruende { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.gruende li { display: flex; gap: 12px; font-size: 18px; line-height: 1.45; color: #D6DFE7; }
+.gruende.kurz li { font-size: 14px; gap: 8px; color: var(--text-2); }
+.gruende.kurz svg { width: 15px; height: 15px; margin-top: 2px; }
+.preis-zeile { display: flex; flex-wrap: wrap; gap: 0; border: 1px solid var(--linie); border-radius: 16px; overflow: hidden; }
+.preis-zeile > div { flex: 1 1 120px; padding: 14px 18px; display: flex; flex-direction: column; gap: 4px; border-right: 1px solid var(--linie); }
+.preis-zeile > div:last-child { border-right: none; }
+.preis-zeile b { font-size: 20px; font-weight: 500; }
+.preis-zeile > div:first-child b { color: var(--akzent-hell); }

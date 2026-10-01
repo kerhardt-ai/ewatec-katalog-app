@@ -1,6 +1,7 @@
 import CONFIG from './config.js';
 import INHALTE from './inhalte.js';
 import ZUORDNUNG from './zuordnung.js';
+import { BEREICHE, empfehlen } from './berater.js';
 
 /* ---------- Konstanten ---------- */
 
@@ -40,7 +41,8 @@ const ICON = {
   schlossAuf: '<svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="4" y="9" width="12" height="8.5" rx="2" stroke="#0992D1" stroke-width="1.6"/><path d="M6.8 9V6.6a3.2 3.2 0 0 1 6.2-1.1" stroke="#0992D1" stroke-width="1.6"/></svg>',
   lupe: '<svg width="18" height="18" viewBox="0 0 18 18" fill="none" style="flex:0 0 auto"><circle cx="8" cy="8" r="5.5" stroke="#93A4B5" stroke-width="1.6"/><path d="M12.2 12.2L16 16" stroke="#93A4B5" stroke-width="1.6" stroke-linecap="round"/></svg>',
   zurueck: '<svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M10 3L5 8l5 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>',
-  plus: '<svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 3v10M3 8h10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>'
+  plus: '<svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 3v10M3 8h10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>',
+  haken: '<svg width="18" height="18" viewBox="0 0 18 18" fill="none" style="flex:0 0 auto;margin-top:3px"><circle cx="9" cy="9" r="8" fill="#0992D1" opacity=".18"/><path d="M5.5 9.2l2.3 2.3 4.7-5" stroke="#4FB8E8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>'
 };
 
 /* ---------- Zustand ---------- */
@@ -58,7 +60,8 @@ const S = {
   vertrieb: false, q: '', layout: 'karten',
   f: { kat: [], hersteller: [], preis: [] },
   angebot: lsGet(ENTWURF_KEY) || neuesAngebot(),
-  mehrZubehoer: {}, fehlend: [], senden: { status: '', text: '' }
+  mehrZubehoer: {}, fehlend: [], senden: { status: '', text: '' },
+  berater: { bereich: null, antworten: {}, alle: false }
 };
 const speichereEntwurf = () => lsSet(ENTWURF_KEY, S.angebot);
 
@@ -157,6 +160,7 @@ function ladeNeu() {
 
 function inhalt(g) {
   const z = ZUORDNUNG[g.id];
+  if (z?.bild) return { img: z.bild, voll: null };
   const p = z && INHALT_BY_ID[z.inhalt];
   if (!p) return { img: null, voll: null };
   return { img: p.img, voll: z.voll ? p : null };
@@ -303,12 +307,12 @@ const preisKurz = g => S.vertrieb ? (g.kauf != null ? eur(g.kauf) : '–') : 'Pr
 
 function kopf() {
   const n = S.angebot.positionen.filter(p => p.geraetId).length;
-  const nav = [['start', 'Start'], ['katalog', 'Katalog'], ['angebot', 'Angebot']].map(([k, l]) => {
+  const nav = [['start', 'Start'], ['berater', 'Berater'], ['katalog', 'Katalog'], ['angebot', 'Angebot']].map(([k, l]) => {
     const aktiv = S.view === k || (k === 'katalog' && S.view === 'geraet');
     return `<button class="nav-btn${aktiv ? ' aktiv' : ''}" data-go="${k}">${l}${k === 'angebot' && n ? `<span class="zahl">${n}</span>` : ''}</button>`;
   }).join('');
   return `<header class="kopf"><div class="innen kopf-zeile">
-    <div class="marke" data-go="start"><b>ewatec</b><span>Produktkatalog</span></div>
+    <div class="marke" data-go="start"><img src="logo.webp" alt="ewatec"><span>Produktkatalog</span></div>
     <nav class="haupt">${nav}</nav>
     <div class="suche"><div class="suche-feld">${ICON.lupe}<input id="suche" value="${esc(S.q)}" placeholder="Modell, Hersteller, Kategorie" autocomplete="off"></div><div id="treffer">${treffer()}</div></div>
     <button class="modus-btn" data-action="modus" title="${S.vertrieb ? 'Vertriebsmodus aktiv' : 'Kundenmodus'}">${S.vertrieb ? ICON.schlossAuf : ICON.schlossZu}</button>
@@ -349,11 +353,112 @@ function viewStart() {
       <h1 class="gross">Wasser, Kaffee und Verpflegung für Ihr Unternehmen</h1>
       <p class="lead">Geräte, Montage und Service durch eigene Techniker aus Isny im Allgäu.</p>
     </div>
+    <div class="einstiege">
+      <div class="einstieg blau gross" data-go="berater"><small>Geräteberater</small><div><b>Welche Maschine passt?</b><span>Ein paar gezielte Fragen, dann die passende Maschine mit Begründung und Preis.</span></div></div>
+    </div>
     <div class="kacheln">${kacheln}</div>
     <div class="einstiege">
-      <div class="einstieg blau" data-go="angebot"><small>Angebot</small><div><b>Angebot zusammenstellen</b><span>Geräte wählen, Kauf und Miete vergleichen, direkt versenden.</span></div></div>
+      <div class="einstieg" data-go="angebot"><small style="color:var(--text-3)">Angebot</small><div><b>Angebot zusammenstellen</b><span style="color:var(--text-2)">Geräte wählen, Kauf und Miete vergleichen, direkt versenden.</span></div></div>
       <div class="einstieg" data-go="katalog"><small style="color:var(--text-3)">Übersicht</small><div><b>Alle Geräte auf einen Blick</b><span style="color:var(--text-2)">${d.geraete.length} Geräte, filterbar nach Kategorie und Hersteller.</span></div></div>
     </div>
+  </section>`;
+}
+
+/* ---------- Geräteberater ---------- */
+
+function aktiveFragen() {
+  const b = BEREICHE.find(x => x.key === S.berater.bereich);
+  return b ? b.fragen.filter(f => !f.nur || f.nur(S.berater.antworten)) : [];
+}
+
+function viewBerater() {
+  const B = S.berater;
+  const bereich = BEREICHE.find(x => x.key === B.bereich);
+  const fragen = aktiveFragen();
+  const offen = fragen.find(f => B.antworten[f.key] == null);
+  const schritt = bereich ? fragen.indexOf(offen) : -1;
+
+  const kopfzeile = `<div class="kopfzeile">
+    <div class="fortschritt">${bereich ? fragen.map((f, i) => `<span class="${B.antworten[f.key] != null ? 'fertig' : ''}"></span>`).join('') : ''}
+      <span class="label" style="margin-left:8px">${!bereich ? 'Geräteberater' : offen ? 'Frage ' + (schritt + 1) + ' von ' + fragen.length : 'Empfehlung'}</span></div>
+    ${bereich ? '<button class="btn" data-action="berater-neu">Neu starten</button>' : ''}
+  </div>`;
+
+  const chips = bereich ? `<div class="schalter-reihe">
+      <button class="chip aktiv" data-action="berater-neu">${esc(bereich.titel)}</button>
+      ${fragen.filter(f => B.antworten[f.key] != null).map(f => `<button class="chip" data-frage="${f.key}"><span style="color:var(--text-3)">${esc(f.frage.replace(/\?$/, ''))}:</span> ${esc(f.antworten[B.antworten[f.key]].titel)}</button>`).join('')}
+    </div>` : '';
+
+  // Schritt 0: Bereich wählen
+  if (!bereich) {
+    return `<section class="berater">${kopfzeile}
+      <h2 class="frage">Worum geht es beim Kunden?</h2>
+      <div class="antworten">${BEREICHE.map(b => `<button class="antwort mit-bild" data-bereich="${b.key}">
+        <div class="bild"><img src="bilder/${b.bild}.webp" alt=""></div>
+        <div class="antwort-text"><b>${esc(b.titel)}</b><span>${esc(b.sub)}</span></div></button>`).join('')}</div>
+    </section>`;
+  }
+
+  // Fragen
+  if (offen) {
+    return `<section class="berater">${kopfzeile}${chips}
+      <h2 class="frage">${esc(offen.frage)}</h2>
+      <div class="antworten">${offen.antworten.map((a, i) => `<button class="antwort" data-antwort="${i}" data-key="${offen.key}">
+        <b>${esc(a.titel)}</b><span>${esc(a.sub)}</span></button>`).join('')}</div>
+      ${schritt > 0 ? `<button class="mehr" data-frage="${fragen[schritt - 1].key}">${ICON.zurueck} Vorherige Frage</button>` : ''}
+    </section>`;
+  }
+
+  // Ergebnis
+  const { liste, hinweis } = empfehlen(B.bereich, B.antworten, S.data.geraete);
+  if (!liste.length) {
+    return `<section class="berater">${kopfzeile}${chips}<div class="leer"><span>Für diese Kombination gibt es kein Gerät im Sortiment.</span><button class="btn" data-action="berater-neu">Neu starten</button></div></section>`;
+  }
+  const [top, ...rest] = liste;
+  const alternativen = rest.slice(0, B.alle ? rest.length : 3);
+  const preisBlock = g => S.vertrieb
+    ? `<div class="preis-zeile"><div><span class="label">Kauf netto</span><b>${g.kauf != null ? eur(g.kauf) : '–'}</b></div>
+       ${CONFIG.LAUFZEITEN.map(l => g['m' + l] ? `<div><span class="label">Miete ${l} Mon.</span><b>${eur(g['m' + l])}</b></div>` : '').join('')}</div>`
+    : '';
+  const sub = g => inhalt(g).voll?.sub || [g.hersteller, KAT[g.typ]?.name].filter(Boolean).join(' · ');
+
+  return `<section class="berater">${kopfzeile}${chips}
+    <div style="display:flex;flex-direction:column;gap:8px">
+      <span class="eyebrow">Unsere Empfehlung</span>
+      ${hinweis ? `<p class="lead" style="font-size:17px">${esc(hinweis)}</p>` : ''}
+    </div>
+    <div class="empfehlung">
+      <div class="empfehlung-bild" data-open="${esc(top.g.id)}">${bild(top.g, true)}</div>
+      <div class="empfehlung-info">
+        <div style="display:flex;flex-direction:column;gap:10px">
+          <span class="label">${esc(top.g.hersteller || KAT[top.g.typ]?.name || '')}</span>
+          <h2 class="titel">${esc(top.g.name)}</h2>
+          <span class="lead" style="font-size:18px">${esc(sub(top.g))}</span>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:12px">
+          <span class="label">Warum dieses Gerät</span>
+          <ul class="gruende">${top.gruende.map(x => `<li>${ICON.haken}<span>${esc(x)}</span></li>`).join('')}</ul>
+        </div>
+        ${preisBlock(top.g)}
+        <div style="display:flex;gap:12px;flex-wrap:wrap">
+          <button class="btn primaer" data-add="${esc(top.g.id)}">${ICON.plus} Ins Angebot</button>
+          <button class="btn" data-open="${esc(top.g.id)}">Details und Technik</button>
+        </div>
+        ${S.vertrieb && top.m.pruefen ? '<div class="intern"><span class="label">Intern</span><span style="color:#D6DFE7">Merkmale dieses Geräts sind geschätzt. Vor dem Angebot mit dem Datenblatt abgleichen.</span></div>' : ''}
+      </div>
+    </div>
+    ${alternativen.length ? `<div style="display:flex;flex-direction:column;gap:20px">
+      <h3 class="titel">Alternativen</h3>
+      <div class="karten">${alternativen.map(x => `<div class="karte" data-open="${esc(x.g.id)}">${bild(x.g)}
+        <div class="karte-text">
+          <span class="klein">${esc(x.g.hersteller || KAT[x.g.typ]?.name || '')}</span>
+          <b>${esc(x.g.name)}</b>
+          <ul class="gruende kurz">${x.gruende.slice(0, 3).map(r => `<li>${ICON.haken}<span>${esc(r)}</span></li>`).join('')}</ul>
+          <div class="karte-fuss"><div>${preisKurz(x.g)}${S.vertrieb && x.g.m60 ? `<br><small>ab ${eur(x.g.m60)} / Monat</small>` : ''}</div>
+            <button class="plus" data-add="${esc(x.g.id)}" title="Zum Angebot hinzufügen">${ICON.plus}</button></div>
+        </div></div>`).join('')}</div>
+      ${rest.length > 3 ? `<button class="mehr" data-action="berater-alle">${B.alle ? 'Weniger anzeigen' : 'Alle ' + rest.length + ' passenden Geräte anzeigen'}</button>` : ''}
+    </div>` : ''}
   </section>`;
 }
 
@@ -568,7 +673,7 @@ function render() {
     app.innerHTML = `<main class="innen"><p class="daten-hinweis">Katalog wird geladen …</p></main>`;
     return;
   }
-  const inhaltHtml = { start: viewStart, katalog: viewKatalog, geraet: viewGeraet, angebot: viewAngebot }[S.view]();
+  const inhaltHtml = { start: viewStart, berater: viewBerater, katalog: viewKatalog, geraet: viewGeraet, angebot: viewAngebot }[S.view]();
   const warn = S.ladefehler ? `<div class="innen"><p class="daten-hinweis warn">${esc(S.ladefehler)} Die App zeigt den ${S.quelle === 'cache' ? 'zuletzt geladenen' : 'lokalen'} Datenstand.</p></div>` : '';
   // Fokus merken und nach dem Neuzeichnen wiederherstellen
   const el = document.activeElement;
@@ -585,7 +690,7 @@ function render() {
 
 function route() {
   const [, view = 'start', param = ''] = location.hash.split('/');
-  S.view = ['start', 'katalog', 'geraet', 'angebot'].includes(view) ? view : 'start';
+  S.view = ['start', 'berater', 'katalog', 'geraet', 'angebot'].includes(view) ? view : 'start';
   S.param = decodeURIComponent(param);
   S.q = '';
   if (S.view !== 'angebot') S.fehlend = [];
@@ -598,7 +703,7 @@ function route() {
 const app = document.getElementById('app');
 
 app.addEventListener('click', e => {
-  const t = e.target.closest('[data-go],[data-open],[data-add],[data-kat],[data-filter],[data-layout],[data-action],[data-fin],[data-laufzeit],[data-zub],[data-mehr],[data-entfernen]');
+  const t = e.target.closest('[data-go],[data-open],[data-add],[data-kat],[data-filter],[data-layout],[data-action],[data-fin],[data-laufzeit],[data-zub],[data-mehr],[data-entfernen],[data-bereich],[data-antwort],[data-frage]');
   if (!t) {
     if (S.q && !e.target.closest('.suche')) { S.q = ''; document.getElementById('treffer').innerHTML = ''; }
     return;
@@ -615,7 +720,18 @@ app.addEventListener('click', e => {
   if (ds.zub) { const p = a.positionen[ds.pos]; p.zubehoer = p.zubehoer.includes(ds.zub) ? p.zubehoer.filter(x => x !== ds.zub) : [...p.zubehoer, ds.zub]; speichereEntwurf(); return render(); }
   if (ds.mehr) { S.mehrZubehoer[ds.mehr] = !S.mehrZubehoer[ds.mehr]; return render(); }
   if (ds.entfernen) { a.positionen.splice(Number(ds.entfernen), 1); speichereEntwurf(); return render(); }
+  const B = S.berater;
+  if (ds.bereich) { S.berater = { bereich: ds.bereich, antworten: {}, alle: false }; render(); return window.scrollTo(0, 0); }
+  if (ds.antwort != null) { B.antworten[ds.key] = Number(ds.antwort); B.alle = false; render(); return window.scrollTo(0, 0); }
+  if (ds.frage) {
+    // zur Frage zurück: diese und alle späteren Antworten verwerfen
+    const keys = BEREICHE.find(x => x.key === B.bereich).fragen.map(f => f.key);
+    keys.slice(keys.indexOf(ds.frage)).forEach(k => delete B.antworten[k]);
+    render(); return window.scrollTo(0, 0);
+  }
   switch (ds.action) {
+    case 'berater-neu': S.berater = { bereich: null, antworten: {}, alle: false }; return render();
+    case 'berater-alle': B.alle = !B.alle; return render();
     case 'modus': S.vertrieb = !S.vertrieb; if (!S.vertrieb) S.f.preis = []; return render();
     case 'filter-reset': S.f = { kat: [], hersteller: [], preis: [] }; return render();
     case 'zurueck': return history.length > 1 ? history.back() : (location.hash = '#/katalog');

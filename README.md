@@ -17,7 +17,9 @@ Im Browser steht kein Airtable-Schlüssel. Der Zugang liegt nur in Make.
 |---|---|
 | `config.js` | Webhook-Adressen, Cache-Dauer, Laufzeiten |
 | `app.js` | Logik, Preisberechnung, Airtable-Feldnamen (Funktion `ausAirtable`) |
-| `zuordnung.js` | Airtable-Gerät → Bild und Texte aus `inhalte.js` |
+| `zuordnung.js` | Airtable-Gerät → Bild und Texte aus `inhalte.js` oder eigenes Bild |
+| `berater.js` | Geräteberater: Merkmale je Gerät (Regeln nach Modellname) und Fragen je Bereich |
+| `logo.webp` | ewatec-Logo |
 | `inhalte.js` | Bilder, Beschreibungen, technische Daten aus Claude Design |
 | `data/katalog.json` | Datenstand vom 30.09.2026, falls Make nicht erreichbar ist |
 | `bilder/` | Produktbilder |
@@ -32,6 +34,8 @@ Im Browser steht kein Airtable-Schlüssel. Der Zugang liegt nur in Make.
 
 - **Neues Gerät oder neuer Preis:** nur in Airtable ändern. Die App lädt spätestens nach 30 Minuten neu. Über „neu laden“ in der Fußzeile geht es sofort (nur im Vertriebsmodus sichtbar).
 - **Bild für ein neues Gerät:** Bild nach `bilder/` legen, in `inhalte.js` eintragen und die Record-ID in `zuordnung.js` ergänzen.
+- **Bild aus dem Produktblatt:** `bilder/airtable/<Record-ID>.webp` ablegen und in `zuordnung.js` `{ bild: 'airtable/<Record-ID>' }` eintragen.
+- **Berater:** Neue Geräte bekommen ihre Merkmale automatisch über die Regeln in `berater.js`, wenn der Name dem bekannten Muster folgt. Sonderfälle unter `AUSNAHMEN` eintragen. Geräte mit `pruefen: true` haben geschätzte Merkmale.
 - **Feld in Airtable umbenannt:** Feldname in `app.js` (Funktion `ausAirtable`) und im Make-Szenario „Katalog aus Airtable“ anpassen.
 
 ## Starten
@@ -39,7 +43,6 @@ Im Browser steht kein Airtable-Schlüssel. Der Zugang liegt nur in Make.
 Es ist eine statische Webseite ohne Build-Schritt. Lokal:
 
 ```
-cd app
 python3 -m http.server 8000
 ```
 

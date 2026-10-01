@@ -101,7 +101,9 @@ function normalisiere(roh) {
   const z = (roh.zubehoer || []).map(x => ({
     id: x.id, name: sauber(x.name), art: x.art || '', versorgung: liste(x.versorgung),
     kauf: nummer(x.kauf), m36: nummer(x.m36), m48: nummer(x.m48), m60: nummer(x.m60), geraete: liste(x.geraete)
-  })).filter(x => x.id && x.name);
+  })).filter(x => x.id && x.name)
+    // Zubehör, das nur zu ausgeblendeten Geräten passt, ebenfalls ausblenden
+    .filter(x => !x.geraete.length || x.geraete.some(id => g.some(y => y.id === id)) || !x.geraete.every(id => (roh.geraete || []).some(y => y.id === id)));
   const teil = x => ({ id: x.id, name: sauber(x.name), kauf: nummer(x.kauf), m36: nummer(x.m36), m48: nummer(x.m48), m60: nummer(x.m60), versorgung: String(x.versorgung || '') });
   const d = {
     geraete: g.sort((a, b) => a.typ.localeCompare(b.typ) || a.name.localeCompare(b.name, 'de')),

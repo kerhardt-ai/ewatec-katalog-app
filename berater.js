@@ -36,12 +36,6 @@ const REGELN = [
   [/^Cool ?1/i, { bereich: 'wasser', bauform: 'stand', leistung: 80 }],
   [/^Piccola Box/i, { bereich: 'wasser', bauform: 'untertisch', leistung: 15 }],
   [/^Piccola/i, { bereich: 'wasser', bauform: 'theke', leistung: 15, pruefen: true }],
-  [/^Bar G 45/i, { bereich: 'wasser', bauform: 'untertisch', leistung: 45 }],
-  [/^Sikelia Mini Touch/i, { bereich: 'wasser', bauform: 'theke', leistung: 20, touch: true, pruefen: true }],
-  [/^Sikelia/i, { bereich: 'wasser', bauform: 'theke', leistung: 20, pruefen: true }],
-  [/^Supra 150 Touch/i, { bereich: 'wasser', bauform: 'stand', leistung: 150, touch: true, pruefen: true }],
-  [/^Supra/i, { bereich: 'wasser', bauform: 'stand', leistung: 150, pruefen: true }],
-  [/^Sukko/i, { bereich: 'wasser', bauform: 'theke', leistung: 30, pruefen: true }],
   [/^IQ\.?BIG/i, { bereich: 'wasser', bauform: 'stand', leistung: 150, pruefen: true }],
   [/Osmose/i, { bereich: '' }], // Filtertechnik, kein eigenständiges Gerät
   // ---------- Wasserspender mit Bottle ----------

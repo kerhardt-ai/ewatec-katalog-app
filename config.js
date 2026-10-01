@@ -9,6 +9,9 @@ export default {
   // So lange wird der Katalog im Browser zwischengespeichert (Minuten)
   CACHE_MINUTEN: 30,
 
+  // Hersteller, deren Geräte in der App nicht erscheinen (bleiben in Airtable unverändert)
+  HERSTELLER_AUSBLENDEN: ['Zerica'],
+
   MAX_POSITIONEN: 6,
   LAUFZEITEN: [36, 48, 60],
 

@@ -97,7 +97,7 @@ function normalisiere(roh) {
     id: x.id, name: sauber(x.name), typ: x.typ || 'gemischt', hersteller: sauber(x.hersteller) || '',
     kauf: nummer(x.kauf), m36: nummer(x.m36), m48: nummer(x.m48), m60: nummer(x.m60),
     zubehoer: liste(x.zubehoer), produktblatt: x.produktblatt ?? null
-  })).filter(x => x.id && x.name);
+  })).filter(x => x.id && x.name && !(CONFIG.HERSTELLER_AUSBLENDEN || []).includes(x.hersteller));
   const z = (roh.zubehoer || []).map(x => ({
     id: x.id, name: sauber(x.name), art: x.art || '', versorgung: liste(x.versorgung),
     kauf: nummer(x.kauf), m36: nummer(x.m36), m48: nummer(x.m48), m60: nummer(x.m60), geraete: liste(x.geraete)

@@ -136,6 +136,5 @@ export default {
   recaF06JVsFOMKoM4: { bild: 'airtable/recaF06JVsFOMKoM4' }, // Foto aus dem Produktblatt
   recj57vFAYnUTqvlT: { bild: 'airtable/recj57vFAYnUTqvlT' }, // Foto aus dem Produktblatt
   reckydfZTfsVeCq8P: { bild: 'airtable/reckydfZTfsVeCq8P' }, // Foto aus dem Produktblatt
-  reclk42eLZ1RMOsmd: { bild: 'airtable/reclk42eLZ1RMOsmd' }, // Foto aus dem Produktblatt
   recvW1Z7Ymo15ZqTb: { bild: 'airtable/recvW1Z7Ymo15ZqTb' }, // Foto aus dem Produktblatt
 };

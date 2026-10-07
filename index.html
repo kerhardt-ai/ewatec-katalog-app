@@ -356,6 +356,9 @@ footer.site .mail{color:var(--accent)}
 .facts p{margin:0;color:var(--fg2);font-size:14px;line-height:1.5}
 @media(max-width:760px){.svlines{grid-template-columns:1fr}.svfam{grid-template-columns:1fr}.svfam .fimg{width:96px}}
 .nobild{position:absolute;left:0;right:0;bottom:14px;text-align:center;font-size:12px;color:#5a6b7b;letter-spacing:.04em}
+.disc{display:grid;grid-template-columns:auto auto 1fr;align-items:center;gap:10px;font-size:13px}
+.disc label{font-weight:600;font-size:14px}
+.discin{display:inline-flex;align-items:center;gap:6px}.discin .inp{width:84px;text-align:right}
 </style>
 
 
@@ -1208,11 +1211,11 @@ const OFFLINE = true;
 /* ---------- Zustand ---------- */
 const S = { stack:[], view:{v:'home'}, sales:false, brand:true, months:60, layout:'cards', list:{}, cmp:[], filters:{}, adv:{}, check:{}, q:'' };
 const store = { get(k,d){ try{ const v=localStorage.getItem('ewk_'+k); return v==null?d:JSON.parse(v);}catch(e){return d} }, set(k,v){ try{ localStorage.setItem('ewk_'+k,JSON.stringify(v)); }catch(e){} } };
-S.brand = store.get('brand',true); S.layout = store.get('layout','cards'); S.lines = store.get('lines',[]); S.fin = store.get('fin','Miete'); S.cust = store.get('cust',{anrede:'Herr',inbetrieb:true}); S.months = store.get('months',60);
+S.brand = store.get('brand',true); S.layout = store.get('layout','cards'); S.lines = store.get('lines',[]); S.fin = store.get('fin','Miete'); S.cust = store.get('cust',{anrede:'Herr',inbetrieb:true}); S.months = store.get('months',60); S.disc = +store.get('disc',0)||0;
 const P = Object.fromEntries(PRODUCTS.map(p=>[p.id,p]));
 S.lines = S.lines.filter(l=>P[l.pid]);
 const inOffer = id=> S.lines.some(l=>l.pid===id);
-const saveOffer = ()=>{ store.set('lines',S.lines); store.set('fin',S.fin); store.set('cust',S.cust); };
+const saveOffer = ()=>{ store.set('lines',S.lines); store.set('fin',S.fin); store.set('cust',S.cust); store.set('disc',S.disc); };
 const CAT = Object.fromEntries(CATEGORIES.map(c=>[c.id,c]));
 const $ = s=>document.querySelector(s);
 const app = $('#app');
@@ -1476,19 +1479,21 @@ function lineInfo(l){
   const liefs = (OFFER.LIEF||[]).filter(x=>x[3].includes(p.cat));
   const inst = insts.find(x=>x[0]===l.inst)||null, lief = liefs.find(x=>x[0]===l.lief)||null;
   const lq = Math.max(1, l.liefQty||1);
-  const extraK = (inst?inst[2]*l.qty:0) + (lief?lief[2]*lq:0);
-  const extraR = m => (inst?r2(inst[2]*RATES[m])*l.qty:0) + (lief?r2(lief[2]*RATES[m])*lq:0);
+  const f = 1 - (S.disc||0)/100, dp = v => r2(v*f);
+  const extraK = (inst?dp(inst[2])*l.qty:0) + (lief?dp(lief[2])*lq:0);
+  const extraR = m => (inst?r2(dp(inst[2])*RATES[m])*l.qty:0) + (lief?r2(dp(lief[2])*RATES[m])*lq:0);
+  const listK = unit==null?null:unit*l.qty + (inst?inst[2]*l.qty:0) + (lief?lief[2]*lq:0);
   let label;
   if(cfg){ const first=p.name.split(' ')[0].toLowerCase(); label = cfg[0].toLowerCase().includes(first) ? cfg[0] : dname(p)+' '+cfg[0]; if(S.brand && p.brand && ['Gaggia','Saeco'].includes(p.brand) && !label.includes(p.brand)) label=p.brand+' '+label; }
   else label = dname(p);
   return { p, cfg, base, at, accs, cares, care, careN, careU, unit, label, recId: at?at.id:'',
     insts, liefs, inst, lief, lq,
-    kauf: unit==null?null:unit*l.qty+extraK, rate:m=> unit==null?null:r2(unit*RATES[m])*l.qty+extraR(m), careM: care?careU*l.qty:0,
-    accNames: l.acc.map(id=>{ const x=accs.find(q=>q[0]===id); return x?x[1]:null; }).filter(Boolean).concat(inst?[(l.qty>1?l.qty+'× ':'')+inst[1]]:[]).concat(lief?[(lq>1?lq+'× ':'')+lief[1]]:[]) };
+    listK, kauf: unit==null?null:dp(unit)*l.qty+extraK, rate:m=> unit==null?null:r2(dp(unit)*RATES[m])*l.qty+extraR(m), careM: care?careU*l.qty:0,
+    accNames: l.acc.map(id=>{ const x=accs.find(q=>q[0]===id); return x?x[1]:null; }).filter(Boolean).concat(inst?[(l.qty>1?l.qty+'× ':'')+inst[1]]:[]).concat(lief?[(lq>1?lq+'× ':'')+lief[1]]:[]).concat(S.disc>0&&unit!=null?['inkl. '+de(S.disc).replace(/,00$/,'')+' % Rabatt']:[]) };
 }
 function totals(){
-  const inf=S.lines.map(lineInfo); const t={kauf:0,care:0,open:false,m:{36:0,48:0,60:0}};
-  inf.forEach(i=>{ if(i.unit==null){ t.open=true; return; } t.kauf+=i.kauf; t.care+=i.careM; [36,48,60].forEach(m=>t.m[m]+=i.rate(m)); });
+  const inf=S.lines.map(lineInfo); const t={kauf:0,list:0,care:0,open:false,m:{36:0,48:0,60:0}};
+  inf.forEach(i=>{ if(i.unit==null){ t.open=true; return; } t.kauf+=i.kauf; t.list+=i.listK; t.care+=i.careM; [36,48,60].forEach(m=>t.m[m]+=i.rate(m)); });
   return t;
 }
 function katFor(){ const c=new Set(S.lines.map(l=>({wasser:'Wasserversorgung',bottle:'Wasserversorgung',kaffee:'Kaffeeversorgung',barista:'Kaffeeversorgung',vending:'Warenautomaten'})[P[l.pid].cat])); return c.size===1?[...c][0]:'gemischt'; }
@@ -1539,6 +1544,7 @@ function vOffer(){
         <button data-fin="Kauf" aria-pressed="${S.fin==='Kauf'}"><b>Kauf</b><span>${money(t.kauf)}</span><small>einmalig${t.care?` · Care ${money(t.care)}/Mon.`:''}</small></button>
         <button data-fin="Miete" aria-pressed="${S.fin==='Miete'}"><b>Miete ${S.months} Mon.</b><span>${money(t.m[S.months]+t.care)}</span><small>pro Monat${t.care?' inkl. Care':''}</small></button>
       </div>
+      <div class="sales-only disc"><label for="d_disc">Rabatt</label><span class="discin"><input class="inp" id="d_disc" type="number" min="0" max="50" step="0.5" inputmode="decimal" value="${S.disc||''}" placeholder="0"><b>%</b></span>${S.disc>0?`<span class="muted">Listenpreis ${money(t.list)} · Ersparnis ${money(t.list-t.kauf)}</span>`:'<span class="muted">auf Geräte, Zubehör, Installation und Lieferung</span>'}</div>
       ${t.open?'<p class="note"><b>Achtung:</b> Mindestens eine Position hat noch keinen Preis.</p>':''}
       <p class="muted" style="margin:0;font-size:13px">${S.fin==='Miete'?'Zzgl. Bearbeitungsgebühr der Leasinggesellschaft 79 € netto. ':''}Montage und Anfahrt nach Absprache.</p>
     </div>
@@ -1569,7 +1575,7 @@ function vOffer(){
 function summaryText(){
   const t=totals();
   const lines=S.lines.map(l=>{ const x=lineInfo(l); return `${l.qty} × ${x.label}${x.accNames.length?' ('+x.accNames.join(', ')+')':''}${x.unit!=null?`: Kauf ${eur.format(x.kauf)} · Miete ${eur.format(x.rate(S.months))}/Monat`:''}${x.care?` · ${x.care[0]} ${eur.format(x.careM)}/Monat`:''}`; });
-  return `ewatec · Angebotsentwurf\n\n${lines.join('\n')}\n\nKauf gesamt: ${eur.format(t.kauf)} einmalig${t.care?` + Care ${eur.format(t.care)}/Monat`:''}\nMiete ${S.months} Monate: ${eur.format(t.m[S.months]+t.care)}/Monat${t.care?' inkl. Care':''}\nAlle Preise netto zzgl. MwSt., Preisstand ${PRICE_DATE}\n\newatec e.K. · Isny im Allgäu · info@ewatec.biz`;
+  return `ewatec · Angebotsentwurf\n\n${lines.join('\n')}${S.disc>0?`\n\nRabatt ${de(S.disc).replace(/,00$/,'')} % (Listenpreis ${eur.format(t.list)}) bereits eingerechnet`:''}\n\nKauf gesamt: ${eur.format(t.kauf)} einmalig${t.care?` + Care ${eur.format(t.care)}/Monat`:''}\nMiete ${S.months} Monate: ${eur.format(t.m[S.months]+t.care)}/Monat${t.care?' inkl. Care':''}\nAlle Preise netto zzgl. MwSt., Preisstand ${PRICE_DATE}\n\newatec e.K. · Isny im Allgäu · info@ewatec.biz`;
 }
 
 /* ---------- Render ---------- */
@@ -1650,7 +1656,7 @@ document.addEventListener('click', e=>{
     case 'onlyDiff': S.view.only=!S.view.only; render(); break;
     case 'listBtn': if(S.view.v!=='offer') go({v:'offer'}); break;
     case 'offMore': S.stack=[]; S.view={v:'home'}; render(); window.scrollTo(0,0); break;
-    case 'offClr': case 'offNew': S.lines=[]; S.cust={anrede:'Herr',inbetrieb:true,rep:S.cust.rep}; saveOffer(); S.view={v:'offer'}; render(); break;
+    case 'offClr': case 'offNew': S.lines=[]; S.cust={anrede:'Herr',inbetrieb:true,rep:S.cust.rep}; S.disc=0; saveOffer(); S.view={v:'offer'}; render(); break;
     case 'copySum': { const txt=summaryText(); const done=()=>toast('Zusammenfassung kopiert');
       const fallback=()=>{ const a=$('#copyArea'); a.innerHTML='<p class="muted" style="margin:8px 0 4px">Text markieren und kopieren:</p><textarea class="copy" readonly></textarea>'; const ta=a.querySelector('textarea'); ta.value=txt; ta.focus(); ta.select(); };
       try{ navigator.clipboard.writeText(txt).then(done,fallback); }catch(err){ fallback(); } break; }
@@ -1667,6 +1673,7 @@ document.addEventListener('change', e=>{ const d=e.target.dataset;
   if(d.caresel!=null){ S.lines[+d.caresel].care=+e.target.value; saveOffer(); render(); return; }
   if(d.instsel!=null){ S.lines[+d.instsel].inst=e.target.value; saveOffer(); render(); return; }
   if(d.liefsel!=null){ const l=S.lines[+d.liefsel]; l.lief=e.target.value; l.liefQty=l.liefQty||1; saveOffer(); render(); return; }
+  if(e.target.id==='d_disc'){ let v=parseFloat(String(e.target.value).replace(',','.'))||0; S.disc=Math.min(50,Math.max(0,Math.round(v*2)/2)); saveOffer(); render(); return; }
   if(e.target.id&&e.target.id.startsWith('c_')) readCust(); });
 document.addEventListener('input', e=>{ if(e.target.id&&e.target.id.startsWith('c_')) readCust(); });
 document.addEventListener('click', e=>{ if(e.target.id==='scrim') $('#overlay').innerHTML=''; });

@@ -1546,7 +1546,7 @@ function vOffer(){
       </div>
       <div class="sales-only disc"><label for="d_disc">Rabatt</label><span class="discin"><input class="inp" id="d_disc" type="number" min="0" max="50" step="0.5" inputmode="decimal" value="${S.disc||''}" placeholder="0"><b>%</b></span>${S.disc>0?`<span class="muted">Listenpreis ${money(t.list)} · Ersparnis ${money(t.list-t.kauf)}</span>`:'<span class="muted">auf Geräte, Zubehör, Installation und Lieferung</span>'}</div>
       ${t.open?'<p class="note"><b>Achtung:</b> Mindestens eine Position hat noch keinen Preis.</p>':''}
-      <p class="muted" style="margin:0;font-size:13px">${S.fin==='Miete'?'Zzgl. Bearbeitungsgebühr der Leasinggesellschaft 79 € netto. ':''}Montage und Anfahrt nach Absprache.</p>
+      <p class="muted" style="margin:0;font-size:13px">${S.fin==='Miete'?'Zzgl. Bearbeitungsgebühr der Leasinggesellschaft 79 € netto. Leasing nur nach positiver Bonitätsprüfung, bei Neugründungen oder abweichender Bonität kann sich die Rate anpassen. ':''}Montage und Anfahrt nach Absprache.</p>
     </div>
     <div class="panel sales-only" style="display:grid;gap:12px">
       <h3 style="font-size:16px;font-weight:600">Angebot erstellen</h3>
@@ -1575,7 +1575,7 @@ function vOffer(){
 function summaryText(){
   const t=totals();
   const lines=S.lines.map(l=>{ const x=lineInfo(l); return `${l.qty} × ${x.label}${x.accNames.length?' ('+x.accNames.join(', ')+')':''}${x.unit!=null?`: Kauf ${eur.format(x.kauf)} · Miete ${eur.format(x.rate(S.months))}/Monat`:''}${x.care?` · ${x.care[0]} ${eur.format(x.careM)}/Monat`:''}`; });
-  return `ewatec · Angebotsentwurf\n\n${lines.join('\n')}${S.disc>0?`\n\nRabatt ${de(S.disc).replace(/,00$/,'')} % (Listenpreis ${eur.format(t.list)}) bereits eingerechnet`:''}\n\nKauf gesamt: ${eur.format(t.kauf)} einmalig${t.care?` + Care ${eur.format(t.care)}/Monat`:''}\nMiete ${S.months} Monate: ${eur.format(t.m[S.months]+t.care)}/Monat${t.care?' inkl. Care':''}\nAlle Preise netto zzgl. MwSt., Preisstand ${PRICE_DATE}\n\newatec e.K. · Isny im Allgäu · info@ewatec.biz`;
+  return `ewatec · Angebotsentwurf\n\n${lines.join('\n')}${S.disc>0?`\n\nRabatt ${de(S.disc).replace(/,00$/,'')} % (Listenpreis ${eur.format(t.list)}) bereits eingerechnet`:''}\n\nKauf gesamt: ${eur.format(t.kauf)} einmalig${t.care?` + Care ${eur.format(t.care)}/Monat`:''}\nMiete ${S.months} Monate: ${eur.format(t.m[S.months]+t.care)}/Monat${t.care?' inkl. Care':''}\nLeasing vorbehaltlich Bonitätsprüfung, bei Neugründungen kann sich die Rate anpassen.\nAlle Preise netto zzgl. MwSt., Preisstand ${PRICE_DATE}\n\newatec e.K. · Isny im Allgäu · info@ewatec.biz`;
 }
 
 /* ---------- Render ---------- */

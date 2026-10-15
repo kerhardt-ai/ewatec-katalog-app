@@ -1482,9 +1482,10 @@ const UV_PRICE=16.90;
 /* Live-Leasingfaktoren von Miete24/GRENKE (quartalsweise Zahlung, monatlich ausgewiesen) */
 S.live=null; let liveTimer=null, livePending=null;
 function kaufSum(){ return r2(S.lines.reduce((a,l)=>{ const k=lineInfo(l).kauf; return a+(k||0); },0)); }
-function offerRates(){ const t=kaufSum(); return (S.live && Math.abs(S.live.amt-t)<0.005) ? S.live.f : RATES; }
+const LIVE_RATES=false; /* true = Leasingfaktoren live von Miete24, false = eigene Raten aus Airtable */
+function offerRates(){ if(!LIVE_RATES) return RATES; const t=kaufSum(); return (S.live && Math.abs(S.live.amt-t)<0.005) ? S.live.f : RATES; }
 function liveState(){ const t=kaufSum(); if(!t) return 'none'; if(S.live && Math.abs(S.live.amt-t)<0.005) return 'live'; return livePending===t?'pending':(S.liveErr===t?'error':'pending'); }
-function ensureLive(){
+function ensureLive(){ if(!LIVE_RATES) return;
   const t=kaufSum(); if(!t || (S.live && Math.abs(S.live.amt-t)<0.005) || livePending===t || S.liveErr===t) return;
   clearTimeout(liveTimer);
   liveTimer=setTimeout(()=>{ livePending=t;
@@ -1587,7 +1588,7 @@ function vOffer(){
       </div>
       <div class="sales-only disc"><label for="d_disc">Rabatt</label><span class="discin"><input class="inp" id="d_disc" type="number" min="0" max="50" step="0.5" inputmode="decimal" value="${S.disc||''}" placeholder="0"><b>%</b></span>${S.disc>0?`<span class="muted">Listenpreis ${money(t.list)} · Ersparnis ${money(t.list-t.kauf)}</span>`:'<span class="muted">auf Geräte, Zubehör, Installation und Lieferung</span>'}</div>
       ${t.open?'<p class="note"><b>Achtung:</b> Mindestens eine Position hat noch keinen Preis.</p>':''}
-      ${S.lines.length&&!t.open?(()=>{const st=liveState(); return `<p class="muted sales-only" style="margin:0;font-size:12px">${st==='live'?'Leasingraten live von Miete24/GRENKE, quartalsweise Zahlung monatlich ausgewiesen.':st==='error'?'Live-Raten nicht erreichbar, Richtwerte mit festen Faktoren.':'Live-Raten werden abgefragt, bis dahin Richtwerte.'}</p>`})():''}
+      ${LIVE_RATES&&S.lines.length&&!t.open?(()=>{const st=liveState(); return `<p class="muted sales-only" style="margin:0;font-size:12px">${st==='live'?'Leasingraten live von Miete24/GRENKE, quartalsweise Zahlung monatlich ausgewiesen.':st==='error'?'Live-Raten nicht erreichbar, Richtwerte mit festen Faktoren.':'Live-Raten werden abgefragt, bis dahin Richtwerte.'}</p>`})():''}
       <p class="muted" style="margin:0;font-size:13px">${S.fin==='Miete'?'Zzgl. Bearbeitungsgebühr der Leasinggesellschaft 79 € netto. Leasing nur nach positiver Bonitätsprüfung, bei Neugründungen oder abweichender Bonität kann sich die Rate anpassen. ':''}Montage und Anfahrt nach Absprache.</p>
     </div>
     <div class="panel sales-only" style="display:grid;gap:12px">

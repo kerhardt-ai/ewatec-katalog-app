@@ -359,6 +359,10 @@ footer.site .mail{color:var(--accent)}
 .disc{display:grid;grid-template-columns:auto auto 1fr;align-items:center;gap:10px;font-size:13px}
 .disc label{font-weight:600;font-size:14px}
 .discin{display:inline-flex;align-items:center;gap:6px}.discin .inp{width:84px;text-align:right}
+.lrow{display:grid;grid-template-columns:1fr auto;gap:4px 10px;align-items:center;padding:10px 12px;border:1px solid var(--line, rgba(255,255,255,.1));border-radius:12px}
+.lrow .lact{grid-column:1/-1;display:flex;gap:14px}
+.lst{font-size:12px;font-weight:600;padding:3px 10px;border-radius:999px;white-space:nowrap}
+.lst.ok{background:rgba(46,180,110,.18);color:#4ad08a}.lst.warn{background:rgba(9,146,209,.18);color:#4cb8ea}.lst.bad{background:rgba(220,70,70,.18);color:#f08080}
 </style>
 
 
@@ -1598,10 +1602,14 @@ function vOffer(){
         <label class="span2">Firma<input class="inp${bad('firma')}" id="c_firma" value="${esc(c.firma||'')}" autocomplete="organization"></label>
         <label>Anrede<select class="inp" id="c_anrede">${['Herr','Frau'].map(v=>`<option ${c.anrede===v?'selected':''}>${v}</option>`).join('')}</select></label>
         <label>Nachname<input class="inp${bad('name')}" id="c_name" value="${esc(c.name||'')}"></label>
+        <label class="span2">Vorname Ansprechpartner<input class="inp" id="c_vorname" value="${esc(c.vorname||'')}" placeholder="für Leasinganfrage nötig"></label>
         <label class="span2">Straße und Hausnummer<input class="inp" id="c_strasse" value="${esc(c.strasse||'')}"></label>
         <label>PLZ<input class="inp" id="c_plz" value="${esc(c.plz||'')}" inputmode="numeric"></label>
         <label>Ort<input class="inp" id="c_ort" value="${esc(c.ort||'')}"></label>
         <label class="span2">E-Mail des Kunden<input class="inp${bad('email')}" id="c_email" type="email" value="${esc(c.email||'')}"></label>
+        <label>Telefon<input class="inp" id="c_tel" value="${esc(c.tel||'')}" inputmode="tel" placeholder="optional"></label>
+        <label>Land<select class="inp" id="c_land">${[['DE','Deutschland'],['AT','Österreich'],['CH','Schweiz']].map(([v,l])=>`<option value="${v}" ${(c.land||'DE')===v?'selected':''}>${l}</option>`).join('')}</select></label>
+        <label class="span2">USt-IdNr.<input class="inp" id="c_ustid" value="${esc(c.ustid||'')}" placeholder="optional"></label>
         <label>Vertriebler<select class="inp${bad('rep')}" id="c_rep"><option value="">Bitte wählen</option>${OFFER.REPS.map(r=>`<option ${c.rep===r?'selected':''}>${esc(r)}</option>`).join('')}</select></label>
         <label>Pipedrive Deal-ID<input class="inp" id="c_deal" value="${esc(c.deal||'')}" inputmode="numeric" placeholder="optional"></label>
         <label>Angebotsdatum<input class="inp" id="c_datum" type="date" value="${esc(c.datum||new Date().toISOString().slice(0,10))}"></label>
@@ -1612,9 +1620,56 @@ function vOffer(){
       <span class="muted" style="font-size:12px">Erstellt das PDF, legt den Mail-Entwurf in vertrieb@ an und aktualisiert den Pipedrive-Deal, wenn eine Deal-ID eingetragen ist.</span>
       <button class="linkbtn" id="copySum" style="justify-self:start">Zusammenfassung kopieren</button><div id="copyArea"></div>
     </div>
+    ${S.fin==='Miete'&&S.lines.length?leasePanel(t):''}
     <div class="panel cust-only"><p class="muted" style="margin:0">Zum Erstellen und Versenden in den Vertriebsmodus wechseln.</p></div>
   </aside></div>`;
 }
+/* ---------- Leasinganfrage an GRENKE über Miete24 ---------- */
+const LEASEHOOK='https://hook.eu2.make.com/is5f4nf7yhhk158bl4v26latacaeuk1g', LEASESTAT='https://hook.eu2.make.com/jc4mp4b2obxu1oe315zedk8qqa958ow4', LEASE_ENV='Testumgebung';
+S.leases = store.get('leases',[]);
+const LST={finance_review:['In Prüfung bei GRENKE','warn'],manual_finance_review:['Manuelle Prüfung bei GRENKE','warn'],finance_accepted:['Genehmigt','ok'],finance_rejected:['Abgelehnt','bad'],canceled:['Storniert','bad'],change_requested:['Änderung angefragt','warn'],information_requested:['Rückfrage von GRENKE','warn'],wait_for_signing:['Wartet auf Unterschrift','ok'],signed:['Unterschrieben','ok'],completed:['Abgeschlossen','ok'],draft:['Entwurf','warn']};
+const lst = s => (LST[s]||[s||'unbekannt','warn']);
+function splitStreet(s){ s=String(s||'').trim(); const m=s.match(/^(.*?)[\s,]+(\d+\s*[a-zA-Z]?(?:\s*[-\/]\s*\d+\s*[a-zA-Z]?)?)$/); return m?[m[1].trim(),m[2].replace(/\s+/g,'')]:[s,'']; }
+function leaseMissing(){ const c=S.cust, m=[]; if(!S.lines.length) m.push('Geräte'); if(S.lines.some(l=>lineInfo(l).unit==null)) m.push('Preis bei einer Position');
+  if(!String(c.firma||'').trim()) m.push('Firma'); if(!String(c.vorname||'').trim()) m.push('Vorname'); if(!String(c.name||'').trim()) m.push('Nachname');
+  if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(c.email||'')) m.push('gültige E-Mail'); const [st,hn]=splitStreet(c.strasse); if(!st||!hn) m.push('Straße mit Hausnummer');
+  if(!String(c.plz||'').trim()) m.push('PLZ'); if(!String(c.ort||'').trim()) m.push('Ort'); if(!c.leaseOk) m.push('Einverständnis des Kunden'); return m; }
+function leasePanel(t){ const m=S.months, R=t.m[m], miss=S.view.leaseTried?leaseMissing():[], busy=S.view.leaseBusy;
+  const list=S.leases.slice(0,5).map(x=>{ const [lab,cl]=lst(x.status); return `<div class="lrow"><div><b>${esc(x.firma||'')}</b><div class="muted" style="font-size:12px">${new Date(x.ts).toLocaleDateString('de-DE')} · ${money(x.rate)}/Mon. · ${x.months} Mon. · Kaufpreis GRENKE ${money(x.price)}${x.env?' · '+esc(x.env):''}</div></div><span class="lst ${cl}">${esc(lab)}</span><div class="lact"><button class="linkbtn" data-lstat="${esc(x.id)}">Status prüfen</button>${x.link?`<a class="linkbtn" href="${esc(x.link)}" target="_blank" rel="noopener">Vorgang öffnen</a>`:''}</div></div>`; }).join('');
+  return `<div class="panel sales-only" style="display:grid;gap:12px">
+    <div class="bar" style="margin:0"><h3 style="font-size:16px;font-weight:600">Leasinganfrage an GRENKE</h3><span class="lst warn">${LEASE_ENV}</span></div>
+    <p class="muted" style="margin:0;font-size:13px">Rate ${money(R)} pro Monat über ${m} Monate (ohne Care). Der Kaufpreis für GRENKE wird aus dieser Rate zurückgerechnet. Angaben aus den Kundendaten oben.</p>
+    <label style="grid-template-columns:auto 1fr;align-items:start;gap:8px;font-size:13px"><input type="checkbox" id="c_leaseOk" ${S.cust.leaseOk?'checked':''}> Kunde ist mit der Leasinganfrage und der Bonitätsprüfung durch GRENKE einverstanden</label>
+    ${miss.length?`<p class="note"><b>Für die Leasinganfrage fehlt:</b> ${miss.join(', ')}</p>`:''}
+    ${S.view.leaseMsg?`<div class="${S.view.leaseOkMsg?'okbox':'note'}">${S.view.leaseMsg}</div>`:''}
+    <button class="btn primary" id="leaseSend" ${busy?'disabled':''}>${busy?'Anfrage läuft …':'Leasinganfrage senden'}</button>
+    ${list?`<div style="display:grid;gap:8px"><span class="eyebrow">Letzte Leasinganfragen</span>${list}</div>`:''}
+  </div>`; }
+async function sendLease(){
+  readCust(); S.view.leaseTried=true; const miss=leaseMissing(); if(miss.length){ render(); toast('Bitte die Angaben für die Leasinganfrage ergänzen'); return; }
+  const c=S.cust, t=totals(), m=S.months, R=r2(t.m[m]), naw=r2(t.kauf);
+  S.view.leaseBusy=true; S.view.leaseMsg=''; render();
+  try{
+    const getF=async a=>{ const j=await (await fetch(RATEHOOK+'?k='+OFFER.KEY+'&betrag='+a)).json(); if(!j||!j.ok||!j['f'+m]) throw new Error('Faktor von Miete24 nicht erhalten'); return j['f'+m]/100; };
+    const f1=await getF(naw), p1=r2(R/f1), f2=await getF(p1), price=r2(R/f2), scale=price/naw;
+    const items=S.lines.map((l,i)=>{ const x=lineInfo(l); const name=(x.label+(x.accNames.length?' inkl. '+x.accNames.join(', '):'')).slice(0,250);
+      return {productNumber:(x.p.id+(l.ci>=0?'-'+l.ci:'')+'-'+(i+1)), productName:name, quantity:l.qty, price:r2(x.kauf/l.qty*scale), productSector:'KITCHEN_AND_GASTRONOMY_EQUIPMENT'}; });
+    const sum=r2(items.reduce((a,it)=>a+it.price*it.quantity,0)), one=items.find(it=>it.quantity===1); if(one) one.price=r2(one.price+price-sum);
+    const [street,houseNumber]=splitStreet(c.strasse);
+    const customer={firstName:c.vorname.trim(),lastName:c.name.trim(),email:c.email.trim(),street,houseNumber,zipCode:String(c.plz).trim(),city:c.ort.trim(),country:c.land||'DE',company:c.firma.trim()};
+    if(c.tel) customer.phone=c.tel.trim(); if(c.ustid) customer.vatId=c.ustid.trim();
+    const checkout={duration:m,financingType:'leasing',paymentInterval:'quarterly',submitFinancing:true,customer};
+    const idem=('ew-'+(c.deal||'0')+'-'+m+'-'+String(price).replace('.','_')+'-'+c.firma).replace(/[^A-Za-z0-9_-]/g,'').slice(0,80);
+    const body=new URLSearchParams({k:OFFER.KEY,cart:JSON.stringify({items}),checkout:JSON.stringify(checkout),idem,deal:String(c.deal||''),rep:c.rep||'',firma:c.firma,rate:String(R),price:String(price),naw:String(naw),months:String(m)});
+    const txt=await (await fetch(LEASEHOOK,{method:'POST',body})).text(); let j; try{ j=JSON.parse(txt); }catch(e){ throw new Error('Keine gültige Antwort von Make'); }
+    if(!j.ok) throw new Error('Miete24 hat abgelehnt ('+(j.step==='cart'?'Warenkorb':'Anfrage')+', '+j.status+')'+(j.detail?': '+j.detail:''));
+    S.leases=[{id:j.financeCaseId,link:j.financeCaseLink,firma:c.firma,rate:R,months:m,price,naw,ts:Date.now(),status:'finance_review',env:LEASE_ENV}].concat(S.leases.filter(x=>x.id!==j.financeCaseId)).slice(0,20); store.set('leases',S.leases);
+    S.view.leaseOkMsg=true; S.view.leaseMsg=`<b>Leasinganfrage gestellt.</b> GRENKE prüft jetzt die Bonität. Kaufpreis an GRENKE ${money(price)} (Netto-Anschaffungswert ${money(naw)}). Den Status siehst du unten.`;
+  }catch(err){ S.view.leaseOkMsg=false; S.view.leaseMsg='<b>Anfrage nicht gesendet.</b> '+esc(err.message||String(err)); }
+  S.view.leaseBusy=false; render(); }
+async function leaseStatus(id){ const x=S.leases.find(v=>v.id===id); if(!x) return; toast('Status wird abgefragt …');
+  try{ const j=await (await fetch(LEASESTAT+'?k='+OFFER.KEY+'&id='+encodeURIComponent(id))).json(); if(!j.ok) throw 0; x.status=j.status; x.checked=Date.now(); if(j.rejectionReason) x.reason=j.rejectionReason; store.set('leases',S.leases); toast('Status: '+lst(j.status)[0]); }
+  catch(e){ toast('Status konnte nicht abgefragt werden'); } render(); }
 function summaryText(){
   const t=totals();
   const lines=S.lines.map(l=>{ const x=lineInfo(l); return `${l.qty} × ${x.label}${x.accNames.length?' ('+x.accNames.join(', ')+')':''}${x.unit!=null?`: Kauf ${eur.format(x.kauf)} · Miete ${eur.format(x.rate(S.months))}/Monat`:''}${x.careM?` · ${x.careName} ${eur.format(x.careM)}/Monat`:''}`; });
@@ -1673,6 +1728,7 @@ document.addEventListener('click', e=>{
   if(d.cmp){ e.stopPropagation(); const i=S.cmp.indexOf(d.cmp); if(i>=0) S.cmp.splice(i,1); else { if(S.cmp.length>=3){ toast('Maximal drei Geräte im Vergleich'); return; } S.cmp.push(d.cmp); } render(); return; }
   if(d.mark){ e.stopPropagation(); if(inOffer(d.mark)){ S.lines=S.lines.filter(l=>l.pid!==d.mark); saveOffer(); toast('Aus dem Angebot entfernt'); } else if(addLine(d.mark)) toast('Zum Angebot hinzugefügt'); render(); return; }
   if(d.addcfg){ if(addLine(d.addcfg,+d.ci)) toast('Zum Angebot hinzugefügt'); render(); return; }
+  if(d.lstat){ leaseStatus(d.lstat); return; }
   if(d.rmline!=null){ S.lines.splice(+d.rmline,1); saveOffer(); render(); return; }
   if(d.liqty!=null){ const l=S.lines[+d.liqty]; l.liefQty=Math.max(1,(l.liefQty||1)+(+d.d)); saveOffer(); render(); return; }
   if(d.lqty!=null){ const l=S.lines[+d.lqty]; l.qty=Math.max(1,l.qty+(+d.d)); saveOffer(); render(); return; }
@@ -1701,6 +1757,7 @@ document.addEventListener('click', e=>{
     case 'listBtn': if(S.view.v!=='offer') go({v:'offer'}); break;
     case 'offMore': S.stack=[]; S.view={v:'home'}; render(); window.scrollTo(0,0); break;
     case 'offClr': case 'offNew': S.lines=[]; S.cust={anrede:'Herr',inbetrieb:true,rep:S.cust.rep}; S.disc=0; saveOffer(); S.view={v:'offer'}; render(); break;
+    case 'leaseSend': sendLease(); break;
     case 'copySum': { const txt=summaryText(); const done=()=>toast('Zusammenfassung kopiert');
       const fallback=()=>{ const a=$('#copyArea'); a.innerHTML='<p class="muted" style="margin:8px 0 4px">Text markieren und kopieren:</p><textarea class="copy" readonly></textarea>'; const ta=a.querySelector('textarea'); ta.value=txt; ta.focus(); ta.select(); };
       try{ navigator.clipboard.writeText(txt).then(done,fallback); }catch(err){ fallback(); } break; }
@@ -1711,7 +1768,7 @@ document.addEventListener('click', e=>{
   }
 });
 function readCust(){ const g=id=>{ const el=document.getElementById('c_'+id); return el?(el.type==='checkbox'?el.checked:el.value):S.cust[id]; };
-  ['firma','anrede','name','strasse','plz','ort','email','rep','deal','datum','inbetrieb'].forEach(k=>S.cust[k]=g(k)); saveOffer(); }
+  ['firma','anrede','name','vorname','strasse','plz','ort','email','tel','land','ustid','leaseOk','rep','deal','datum','inbetrieb'].forEach(k=>S.cust[k]=g(k)); saveOffer(); }
 document.addEventListener('change', e=>{ const d=e.target.dataset;
   if(d.cfgsel!=null){ const l=S.lines[+d.cfgsel]; l.ci=+e.target.value; l.acc=[]; saveOffer(); render(); return; }
   if(d.uvchk!=null){ S.lines[+d.uvchk].uv=e.target.checked; saveOffer(); render(); return; }

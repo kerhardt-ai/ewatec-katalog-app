@@ -1,8 +1,5 @@
 <!doctype html>
-<html lang="de">
-<head><meta name="robots" content="noindex,nofollow">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="robots" content="noindex,nofollow">
 <title>ewatec Produktkatalog</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -364,10 +361,10 @@ footer.site .mail{color:var(--accent)}
 .lst{font-size:12px;font-weight:600;padding:3px 10px;border-radius:999px;white-space:nowrap}
 .lst.ok{background:rgba(46,180,110,.18);color:#4ad08a}.lst.warn{background:rgba(9,146,209,.18);color:#4cb8ea}.lst.bad{background:rgba(220,70,70,.18);color:#f08080}
 </style>
+</head><body>
 
 
-</head>
-<body>
+
 <header class="top">
   <div class="wrap hrow">
     <button class="back" id="back" aria-label="Zurück"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg></button>
@@ -534,6 +531,7 @@ const PRODUCTS = [
   specs:[['Maße B × T × H','250 × 474 × 422 mm'],['Gewicht','16 kg'],['Kühlleistung','20 l/h, ΔT 12 °C'],['Karbonator','5,5 l'],['Pumpe','65 W'],['Kondensation','statisch'],['Kältemittel','R1234yf'],['Leistungsaufnahme','160 W']],
   fits:'Büros und Verwaltungen mit 15 bis 50 Personen.',
   pitch:'Meistverkauftes Format. Doppelte Kühlleistung und mehr als doppelt so großer Karbonator wie der Prestigio.',
+  options:[['Unterschrank MF 20 Cabinet',350]],
   related:['mf20uph','mf50up','m2of','mf10up'] },
 { id:'mf20uph', cat:'wasser', group:'Auftischgerät', brand:'GWS', name:'Elegante Hot MF 20 UPH', serie:'', img:'w_mf20h', at:"MF 20 UPH ELEGANTE HOT",
   sub:'Mit Heißwasser für Tee', price:2040, code:'MF20UPH · COD. M2HT',
@@ -543,6 +541,7 @@ const PRODUCTS = [
   fits:'Büros, die Tee und Wasser aus einem Gerät wollen.',
   pitch:'Günstigstes Heißwassergerät der Linie, nur 110 € Aufpreis zum MF 20 UP.',
   internal:'2.000 W Anschlussleistung: Steckdose und Absicherung prüfen.',
+  options:[['Unterschrank MF 20 Cabinet HEISS',350]],
   related:['mf20up','set-kueche-hot'] },
 { id:'bs30', cat:'wasser', group:'Auftischgerät', brand:'Blupura', name:'Blusoda 30 Fizz Edelstahl', serie:'', img:'w_bs30', at:"Blusoda 30 Fizz",
   sub:'Edelstahl, stark und kompakt', price:2152.00, code:'',
@@ -1200,6 +1199,8 @@ const UNTER = {
   wasser: [
     { n:'Unterschrank Blusoda 30', d:'Edelstahl, mit Halterung für die CO₂-Flasche', fit:'Blusoda 30', art:'', p:470 },
     { n:'Unterschrank Blusoda 45', d:'Edelstahl, mit Halterung für die CO₂-Flasche', fit:'Blusoda 45', art:'', p:470 },
+    { n:'Unterschrank MF 20 Cabinet', d:'Passender Unterschrank für den Elegante', fit:'MF 20 UP', art:'', p:350 },
+    { n:'Unterschrank MF 20 Cabinet HEISS', d:'Passender Unterschrank für den Elegante Hot', fit:'MF 20 UPH', art:'', p:350 },
     { n:'Unterschrank mit oder ohne Ablauf', d:'Für Auftischgeräte ohne freie Theke', fit:'MF 10 UP, MF 20 UP', art:'', p:null }
   ]
 };
@@ -1795,5 +1796,5 @@ render();
 })();
 </script>
 
-</body>
-</html>
+
+</body></html>
